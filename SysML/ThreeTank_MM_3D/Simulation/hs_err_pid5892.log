@@ -1,0 +1,317 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x0000000000000000, pid=5892, tid=2512
+#
+# JRE version: Java(TM) SE Runtime Environment (8.0_40-b26) (build 1.8.0_40-b26)
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (25.40-b25 mixed mode windows-amd64 compressed oops)
+# Problematic frame:
+# C  0x0000000000000000
+#
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.java.com/bugreport/crash.jsp
+# The crash happened outside the Java Virtual Machine in native code.
+# See problematic frame for where to report the bug.
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00000000597ea800):  JavaThread "Thread-1" daemon [_thread_in_native, id=2512, stack(0x0000000059550000,0x0000000059650000)]
+
+siginfo: ExceptionCode=0xc0000005, ExceptionInformation=0x0000000000000008 0x0000000000000000
+
+Registers:
+RAX=0x000000000041e850, RBX=0x0000000000438f90, RCX=0x00000000ffffffff, RDX=0x000007feebf1d738
+RSP=0x000000005964e818, RBP=0x000000005964e920, RSI=0x0000000000000000, RDI=0x0000000000439230
+R8 =0x0000000000438f90, R9 =0x000007feebf1d738, R10=0x000007feebd30000, R11=0x000000005964e760
+R12=0x0000000000438f90, R13=0x0000000000000015, R14=0x0000000000438f90, R15=0x00000000003841c0
+RIP=0x0000000000000000, EFLAGS=0x0000000000010206
+
+Top of Stack: (sp=0x000000005964e818)
+0x000000005964e818:   000007feebd43a2b 000000005964e870
+0x000000005964e828:   0000000000439310 0000000000423450
+0x000000005964e838:   0000000000439300 0000000000438f90
+0x000000005964e848:   00000000773f2439 0000000000423410
+0x000000005964e858:   0000000000438f90 0000000000439230
+0x000000005964e868:   0000000000439310 000007feebf1d730
+0x000000005964e878:   0000000000000000 000007feebf1d6a8
+0x000000005964e888:   0000000000000000 0000000000000000
+0x000000005964e898:   000007feec026180 000007feec026180
+0x000000005964e8a8:   0000000000000000 0000000000000000
+0x000000005964e8b8:   000007feec026170 000007feec026170
+0x000000005964e8c8:   0000000000000000 000007feec026178
+0x000000005964e8d8:   000007feec026178 0000000000434210
+0x000000005964e8e8:   00000000773efba8 0000000000000000
+0x000000005964e8f8:   0000000000000000 0000000000200017
+0x000000005964e908:   0000000000440401 000007feec026170 
+
+Instructions: (pc=0x0000000000000000)
+0xffffffffffffffe0:   
+
+
+Register to memory mapping:
+
+RAX=0x000000000041e850 is an unknown value
+RBX=0x0000000000438f90 is an unknown value
+RCX=0x00000000ffffffff is an unallocated location in the heap
+RDX=0x000007feebf1d738 is an unknown value
+RSP=0x000000005964e818 is pointing into the stack for thread: 0x00000000597ea800
+RBP=0x000000005964e920 is pointing into the stack for thread: 0x00000000597ea800
+RSI=0x0000000000000000 is an unknown value
+RDI=0x0000000000439230 is an unknown value
+R8 =0x0000000000438f90 is an unknown value
+R9 =0x000007feebf1d738 is an unknown value
+R10=0x000007feebd30000 is an unknown value
+R11=0x000000005964e760 is pointing into the stack for thread: 0x00000000597ea800
+R12=0x0000000000438f90 is an unknown value
+R13=0x0000000000000015 is an unknown value
+R14=0x0000000000438f90 is an unknown value
+R15=0x00000000003841c0 is an unknown value
+
+
+Stack: [0x0000000059550000,0x0000000059650000],  sp=0x000000005964e818,  free space=1018k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+
+Java frames: (J=compiled Java code, j=interpreted, Vv=VM code)
+j  org.intocps.fmi.jnifmuapi.NativeFmu.ninstantiate(JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZLorg/intocps/fmi/jnifmuapi/NativeFmu$ICallback;)J+0
+j  org.intocps.fmi.jnifmuapi.DirectoryFmu.instantiate(Ljava/lang/String;Ljava/lang/String;ZZLorg/intocps/fmi/IFmuCallback;)Lorg/intocps/fmi/IFmiComponent;+75
+j  org.intocps.orchestration.coe.scala.CoeInitialize$$anonfun$instantiateSimulationInstances$1.apply(Lorg/intocps/orchestration/coe/config/ModelConnection$ModelInstance;)Lscala/Tuple2;+52
+j  org.intocps.orchestration.coe.scala.CoeInitialize$$anonfun$instantiateSimulationInstances$1.apply(Ljava/lang/Object;)Ljava/lang/Object;+5
+j  scala.collection.TraversableLike$$anonfun$map$1.apply(Ljava/lang/Object;)Lscala/collection/mutable/Builder;+9
+j  scala.collection.TraversableLike$$anonfun$map$1.apply(Ljava/lang/Object;)Ljava/lang/Object;+2
+j  scala.collection.immutable.Set$Set4.foreach(Lscala/Function1;)V+38
+j  scala.collection.TraversableLike$class.map(Lscala/collection/TraversableLike;Lscala/Function1;Lscala/collection/generic/CanBuildFrom;)Ljava/lang/Object;+17
+j  scala.collection.AbstractSet.scala$collection$SetLike$$super$map(Lscala/Function1;Lscala/collection/generic/CanBuildFrom;)Ljava/lang/Object;+3
+j  scala.collection.SetLike$class.map(Lscala/collection/SetLike;Lscala/Function1;Lscala/collection/generic/CanBuildFrom;)Ljava/lang/Object;+3
+j  scala.collection.AbstractSet.map(Lscala/Function1;Lscala/collection/generic/CanBuildFrom;)Ljava/lang/Object;+3
+j  org.intocps.orchestration.coe.scala.CoeInitialize$.instantiateSimulationInstances(Lscala/collection/immutable/Map;Lscala/collection/immutable/Map;Ljava/io/File;Lscala/collection/immutable/Map;)Lscala/collection/immutable/Map;+43
+j  org.intocps.orchestration.coe.scala.CoeInitialize$.initialize(Lscala/collection/immutable/List;Lscala/collection/immutable/List;Ljava/io/File;Lorg/intocps/orchestration/coe/scala/Coe;)Lscala/Tuple4;+303
+j  org.intocps.orchestration.coe.scala.Coe.initialize(Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/io/File;Lorg/intocps/orchestration/coe/cosim/CoSimStepSizeCalculator;)Ljava/util/Map;+70
+j  org.intocps.orchestration.coe.json.CoeRequestHandler.processInitialize(Ljava/util/Properties;Ljava/io/BufferedReader;)Lorg/intocps/orchestration/coe/httpserver/Response;+588
+j  org.intocps.orchestration.coe.json.CoeRequestHandler.handleRequest(Ljava/util/Properties;Ljava/lang/String;Ljava/io/BufferedReader;)Lorg/intocps/orchestration/coe/httpserver/Response;+179
+j  org.intocps.orchestration.coe.json.CoeRequestHandler.doPost(Ljava/util/Properties;Ljava/lang/String;Ljava/io/BufferedReader;)Lorg/intocps/orchestration/coe/httpserver/Response;+4
+j  org.intocps.orchestration.coe.httpserver.NanoHTTPDJson$HTTPSession.processRequest(Ljava/lang/String;Ljava/io/BufferedReader;Ljava/util/Properties;Ljava/lang/String;)V+53
+j  org.intocps.orchestration.coe.httpserver.NanoHTTPDJson$HTTPSession.run()V+200
+j  java.lang.Thread.run()V+11
+v  ~StubRoutines::call_stub
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+=>0x00000000597ea800 JavaThread "Thread-1" daemon [_thread_in_native, id=2512, stack(0x0000000059550000,0x0000000059650000)]
+  0x0000000058f0d800 JavaThread "Thread-0" daemon [_thread_in_native, id=808, stack(0x0000000059fd0000,0x000000005a0d0000)]
+  0x0000000058bdb000 JavaThread "Service Thread" daemon [_thread_blocked, id=6092, stack(0x0000000059320000,0x0000000059420000)]
+  0x0000000058b56000 JavaThread "C1 CompilerThread2" daemon [_thread_blocked, id=2224, stack(0x00000000591e0000,0x00000000592e0000)]
+  0x0000000058b55000 JavaThread "C2 CompilerThread1" daemon [_thread_blocked, id=5492, stack(0x0000000059090000,0x0000000059190000)]
+  0x0000000057659000 JavaThread "C2 CompilerThread0" daemon [_thread_blocked, id=4684, stack(0x0000000058950000,0x0000000058a50000)]
+  0x0000000057655800 JavaThread "Attach Listener" daemon [_thread_blocked, id=2572, stack(0x0000000058a50000,0x0000000058b50000)]
+  0x0000000057653000 JavaThread "Signal Dispatcher" daemon [_thread_blocked, id=5520, stack(0x0000000058560000,0x0000000058660000)]
+  0x00000000575f7000 JavaThread "Finalizer" daemon [_thread_blocked, id=6048, stack(0x00000000587b0000,0x00000000588b0000)]
+  0x00000000575f0000 JavaThread "Reference Handler" daemon [_thread_blocked, id=116, stack(0x00000000123c0000,0x00000000124c0000)]
+  0x00000000000fe000 JavaThread "main" [_thread_in_native, id=6072, stack(0x00000000025a0000,0x00000000026a0000)]
+
+Other Threads:
+  0x00000000575ea000 VMThread [stack: 0x00000000586b0000,0x00000000587b0000] [id=5504]
+  0x0000000058bdd800 WatcherThread [stack: 0x0000000059430000,0x0000000059530000] [id=2232]
+
+VM state:not at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Heap:
+ PSYoungGen      total 37888K, used 27947K [0x00000000d6600000, 0x00000000d9000000, 0x0000000100000000)
+  eden space 32768K, 76% used [0x00000000d6600000,0x00000000d7e99318,0x00000000d8600000)
+  from space 5120K, 53% used [0x00000000d8b00000,0x00000000d8db1c38,0x00000000d9000000)
+  to   space 5120K, 0% used [0x00000000d8600000,0x00000000d8600000,0x00000000d8b00000)
+ ParOldGen       total 86016K, used 2518K [0x0000000083200000, 0x0000000088600000, 0x00000000d6600000)
+  object space 86016K, 2% used [0x0000000083200000,0x0000000083475a68,0x0000000088600000)
+ Metaspace       used 16287K, capacity 16448K, committed 16640K, reserved 1062912K
+  class space    used 2224K, capacity 2234K, committed 2304K, reserved 1048576K
+
+Card table byte_map: [0x0000000011d30000,0x0000000012120000] byte_map_base: 0x0000000011917000
+
+Marking Bits: (ParMarkBitMap*) 0x00000000634c4040
+ Begin Bits: [0x0000000012a00000, 0x0000000014938000)
+ End Bits:   [0x0000000014938000, 0x0000000016870000)
+
+Polling page: 0x0000000000140000
+
+CodeCache: size=245760Kb used=4690Kb max_used=4690Kb free=241069Kb
+ bounds [0x0000000002970000, 0x0000000002e10000, 0x0000000011970000]
+ total_blobs=1640 nmethods=1246 adapters=307
+ compilation: enabled
+
+Compilation events (10 events):
+Event: 10.412 Thread 0x0000000058b56000 1243       3       scala.collection.mutable.WrappedArray$ofRef::apply (7 bytes)
+Event: 10.412 Thread 0x0000000058b56000 nmethod 1243 0x0000000002dfe950 code [0x0000000002dfeaa0, 0x0000000002dfecb0]
+Event: 10.412 Thread 0x0000000058b56000 1244       1       scala.collection.convert.Wrappers$IterableWrapper::scala$collection$convert$Wrappers$IterableWrapper$$$outer (5 bytes)
+Event: 10.412 Thread 0x0000000058b56000 nmethod 1244 0x0000000002dfe690 code [0x0000000002dfe7e0, 0x0000000002dfe8f0]
+Event: 10.412 Thread 0x0000000058b56000 1245       1       scala.collection.convert.Wrappers$IterableWrapper::underlying (5 bytes)
+Event: 10.412 Thread 0x0000000058b56000 nmethod 1245 0x0000000002dfe3d0 code [0x0000000002dfe520, 0x0000000002dfe630]
+Event: 10.412 Thread 0x0000000058b56000 1246       3       scala.runtime.AbstractFunction1::<init> (9 bytes)
+Event: 10.412 Thread 0x0000000058b56000 nmethod 1246 0x0000000002dfdf90 code [0x0000000002dfe100, 0x0000000002dfe310]
+Event: 10.412 Thread 0x0000000058b56000 1247       3       sun.security.action.GetPropertyAction::<init> (10 bytes)
+Event: 10.412 Thread 0x0000000058b56000 nmethod 1247 0x0000000002dfdbd0 code [0x0000000002dfdd20, 0x0000000002dfdef0]
+
+GC Heap History (4 events):
+Event: 5.346 GC heap before
+{Heap before GC invocations=1 (full 0):
+ PSYoungGen      total 37888K, used 32768K [0x00000000d6600000, 0x00000000d9000000, 0x0000000100000000)
+  eden space 32768K, 100% used [0x00000000d6600000,0x00000000d8600000,0x00000000d8600000)
+  from space 5120K, 0% used [0x00000000d8b00000,0x00000000d8b00000,0x00000000d9000000)
+  to   space 5120K, 0% used [0x00000000d8600000,0x00000000d8600000,0x00000000d8b00000)
+ ParOldGen       total 86016K, used 0K [0x0000000083200000, 0x0000000088600000, 0x00000000d6600000)
+  object space 86016K, 0% used [0x0000000083200000,0x0000000083200000,0x0000000088600000)
+ Metaspace       used 14446K, capacity 14518K, committed 14848K, reserved 1062912K
+  class space    used 1906K, capacity 1937K, committed 2048K, reserved 1048576K
+Event: 5.354 GC heap after
+Heap after GC invocations=1 (full 0):
+ PSYoungGen      total 37888K, used 5112K [0x00000000d6600000, 0x00000000d9000000, 0x0000000100000000)
+  eden space 32768K, 0% used [0x00000000d6600000,0x00000000d6600000,0x00000000d8600000)
+  from space 5120K, 99% used [0x00000000d8600000,0x00000000d8afe098,0x00000000d8b00000)
+  to   space 5120K, 0% used [0x00000000d8b00000,0x00000000d8b00000,0x00000000d9000000)
+ ParOldGen       total 86016K, used 2510K [0x0000000083200000, 0x0000000088600000, 0x00000000d6600000)
+  object space 86016K, 2% used [0x0000000083200000,0x0000000083473a68,0x0000000088600000)
+ Metaspace       used 14446K, capacity 14518K, committed 14848K, reserved 1062912K
+  class space    used 1906K, capacity 1937K, committed 2048K, reserved 1048576K
+}
+Event: 5.587 GC heap before
+{Heap before GC invocations=2 (full 0):
+ PSYoungGen      total 37888K, used 37880K [0x00000000d6600000, 0x00000000d9000000, 0x0000000100000000)
+  eden space 32768K, 100% used [0x00000000d6600000,0x00000000d8600000,0x00000000d8600000)
+  from space 5120K, 99% used [0x00000000d8600000,0x00000000d8afe098,0x00000000d8b00000)
+  to   space 5120K, 0% used [0x00000000d8b00000,0x00000000d8b00000,0x00000000d9000000)
+ ParOldGen       total 86016K, used 2510K [0x0000000083200000, 0x0000000088600000, 0x00000000d6600000)
+  object space 86016K, 2% used [0x0000000083200000,0x0000000083473a68,0x0000000088600000)
+ Metaspace       used 14974K, capacity 15094K, committed 15360K, reserved 1062912K
+  class space    used 1971K, capacity 2001K, committed 2048K, reserved 1048576K
+Event: 5.591 GC heap after
+Heap after GC invocations=2 (full 0):
+ PSYoungGen      total 37888K, used 2759K [0x00000000d6600000, 0x00000000d9000000, 0x0000000100000000)
+  eden space 32768K, 0% used [0x00000000d6600000,0x00000000d6600000,0x00000000d8600000)
+  from space 5120K, 53% used [0x00000000d8b00000,0x00000000d8db1c38,0x00000000d9000000)
+  to   space 5120K, 0% used [0x00000000d8600000,0x00000000d8600000,0x00000000d8b00000)
+ ParOldGen       total 86016K, used 2518K [0x0000000083200000, 0x0000000088600000, 0x00000000d6600000)
+  object space 86016K, 2% used [0x0000000083200000,0x0000000083475a68,0x0000000088600000)
+ Metaspace       used 14974K, capacity 15094K, committed 15360K, reserved 1062912K
+  class space    used 1971K, capacity 2001K, committed 2048K, reserved 1048576K
+}
+
+Deoptimization events (10 events):
+Event: 5.572 Thread 0x00000000597ea800 Uncommon trap: reason=unstable_if action=reinterpret pc=0x0000000002cfd500 method=com.sun.org.apache.xerces.internal.dom.CharacterDataImpl.getNodeValue()Ljava/lang/String; @ 4
+Event: 5.572 Thread 0x00000000597ea800 Uncommon trap: reason=unstable_if action=reinterpret pc=0x0000000002cb8158 method=com.sun.org.apache.xerces.internal.dom.CharacterDataImpl.getNodeValue()Ljava/lang/String; @ 4
+Event: 5.692 Thread 0x00000000597ea800 Uncommon trap: reason=unstable_if action=reinterpret pc=0x0000000002d14e04 method=com.sun.org.apache.xerces.internal.impl.XMLEntityScanner.skipSpaces()Z @ 62
+Event: 5.692 Thread 0x00000000597ea800 Uncommon trap: reason=unstable_if action=reinterpret pc=0x0000000002d15bb4 method=com.sun.org.apache.xerces.internal.impl.XMLEntityScanner.scanContent(Lcom/sun/org/apache/xerces/internal/xni/XMLString;)I @ 118
+Event: 5.711 Thread 0x00000000597ea800 Uncommon trap: reason=unstable_if action=reinterpret pc=0x0000000002cf8a44 method=com.sun.org.apache.xml.internal.utils.XMLCharacterRecognizer.isWhiteSpace(C)Z @ 9
+Event: 5.713 Thread 0x00000000597ea800 Uncommon trap: reason=class_check action=maybe_recompile pc=0x0000000002cfa0f8 method=com.sun.org.apache.xml.internal.dtm.ref.dom2dtm.DOM2DTM.logicalNextDOMTextNode(Lorg/w3c/dom/Node;)Lorg/w3c/dom/Node; @ 64
+Event: 5.713 Thread 0x00000000597ea800 Uncommon trap: reason=class_check action=maybe_recompile pc=0x0000000002cfa0f8 method=com.sun.org.apache.xml.internal.dtm.ref.dom2dtm.DOM2DTM.logicalNextDOMTextNode(Lorg/w3c/dom/Node;)Lorg/w3c/dom/Node; @ 64
+Event: 5.713 Thread 0x00000000597ea800 Uncommon trap: reason=class_check action=maybe_recompile pc=0x0000000002cfa0f8 method=com.sun.org.apache.xml.internal.dtm.ref.dom2dtm.DOM2DTM.logicalNextDOMTextNode(Lorg/w3c/dom/Node;)Lorg/w3c/dom/Node; @ 64
+Event: 5.713 Thread 0x00000000597ea800 Uncommon trap: reason=class_check action=maybe_recompile pc=0x0000000002cfa0f8 method=com.sun.org.apache.xml.internal.dtm.ref.dom2dtm.DOM2DTM.logicalNextDOMTextNode(Lorg/w3c/dom/Node;)Lorg/w3c/dom/Node; @ 64
+Event: 5.735 Thread 0x00000000597ea800 Uncommon trap: reason=unstable_if action=reinterpret pc=0x0000000002d3ed7c method=org.overture.codegen.runtime.Utils.equals(Ljava/lang/Object;Ljava/lang/Object;)Z @ 67
+
+Internal exceptions (10 events):
+Event: 0.160 Thread 0x00000000000fe000 Exception <a 'java/lang/ClassNotFoundException': org/apache/log4j/AppenderSkeletonCustomizer> (0x00000000d694f8c8) thrown at [D:\re\workspace\8-2-build-windows-amd64-cygwin\jdk8u40\3098\hotspot\src\share\vm\classfile\systemDictionary.cpp, line 210]
+Event: 0.163 Thread 0x00000000000fe000 Exception <a 'java/lang/ClassNotFoundException': org/apache/log4j/WriterAppenderCustomizer> (0x00000000d69635e8) thrown at [D:\re\workspace\8-2-build-windows-amd64-cygwin\jdk8u40\3098\hotspot\src\share\vm\classfile\systemDictionary.cpp, line 210]
+Event: 0.165 Thread 0x00000000000fe000 Exception <a 'java/lang/ClassNotFoundException': org/apache/log4j/FileAppenderCustomizer> (0x00000000d69713e0) thrown at [D:\re\workspace\8-2-build-windows-amd64-cygwin\jdk8u40\3098\hotspot\src\share\vm\classfile\systemDictionary.cpp, line 210]
+Event: 0.167 Thread 0x00000000000fe000 Exception <a 'java/lang/ClassNotFoundException': org/apache/log4j/RollingFileAppenderCustomizer> (0x00000000d697f670) thrown at [D:\re\workspace\8-2-build-windows-amd64-cygwin\jdk8u40\3098\hotspot\src\share\vm\classfile\systemDictionary.cpp, line 210]
+Event: 0.202 Thread 0x00000000000fe000 Exception <a 'sun/nio/fs/WindowsException'> (0x00000000d69c2808) thrown at [D:\re\workspace\8-2-build-windows-amd64-cygwin\jdk8u40\3098\hotspot\src\share\vm\prims\jni.cpp, line 709]
+Event: 4.644 Thread 0x00000000597ea800 Exception <a 'java/lang/ArrayIndexOutOfBoundsException'> (0x00000000d74ed7a0) thrown at [D:\re\workspace\8-2-build-windows-amd64-cygwin\jdk8u40\3098\hotspot\src\share\vm\runtime\sharedRuntime.cpp, line 605]
+Event: 4.645 Thread 0x00000000597ea800 Exception <a 'java/lang/ArrayIndexOutOfBoundsException'> (0x00000000d74ee898) thrown at [D:\re\workspace\8-2-build-windows-amd64-cygwin\jdk8u40\3098\hotspot\src\share\vm\runtime\sharedRuntime.cpp, line 605]
+Event: 4.645 Thread 0x00000000597ea800 Exception <a 'java/lang/ArrayIndexOutOfBoundsException'> (0x00000000d74effd8) thrown at [D:\re\workspace\8-2-build-windows-amd64-cygwin\jdk8u40\3098\hotspot\src\share\vm\runtime\sharedRuntime.cpp, line 605]
+Event: 4.651 Thread 0x00000000597ea800 Exception <a 'java/lang/ArrayIndexOutOfBoundsException'> (0x00000000d7522920) thrown at [D:\re\workspace\8-2-build-windows-amd64-cygwin\jdk8u40\3098\hotspot\src\share\vm\runtime\sharedRuntime.cpp, line 605]
+Event: 8.822 Thread 0x00000000597ea800 Exception <a 'java/io/FileNotFoundException'> (0x00000000d7b98c20) thrown at [D:\re\workspace\8-2-build-windows-amd64-cygwin\jdk8u40\3098\hotspot\src\share\vm\prims\jni.cpp, line 709]
+
+Events (10 events):
+Event: 8.838 loading class scala/collection/mutable/ArrayOps$ofRef$
+Event: 8.838 loading class scala/collection/mutable/ArrayOps$ofRef$ done
+Event: 8.838 loading class scala/collection/mutable/ArrayOps$ofLong
+Event: 8.838 loading class scala/collection/mutable/ArrayOps$ofLong done
+Event: 8.840 loading class org/intocps/orchestration/coe/scala/CoeObject$FmiSimulationInstance2
+Event: 8.840 loading class org/intocps/orchestration/coe/scala/CoeObject$FmiSimulationInstance2 done
+Event: 8.840 loading class org/intocps/orchestration/coe/cosim/FmiSimulationInstance
+Event: 8.840 loading class org/intocps/orchestration/coe/cosim/FmiSimulationInstance done
+Event: 8.842 loading class scala/collection/convert/Wrappers$SeqWrapper
+Event: 8.842 loading class scala/collection/convert/Wrappers$SeqWrapper done
+
+
+Dynamic libraries:
+0x000000013f3f0000 - 0x000000013f427000 	D:\Logs\Modelio-3.4.1-com\jre\bin\java.exe
+0x00000000773a0000 - 0x0000000077548000 	C:\Windows\SYSTEM32\ntdll.dll
+0x0000000077280000 - 0x000000007739f000 	C:\Windows\system32\kernel32.dll
+0x000007fefd950000 - 0x000007fefd9bc000 	C:\Windows\system32\KERNELBASE.dll
+0x000007feff5d0000 - 0x000007feff6ab000 	C:\Windows\system32\ADVAPI32.dll
+0x000007feff210000 - 0x000007feff2af000 	C:\Windows\system32\msvcrt.dll
+0x000007feff070000 - 0x000007feff08f000 	C:\Windows\SYSTEM32\sechost.dll
+0x000007fefecd0000 - 0x000007fefedfd000 	C:\Windows\system32\RPCRT4.dll
+0x0000000076f60000 - 0x000000007705a000 	C:\Windows\system32\USER32.dll
+0x000007feff560000 - 0x000007feff5c7000 	C:\Windows\system32\GDI32.dll
+0x000007feff530000 - 0x000007feff53e000 	C:\Windows\system32\LPK.dll
+0x000007fefdbd0000 - 0x000007fefdc99000 	C:\Windows\system32\USP10.dll
+0x000007fefb970000 - 0x000007fefbb64000 	C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_fa396087175ac9ac\COMCTL32.dll
+0x000007fefee10000 - 0x000007fefee81000 	C:\Windows\system32\SHLWAPI.dll
+0x000007fefdeb0000 - 0x000007fefdede000 	C:\Windows\system32\IMM32.DLL
+0x000007feff420000 - 0x000007feff529000 	C:\Windows\system32\MSCTF.dll
+0x0000000061090000 - 0x0000000061162000 	D:\Logs\Modelio-3.4.1-com\jre\bin\msvcr100.dll
+0x0000000062cc0000 - 0x0000000063543000 	D:\Logs\Modelio-3.4.1-com\jre\bin\server\jvm.dll
+0x000007fef90f0000 - 0x000007fef90f9000 	C:\Windows\system32\WSOCK32.dll
+0x000007feff3d0000 - 0x000007feff41d000 	C:\Windows\system32\WS2_32.dll
+0x000007fefee00000 - 0x000007fefee08000 	C:\Windows\system32\NSI.dll
+0x000007fefb6e0000 - 0x000007fefb71b000 	C:\Windows\system32\WINMM.dll
+0x000007fefc900000 - 0x000007fefc90c000 	C:\Windows\system32\VERSION.dll
+0x0000000077570000 - 0x0000000077577000 	C:\Windows\system32\PSAPI.DLL
+0x0000000063cf0000 - 0x0000000063cff000 	D:\Logs\Modelio-3.4.1-com\jre\bin\verify.dll
+0x0000000063cc0000 - 0x0000000063ce9000 	D:\Logs\Modelio-3.4.1-com\jre\bin\java.dll
+0x0000000063ca0000 - 0x0000000063cb6000 	D:\Logs\Modelio-3.4.1-com\jre\bin\zip.dll
+0x000007fefdf40000 - 0x000007fefecc9000 	C:\Windows\system32\SHELL32.dll
+0x000007fefdca0000 - 0x000007fefdea3000 	C:\Windows\system32\ole32.dll
+0x000007fefd800000 - 0x000007fefd80f000 	C:\Windows\system32\profapi.dll
+0x0000000063f70000 - 0x0000000063f8a000 	D:\Logs\Modelio-3.4.1-com\jre\bin\net.dll
+0x000007fefd070000 - 0x000007fefd0c5000 	C:\Windows\system32\mswsock.dll
+0x000007fefd060000 - 0x000007fefd067000 	C:\Windows\System32\wship6.dll
+0x0000000063f50000 - 0x0000000063f61000 	D:\Logs\Modelio-3.4.1-com\jre\bin\nio.dll
+0x000000006f480000 - 0x000000006f4b3000 	C:\Users\ebrosse\AppData\Local\Temp\jnifmuapi-Windows-amd64\fmuapi.dll
+0x0000000180000000 - 0x000000018005d000 	C:\Users\ebrosse\AppData\Local\Temp\fmu-1455181541692\binaries\win64\WaterTanks1.dll
+0x000007fef6e60000 - 0x000007fef6e63000 	C:\Windows\system32\api-ms-win-core-synch-l1-2-0.DLL
+0x00000000680c0000 - 0x0000000068d40000 	C:\Users\ebrosse\AppData\Local\Temp\fmu-1455181542444\binaries\win64\WaterTankController.dll
+0x00000000002e0000 - 0x000000000033d000 	C:\Users\ebrosse\AppData\Local\Temp\fmu-1455181542328\binaries\win64\WaterTanks2.dll
+0x000007feebd30000 - 0x000007feec081000 	C:\Users\ebrosse\AppData\Local\Temp\fmu-1455181542601\binaries\win64\3DAnimationFMU.dll
+0x000007fef9a80000 - 0x000007fef9af1000 	C:\Windows\system32\WINSPOOL.DRV
+0x000007feff2b0000 - 0x000007feff347000 	C:\Windows\system32\COMDLG32.dll
+0x000007fefd6d0000 - 0x000007fefd727000 	C:\Windows\system32\apphelp.dll
+0x000007fefd730000 - 0x000007fefd73f000 	C:\Windows\system32\CRYPTBASE.dll
+0x000007fefb720000 - 0x000007fefb776000 	C:\Windows\system32\uxtheme.dll
+0x000007fefaf30000 - 0x000007fefaf48000 	C:\Windows\system32\dwmapi.dll
+0x000007fefa150000 - 0x000007fefa157000 	C:\Windows\system32\msimg32.dll
+0x000007feff170000 - 0x000007feff209000 	C:\Windows\system32\CLBCatQ.DLL
+0x000007feff090000 - 0x000007feff167000 	C:\Windows\system32\OLEAUT32.dll
+0x000007fef0450000 - 0x000007fef0575000 	C:\Windows\system32\dbghelp.dll
+
+VM Arguments:
+java_command: coe.jar
+java_class_path (initial): coe.jar
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=C:\Program Files (x86)\Java\jdk1.8.0_73
+PATH=D:/Logs/Modelio-3.4.1-com/jre/bin/server;D:/Logs/Modelio-3.4.1-com/jre/bin;D:/Logs/Modelio-3.4.1-com/jre/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;D:\Logs\PragmaDevTracer\bin;D:\Logs\Perl64\site\bin;D:\Logs\Perl64\bin;C:\Windows\System32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Projects\FITTEST\ant\bin;D:\Projects\FITTEST\maven\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Logs\Graphviz 2.28\bin;C:\Projects\FITTEST\xampp\php;C:\Program Files (x86)\Windows Live\Shared;D:\Logs\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files\TortoiseSVN\bin;D:\Logs\apache-maven-3.2.5\bin;C:\Users\ebrosse\Downloads\typesafe-activator-1.3.2-minimal\activator-1.3.2-minimal;C:\Program Files\cURL\bin;C:\Program Files (x86)\Skype\Phone\;D:\Projects\Recherche\Into CPS\workspace\ThreeTank_MM_3D\Simulation\fmus;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Logs\Modelio-3.4.1-com;
+USERNAME=ebrosse
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 37 Stepping 5, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 7 , 64 bit Build 7601 (6.1.7601.18798)
+
+CPU:total 4 (2 cores per cpu, 2 threads per core) family 6 model 37 stepping 5, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, aes, clmul, ht, tsc, tscinvbit
+
+Memory: 4k page, physical 8181608k(5352336k free), swap 16361364k(12540964k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (25.40-b25) for windows-amd64 JRE (1.8.0_40-b26), built on Mar  7 2015 13:51:59 by "java_re" with MS VC++ 10.0 (VS2010)
+
+time: Thu Feb 11 10:05:48 2016
+elapsed time: 11 seconds (0d 0h 0m 11s)
+
