@@ -1,0 +1,17 @@
+class HardwareInterface
+
+values
+    -- @ interface: type = parameter, name="wt3_min";
+    public minlevel : real = 1.0;
+    -- @ interface: type = parameter, name="wt3_max";
+    public maxlevel : real = 2.0;
+
+instance variables
+    -- @ interface: type = input, name="wt3_level";
+    public level : real := 0.0;
+
+instance variables
+    -- @ interface: type = output, name="wt3_valve";
+    public valveState : bool := false;
+
+end HardwareInterface
