@@ -1,7 +1,7 @@
 {"fmus":{
-		"{controller}":"../ThreeTank/v5DSE/WaterTankController.fmu",
-		"{tank1}":"../ThreeTank/v5DSE/threewatertank1.fmu",
-		"{tank2}":"../ThreeTank/v5DSE/threewatertank2.fmu"
+		"{controller}":"/WaterTankController.fmu",
+		"{tank1}":"threewatertank1.fmu",
+		"{tank2}":"threewatertank2.fmu"
 	},
 	"connections":{
 		"{controller}.controller.wt3_valve":["{tank2}.tank2.valveControl"],
