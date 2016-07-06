@@ -36,7 +36,7 @@ The control loop retrieves the current level of water from the sensor and determ
 
 There are three connections in the multi-model; firstly between the **flow** port of *WaterTanks1* to the **inFlow** of *WaterTanks2*; secondly between **valveControl** port of the *WaterTanks2* model to the **wt3_valve** of the *Controller*; and finally from the **wt3_level** of the *Controller* to the **level** port of *WaterTanks2*. 
 
-In addition, there are two design parameters -- **wt3\_min** and **wt3\_max**, both of type **real**.
+In addition, there are two design parameters - **wt3\_min** and **wt3\_max**, both of type **real**.
 
 
 ### Co-simulation
