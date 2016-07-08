@@ -11,4 +11,5 @@
 	"parameters":{
 		"{controller}.controller.wt3_max":1.7,
 		"{controller}.controller.wt3_min":1.3
-	},}
+	}
+}

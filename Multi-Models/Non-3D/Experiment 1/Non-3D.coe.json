@@ -1,0 +1,7 @@
+{
+	"multimodel_path": "Multi-models/Non-3D/Non-3D.mm.json",
+	"algorithm": {
+		"type": "fixed-step",
+		"size": 0.05
+	}
+}
