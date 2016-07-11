@@ -141,7 +141,7 @@
       </COMP>
       <COMP relation="InternalStructure">
         <OBJECT>
-          <ID name="in" mc="Standard.Port" uid="2774c998-3350-475f-9ebf-831d32f481bf"/>
+          <ID name="inFlow" mc="Standard.Port" uid="2774c998-3350-475f-9ebf-831d32f481bf"/>
           <ATTRIBUTES>
             <ATT name="IsBehavior">false</ATT>
             <ATT name="IsService">true</ATT>
@@ -151,17 +151,20 @@
             <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
             <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
             <ATT name="Value"></ATT>
-            <ATT name="Name"><![CDATA[in]]></ATT>
+            <ATT name="Name"><![CDATA[inFlow]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
+            <LINK relation="Base">
+              <ID name="FlowRate" mc="Standard.DataType" uid="c15aac39-65f0-4d48-96b1-f6760652612a"/>
+            </LINK>
             <LINK relation="Extension">
               <FOREIGNID name="FlowPort" mc="Standard.Stereotype" uid="197dab5e-85eb-4fef-8313-f113b85ca2b4"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="cIn" mc="Standard.Port" uid="f2982b90-81f5-4d5d-81e3-aff6b94fcb98"/>
+          <ID name="valveControl" mc="Standard.Port" uid="f2982b90-81f5-4d5d-81e3-aff6b94fcb98"/>
           <ATTRIBUTES>
             <ATT name="IsBehavior">false</ATT>
             <ATT name="IsService">true</ATT>
@@ -171,17 +174,22 @@
             <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
             <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
             <ATT name="Value"></ATT>
-            <ATT name="Name"><![CDATA[cIn]]></ATT>
+            <ATT name="Name"><![CDATA[valveControl]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
+            <LINK relation="Base">
+              <REFOBJ>
+                <ID name="ValveState" mc="Standard.Enumeration" uid="2b12c78f-ea61-4835-bb01-8489ed0dfde8"/>
+              </REFOBJ>
+            </LINK>
             <LINK relation="Extension">
               <FOREIGNID name="FlowPort" mc="Standard.Stereotype" uid="197dab5e-85eb-4fef-8313-f113b85ca2b4"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="cout" mc="Standard.Port" uid="970d73d5-2010-470f-abed-3de8cd1afd96"/>
+          <ID name="level" mc="Standard.Port" uid="970d73d5-2010-470f-abed-3de8cd1afd96"/>
           <ATTRIBUTES>
             <ATT name="IsBehavior">false</ATT>
             <ATT name="IsService">true</ATT>
@@ -191,10 +199,13 @@
             <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
             <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
             <ATT name="Value"></ATT>
-            <ATT name="Name"><![CDATA[cout]]></ATT>
+            <ATT name="Name"><![CDATA[level]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
+            <LINK relation="Base">
+              <ID name="WaterLevel" mc="Standard.DataType" uid="9831058c-e0b0-4822-8ce4-8822f513a72f"/>
+            </LINK>
             <LINK relation="Extension">
               <FOREIGNID name="FlowPort" mc="Standard.Stereotype" uid="197dab5e-85eb-4fef-8313-f113b85ca2b4"/>
             </LINK>
@@ -215,6 +226,9 @@
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
+            <LINK relation="Base">
+              <ID name="FlowRate" mc="Standard.DataType" uid="c15aac39-65f0-4d48-96b1-f6760652612a"/>
+            </LINK>
             <LINK relation="Extension">
               <FOREIGNID name="FlowPort" mc="Standard.Stereotype" uid="197dab5e-85eb-4fef-8313-f113b85ca2b4"/>
             </LINK>
@@ -235,6 +249,9 @@
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
+            <LINK relation="Base">
+              <ID name="WaterLevel" mc="Standard.DataType" uid="9831058c-e0b0-4822-8ce4-8822f513a72f"/>
+            </LINK>
             <LINK relation="Extension">
               <FOREIGNID name="FlowPort" mc="Standard.Stereotype" uid="197dab5e-85eb-4fef-8313-f113b85ca2b4"/>
             </LINK>

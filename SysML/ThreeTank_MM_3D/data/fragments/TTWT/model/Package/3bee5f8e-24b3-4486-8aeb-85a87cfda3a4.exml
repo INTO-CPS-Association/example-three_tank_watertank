@@ -26,6 +26,39 @@
         <COMPID name="Drain" mc="Standard.Class" uid="95270f59-6718-4725-b385-48c3c7bfb0c6"/>
         <COMPID name="3DAnimation" mc="Standard.Class" uid="2ffc3bd3-cb7f-440c-a8be-bb82bba9ec82"/>
         <COMPID name="FlowRate" mc="Standard.DataType" uid="c15aac39-65f0-4d48-96b1-f6760652612a"/>
+        <COMPID name="WaterLevel" mc="Standard.DataType" uid="9831058c-e0b0-4822-8ce4-8822f513a72f"/>
+        <OBJECT>
+          <ID name="ValveState" mc="Standard.Enumeration" uid="2b12c78f-ea61-4835-bb01-8489ed0dfde8"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[ValveState]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Value">
+              <OBJECT>
+                <ID name="Open" mc="Standard.EnumerationLiteral" uid="fb718b24-46c3-48f4-abe2-7e0e22040ecc"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Open]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Closed" mc="Standard.EnumerationLiteral" uid="56ba73eb-d672-4866-8052-ba1383fe3c6f"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Closed]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
       </COMP>
       <COMP relation="Product">
         <COMPID name="architecture diagram" mc="Standard.ClassDiagram" uid="c8f93c13-3855-4d2c-aacc-60e9e85271a1"/>
