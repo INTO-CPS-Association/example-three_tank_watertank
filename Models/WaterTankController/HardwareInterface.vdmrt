@@ -8,10 +8,10 @@ values
 
 instance variables
     -- @ interface: type = input, name="wt3_level";
-    public level : real := 0.0;
+    public level : RealPort := new RealPort(0.0);
 
 instance variables
     -- @ interface: type = output, name="wt3_valve";
-    public valveState : bool := false;
+    public valveState : BoolPort := new BoolPort(false);
 
 end HardwareInterface
