@@ -1,7 +1,1 @@
-{
-	"multimodel_path": "Multi-models/Non-3D/Non-3D.mm.json",
-	"algorithm": {
-		"type": "fixed-step",
-		"size": 0.05
-	}
-}
+{"startTime":0,"endTime":40,"multimodel_path":"Multi-models\\Non-3D\\Non-3D.mm.json","livestream":{},"algorithm":{"type":"fixed-step","size":0.05}}
