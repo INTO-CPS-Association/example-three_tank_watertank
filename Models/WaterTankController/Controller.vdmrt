@@ -28,10 +28,10 @@ loop()==
     in
     (
 
-    if( level >= HardwareInterface`maxlevel)
+    if( level >= HardwareInterface`maxlevel.getValue())
     then valveActuator.setValve(open);
 
-    if( level <= HardwareInterface`minlevel)
+    if( level <= HardwareInterface`minlevel.getValue())
     then valveActuator.setValve(close);
     );
 

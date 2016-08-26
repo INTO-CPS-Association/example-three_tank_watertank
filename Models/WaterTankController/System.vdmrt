@@ -14,9 +14,8 @@ operations
 public System : () ==> System
 System () == 
 (
-    let levelSensor   = new LevelSensor(lambda -:bool& hwi.level),
-         valveActuator =  new ValveActuator(lambda x: bool & 
-                        Reflect`setMember(System`hwi,"valveState",x) ) 
+    let levelSensor   = new LevelSensor(hwi.level),
+         valveActuator =  new ValveActuator(hwi.valveState) 
     in
         controller := new Controller(levelSensor, valveActuator);
 
