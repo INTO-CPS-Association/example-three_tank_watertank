@@ -112,7 +112,6 @@
         </OBJECT>
       </COMP>
       <LINK relation="Extension">
-        <FOREIGNID name="POComponent_Physical" mc="Standard.Stereotype" uid="32489ef7-5d0e-4595-8a36-dba9270fe68c"/>
         <FOREIGNID name="POComponent" mc="Standard.Stereotype" uid="788b8bb2-ef45-412a-a60a-b13b693eab07"/>
         <FOREIGNID name="Physical" mc="Standard.Stereotype" uid="c590a3bb-0ca5-4d18-af5c-cade72a3f371"/>
       </LINK>
