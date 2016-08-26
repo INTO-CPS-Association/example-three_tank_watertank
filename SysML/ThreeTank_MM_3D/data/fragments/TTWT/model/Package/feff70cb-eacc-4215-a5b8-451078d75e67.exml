@@ -31,7 +31,7 @@
               <OBJECT>
                 <ID name="" mc="Standard.TagParameter" uid="81c34841-1e40-440e-ae85-3b0a587caed4"/>
                 <ATTRIBUTES>
-                  <ATT name="Value"><![CDATA[/Users/nrjp6/Documents/Projects/INTO-CPS/INTO-CPS_Git/case-study_three_tank/SysML/ThreeTank_MM_3D/Simulation/configs/configuration.config.xml]]></ATT>
+                  <ATT name="Value"><![CDATA[D:\Git\case-study_three_tank\SysML\ThreeTank_MM_3D\Simulation]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES></DEPENDENCIES>
