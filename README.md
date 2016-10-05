@@ -9,6 +9,11 @@ The three-tank water tank model is an augmentation of a standard 20-sim example,
 
 A key feature of this example is the close coupling required between water tank 1 and 2, and the loose coupling to water tank 3. Water tanks 1 and 2 are tall and thin and are connected by a pipe at the bottom of the tanks, and therefore changes to the level of water tank 1 (due to water entering from the source) will quickly affect the level in water tank 2. This effect is not as prevalent between water tank 2 and 3. 
 
+## Example Artefacts Overview
+
+The example is available at https://github.com/into-cps/case-study_three_tank in the *Master* branch. There are several subfolders for the various elements: FCU - contains the various FMUs of the study; Models - contains the constituent models defined using the INTO-CPS simulation technologies; Multi-models - contains the multi-model definitions and co-simulation configurations; SysML - contains the SysML models defined for the study; resources - various images for the purposes of this readme file. 
+
+The case-study_three_tank folder can be opened in the INTO-CPS application to run the various co-simulations as detailed in this document.
 
 ## INTO-CPS Technology
 
@@ -73,9 +78,3 @@ Co-simulating the 3D multi-model opens a 3D visualisation window which depicts t
 
 
 ### Analyses and Experiments
-
-#### Change parameter of sim (time and water levels)
-
-#### Design Space Exploration
-
-#### Cycles and dependancies (see D2.?a)
