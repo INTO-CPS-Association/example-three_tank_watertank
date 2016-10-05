@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<fmiModelDescription fmiVersion="2.0" modelName="Controller" guid="4de5619d-46c5-4911-b3dc-5c9416c81d22" generationTool="Modelio">
-    <ModelVariables>
-        <ScalarVariable name="Controller.wt3_max" valueReference="0" causality="local" variability="discrete"/>
-        <ScalarVariable name="Controller.wt3_min" valueReference="0" causality="local" variability="discrete"/>
-        <ScalarVariable name="Controller.cin" valueReference="0" causality="input" variability="discrete"/>
-        <ScalarVariable name="Controller.cout" valueReference="0" causality="output" variability="discrete"/>
-    </ModelVariables>
-</fmiModelDescription>

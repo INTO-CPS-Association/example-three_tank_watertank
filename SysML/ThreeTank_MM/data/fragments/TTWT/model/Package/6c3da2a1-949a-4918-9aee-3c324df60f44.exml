@@ -866,52 +866,6 @@
                   <LINK relation="Extension">
                     <FOREIGNID name="BlockInstance" mc="Standard.Stereotype" uid="281c6cee-4f91-476d-bbed-ac66449f0897"/>
                   </LINK>
-                  <COMP relation="Tag">
-                    <OBJECT>
-                      <ID name="" mc="Standard.TaggedValue" uid="54d2ca1d-b8b6-4f71-886a-333671db0e5e"/>
-                      <ATTRIBUTES>
-                        <ATT name="Name"></ATT>
-                        <ATT name="status">1970354901745664</ATT>
-                      </ATTRIBUTES>
-                      <DEPENDENCIES>
-                        <COMP relation="Actual">
-                          <OBJECT>
-                            <ID name="" mc="Standard.TagParameter" uid="fb12c31c-f72b-4aeb-96ba-49ad6240d10f"/>
-                            <ATTRIBUTES>
-                              <ATT name="Value"><![CDATA[threewatertank1.fmu]]></ATT>
-                              <ATT name="status">1970354901745664</ATT>
-                            </ATTRIBUTES>
-                            <DEPENDENCIES></DEPENDENCIES>
-                          </OBJECT>
-                        </COMP>
-                        <LINK relation="Definition">
-                          <FOREIGNID name="BlockInstance_path" mc="Standard.TagType" uid="9196ed71-8e2c-42c3-9b56-5278114d0561"/>
-                        </LINK>
-                      </DEPENDENCIES>
-                    </OBJECT>
-                    <OBJECT>
-                      <ID name="" mc="Standard.TaggedValue" uid="c000aeef-333d-4b1b-8227-77f7e52e6efa"/>
-                      <ATTRIBUTES>
-                        <ATT name="Name"></ATT>
-                        <ATT name="status">1970354901745664</ATT>
-                      </ATTRIBUTES>
-                      <DEPENDENCIES>
-                        <COMP relation="Actual">
-                          <OBJECT>
-                            <ID name="" mc="Standard.TagParameter" uid="27dc1c53-438d-4040-b3fe-fcad171350ac"/>
-                            <ATTRIBUTES>
-                              <ATT name="Value"><![CDATA[{dcd729ec-423a-4a0d-8030-4c42a840abba}]]></ATT>
-                              <ATT name="status">1970354901745664</ATT>
-                            </ATTRIBUTES>
-                            <DEPENDENCIES></DEPENDENCIES>
-                          </OBJECT>
-                        </COMP>
-                        <LINK relation="Definition">
-                          <FOREIGNID name="BlockInstance_guid" mc="Standard.TagType" uid="b954d803-7d16-4b01-9963-98fa15bf8de0"/>
-                        </LINK>
-                      </DEPENDENCIES>
-                    </OBJECT>
-                  </COMP>
                 </DEPENDENCIES>
               </OBJECT>
               <OBJECT>
@@ -1406,52 +1360,6 @@
                   <LINK relation="Extension">
                     <FOREIGNID name="BlockInstance" mc="Standard.Stereotype" uid="281c6cee-4f91-476d-bbed-ac66449f0897"/>
                   </LINK>
-                  <COMP relation="Tag">
-                    <OBJECT>
-                      <ID name="" mc="Standard.TaggedValue" uid="dcb36b71-30d2-4955-9507-ee720e40c4ab"/>
-                      <ATTRIBUTES>
-                        <ATT name="Name"></ATT>
-                        <ATT name="status">1970354901745664</ATT>
-                      </ATTRIBUTES>
-                      <DEPENDENCIES>
-                        <COMP relation="Actual">
-                          <OBJECT>
-                            <ID name="" mc="Standard.TagParameter" uid="eb487ee6-6aae-4650-aa84-7688e7ad7dce"/>
-                            <ATTRIBUTES>
-                              <ATT name="Value"><![CDATA[threewatertank2.fmu]]></ATT>
-                              <ATT name="status">1970354901745664</ATT>
-                            </ATTRIBUTES>
-                            <DEPENDENCIES></DEPENDENCIES>
-                          </OBJECT>
-                        </COMP>
-                        <LINK relation="Definition">
-                          <FOREIGNID name="BlockInstance_path" mc="Standard.TagType" uid="9196ed71-8e2c-42c3-9b56-5278114d0561"/>
-                        </LINK>
-                      </DEPENDENCIES>
-                    </OBJECT>
-                    <OBJECT>
-                      <ID name="" mc="Standard.TaggedValue" uid="8101ab7c-5bd7-422a-923b-75cd22d87c56"/>
-                      <ATTRIBUTES>
-                        <ATT name="Name"></ATT>
-                        <ATT name="status">1970354901745664</ATT>
-                      </ATTRIBUTES>
-                      <DEPENDENCIES>
-                        <COMP relation="Actual">
-                          <OBJECT>
-                            <ID name="" mc="Standard.TagParameter" uid="a064084a-aff3-4267-b6df-e8fac74a492c"/>
-                            <ATTRIBUTES>
-                              <ATT name="Value"><![CDATA[{25941611-1350-4ca2-8fe8-85d9193c14fd}]]></ATT>
-                              <ATT name="status">1970354901745664</ATT>
-                            </ATTRIBUTES>
-                            <DEPENDENCIES></DEPENDENCIES>
-                          </OBJECT>
-                        </COMP>
-                        <LINK relation="Definition">
-                          <FOREIGNID name="BlockInstance_guid" mc="Standard.TagType" uid="b954d803-7d16-4b01-9963-98fa15bf8de0"/>
-                        </LINK>
-                      </DEPENDENCIES>
-                    </OBJECT>
-                  </COMP>
                 </DEPENDENCIES>
               </OBJECT>
               <OBJECT>
@@ -1568,52 +1476,6 @@
                   <LINK relation="Extension">
                     <FOREIGNID name="BlockInstance" mc="Standard.Stereotype" uid="281c6cee-4f91-476d-bbed-ac66449f0897"/>
                   </LINK>
-                  <COMP relation="Tag">
-                    <OBJECT>
-                      <ID name="" mc="Standard.TaggedValue" uid="00290318-e96b-4a6d-975d-133db2f08369"/>
-                      <ATTRIBUTES>
-                        <ATT name="Name"></ATT>
-                        <ATT name="status">1970354901745664</ATT>
-                      </ATTRIBUTES>
-                      <DEPENDENCIES>
-                        <COMP relation="Actual">
-                          <OBJECT>
-                            <ID name="" mc="Standard.TagParameter" uid="78c10411-a506-400a-8298-d0202100f827"/>
-                            <ATTRIBUTES>
-                              <ATT name="Value"><![CDATA[WaterTankController.fmu]]></ATT>
-                              <ATT name="status">1970354901745664</ATT>
-                            </ATTRIBUTES>
-                            <DEPENDENCIES></DEPENDENCIES>
-                          </OBJECT>
-                        </COMP>
-                        <LINK relation="Definition">
-                          <FOREIGNID name="BlockInstance_path" mc="Standard.TagType" uid="9196ed71-8e2c-42c3-9b56-5278114d0561"/>
-                        </LINK>
-                      </DEPENDENCIES>
-                    </OBJECT>
-                    <OBJECT>
-                      <ID name="" mc="Standard.TaggedValue" uid="ab6b9e55-a3a9-4dfd-9a44-4516136a9765"/>
-                      <ATTRIBUTES>
-                        <ATT name="Name"></ATT>
-                        <ATT name="status">1970354901745664</ATT>
-                      </ATTRIBUTES>
-                      <DEPENDENCIES>
-                        <COMP relation="Actual">
-                          <OBJECT>
-                            <ID name="" mc="Standard.TagParameter" uid="23246046-e546-4312-8613-6158e7e4a4e8"/>
-                            <ATTRIBUTES>
-                              <ATT name="Value"><![CDATA[{8c4e810f-3df3-4a00-8276-176fa3c9f003}]]></ATT>
-                              <ATT name="status">1970354901745664</ATT>
-                            </ATTRIBUTES>
-                            <DEPENDENCIES></DEPENDENCIES>
-                          </OBJECT>
-                        </COMP>
-                        <LINK relation="Definition">
-                          <FOREIGNID name="BlockInstance_guid" mc="Standard.TagType" uid="b954d803-7d16-4b01-9963-98fa15bf8de0"/>
-                        </LINK>
-                      </DEPENDENCIES>
-                    </OBJECT>
-                  </COMP>
                 </DEPENDENCIES>
               </OBJECT>
             </COMP>
