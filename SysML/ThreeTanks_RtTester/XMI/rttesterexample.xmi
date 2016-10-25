@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:INTOCPS="http:///schemas/INTOCPS/_lHukxZbKEeauy-NchTJFcw/0" xmlns:RTTMBTProfile="http:///schemas/RTTMBTProfile/_lHukxJbKEeauy-NchTJFcw/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:sysml="http:///schemas/sysml/_lIBfYJbKEeauy-NchTJFcw/0" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xsi:schemaLocation="http:///schemas/INTOCPS/_lHukxZbKEeauy-NchTJFcw/0 INTOCPS.profile.xmi#_lIVBZ5bKEeauy-NchTJFcw http:///schemas/RTTMBTProfile/_lHukxJbKEeauy-NchTJFcw/0 RTTMBTProfile.profile.xmi#_lIBfaJbKEeauy-NchTJFcw http:///schemas/sysml/_lIBfYJbKEeauy-NchTJFcw/0 sysml.profile.xmi#_lIn8V5bKEeauy-NchTJFcw">
+  <uml:Model xmi:id="_lHukcJbKEeauy-NchTJFcw" name="rttesterexample">
+    <eAnnotations xmi:id="_lHukcZbKEeauy-NchTJFcw" source="Objing">
+      <contents xmi:type="uml:Property" xmi:id="_lHukcpbKEeauy-NchTJFcw" name="exporterVersion">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_lHukc5bKEeauy-NchTJFcw" value="3.0.0"/>
+      </contents>
+    </eAnnotations>
+    <packagedElement xmi:type="uml:Package" xmi:id="_lHukdJbKEeauy-NchTJFcw" name="Datatypes">
+      <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_lHukdZbKEeauy-NchTJFcw" name="bool" isLeaf="true"/>
+      <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_lHukdpbKEeauy-NchTJFcw" name="char" isLeaf="true"/>
+      <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_lHukd5bKEeauy-NchTJFcw" name="float" isLeaf="true"/>
+      <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_lHukeJbKEeauy-NchTJFcw" name="int" isLeaf="true"/>
+      <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_lHukeZbKEeauy-NchTJFcw" name="signed char" isLeaf="true"/>
+      <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_lHukepbKEeauy-NchTJFcw" name="signed int" isLeaf="true"/>
+      <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_lHuke5bKEeauy-NchTJFcw" name="timer" isLeaf="true"/>
+      <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_lHukfJbKEeauy-NchTJFcw" name="unsigned char" isLeaf="true"/>
+      <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_lHukfZbKEeauy-NchTJFcw" name="unsigned int" isLeaf="true"/>
+      <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_lHukfpbKEeauy-NchTJFcw" name="void" isLeaf="true"/>
+      <packagedElement xmi:type="uml:Enumeration" xmi:id="_lHukf5bKEeauy-NchTJFcw" name="TurnIndPos_t">
+        <ownedLiteral xmi:id="_lHukgJbKEeauy-NchTJFcw" name="posNeutral"/>
+        <ownedLiteral xmi:id="_lHukgZbKEeauy-NchTJFcw" name="posLeft"/>
+        <ownedLiteral xmi:id="_lHukgpbKEeauy-NchTJFcw" name="posRight"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_lHukg5bKEeauy-NchTJFcw" name="System">
+      <ownedAttribute xmi:id="_lHukhJbKEeauy-NchTJFcw" name="SystemUnderTest" visibility="public" type="_lHukmpbKEeauy-NchTJFcw" aggregation="composite" association="_lHuklpbKEeauy-NchTJFcw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lHukhZbKEeauy-NchTJFcw"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_lHukhpbKEeauy-NchTJFcw" name="TestEnvironment" visibility="public" type="_lHukoJbKEeauy-NchTJFcw" aggregation="composite" association="_lHukmJbKEeauy-NchTJFcw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lHukh5bKEeauy-NchTJFcw"/>
+      </ownedAttribute>
+      <ownedConnector xmi:id="_lHukiJbKEeauy-NchTJFcw">
+        <end xmi:id="_lHukiZbKEeauy-NchTJFcw" isUnique="false" role="_lHuknJbKEeauy-NchTJFcw" partWithPort="_lHukhJbKEeauy-NchTJFcw">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lHukipbKEeauy-NchTJFcw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lHuki5bKEeauy-NchTJFcw"/>
+        </end>
+        <end xmi:id="_lHukjJbKEeauy-NchTJFcw" isUnique="false" role="_lHukopbKEeauy-NchTJFcw">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lHukjZbKEeauy-NchTJFcw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lHukjpbKEeauy-NchTJFcw"/>
+        </end>
+      </ownedConnector>
+      <ownedConnector xmi:id="_lHukj5bKEeauy-NchTJFcw">
+        <end xmi:id="_lHukkJbKEeauy-NchTJFcw" isUnique="false" role="_lHukoZbKEeauy-NchTJFcw" partWithPort="_lHukhpbKEeauy-NchTJFcw">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lHukkZbKEeauy-NchTJFcw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lHukkpbKEeauy-NchTJFcw"/>
+        </end>
+        <end xmi:id="_lHukk5bKEeauy-NchTJFcw" isUnique="false" role="_lHukm5bKEeauy-NchTJFcw">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lHuklJbKEeauy-NchTJFcw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lHuklZbKEeauy-NchTJFcw"/>
+        </end>
+      </ownedConnector>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_lHuklpbKEeauy-NchTJFcw" memberEnd="_lHukhJbKEeauy-NchTJFcw _lHukl5bKEeauy-NchTJFcw">
+      <ownedEnd xmi:id="_lHukl5bKEeauy-NchTJFcw" visibility="public" type="_lHukg5bKEeauy-NchTJFcw" association="_lHuklpbKEeauy-NchTJFcw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_lHukmJbKEeauy-NchTJFcw" memberEnd="_lHukhpbKEeauy-NchTJFcw _lHukmZbKEeauy-NchTJFcw">
+      <ownedEnd xmi:id="_lHukmZbKEeauy-NchTJFcw" visibility="public" type="_lHukg5bKEeauy-NchTJFcw" association="_lHukmJbKEeauy-NchTJFcw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_lHukmpbKEeauy-NchTJFcw" name="SystemUnderTest">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_lHukm5bKEeauy-NchTJFcw" name="stimuli" type="_lHukwJbKEeauy-NchTJFcw"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_lHuknJbKEeauy-NchTJFcw" name="observables" type="_lHuko5bKEeauy-NchTJFcw"/>
+      <ownedAttribute xmi:id="_lHuknZbKEeauy-NchTJFcw" name="tankCTRL" visibility="public" type="_lHukp5bKEeauy-NchTJFcw" aggregation="composite" association="_lHuknpbKEeauy-NchTJFcw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_lHuknpbKEeauy-NchTJFcw" memberEnd="_lHuknZbKEeauy-NchTJFcw _lHukn5bKEeauy-NchTJFcw">
+      <ownedEnd xmi:id="_lHukn5bKEeauy-NchTJFcw" visibility="public" type="_lHukmpbKEeauy-NchTJFcw" association="_lHuknpbKEeauy-NchTJFcw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_lHukoJbKEeauy-NchTJFcw" name="TestEnvironment" isActive="true">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_lHukoZbKEeauy-NchTJFcw" name="stimuli" type="_lHukwJbKEeauy-NchTJFcw"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_lHukopbKEeauy-NchTJFcw" name="observables" type="_lHuko5bKEeauy-NchTJFcw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_lHuko5bKEeauy-NchTJFcw" name="Observables" isAbstract="true">
+      <ownedAttribute xmi:id="_lHukpJbKEeauy-NchTJFcw" name="wt3_valve" visibility="public" type="_lHukdZbKEeauy-NchTJFcw">
+        <ownedComment xmi:id="_lHukpZbKEeauy-NchTJFcw">
+          <body></body>
+        </ownedComment>
+        <defaultValue xmi:type="uml:Expression" xmi:id="_lHukppbKEeauy-NchTJFcw" symbol="0"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_lHukp5bKEeauy-NchTJFcw" name="TankCTRL">
+      <ownedAttribute xmi:id="_lHukqJbKEeauy-NchTJFcw" name="t" visibility="public" type="_lHuke5bKEeauy-NchTJFcw">
+        <ownedComment xmi:id="_lHukqZbKEeauy-NchTJFcw">
+          <body></body>
+        </ownedComment>
+        <defaultValue xmi:type="uml:Expression" xmi:id="_lHukqpbKEeauy-NchTJFcw" symbol="0.0"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:StateMachine" xmi:id="_lHukq5bKEeauy-NchTJFcw" name="TankCTRL">
+        <region xmi:id="_lHukrJbKEeauy-NchTJFcw">
+          <subvertex xmi:type="uml:State" xmi:id="_lHukrZbKEeauy-NchTJFcw" name="Waiting">
+            <entry xmi:type="uml:OpaqueBehavior" xmi:id="_lHukrpbKEeauy-NchTJFcw">
+              <body>t.reset();</body>
+            </entry>
+          </subvertex>
+          <subvertex xmi:type="uml:Pseudostate" xmi:id="_lHukr5bKEeauy-NchTJFcw" name="Initial"/>
+          <subvertex xmi:type="uml:State" xmi:id="_lHuksJbKEeauy-NchTJFcw" name="Responding"/>
+          <transition xmi:id="_lHuksZbKEeauy-NchTJFcw" name="Transition" source="_lHukrZbKEeauy-NchTJFcw" target="_lHuksJbKEeauy-NchTJFcw" guard="_lHukspbKEeauy-NchTJFcw">
+            <ownedRule xmi:id="_lHukspbKEeauy-NchTJFcw" name="t.elapsed(1000)" constrainedElement="_lHuksZbKEeauy-NchTJFcw">
+              <specification xmi:type="uml:LiteralString" xmi:id="_lHuks5bKEeauy-NchTJFcw" value="t.elapsed(1000)"/>
+            </ownedRule>
+          </transition>
+          <transition xmi:id="_lHuktJbKEeauy-NchTJFcw" name="Transition" source="_lHukr5bKEeauy-NchTJFcw" target="_lHukrZbKEeauy-NchTJFcw"/>
+          <transition xmi:id="_lHuktZbKEeauy-NchTJFcw" name="Transition" source="_lHuksJbKEeauy-NchTJFcw" target="_lHukrZbKEeauy-NchTJFcw" guard="_lHuktpbKEeauy-NchTJFcw">
+            <ownedRule xmi:id="_lHuktpbKEeauy-NchTJFcw" name="wt3_level >= 2" constrainedElement="_lHuktZbKEeauy-NchTJFcw">
+              <specification xmi:type="uml:LiteralString" xmi:id="_lHukt5bKEeauy-NchTJFcw" value="wt3_level >= 2"/>
+            </ownedRule>
+            <effect xmi:type="uml:OpaqueBehavior" xmi:id="_lHukuJbKEeauy-NchTJFcw">
+              <body>wt3_valve = 0;</body>
+            </effect>
+          </transition>
+          <transition xmi:id="_lHukuZbKEeauy-NchTJFcw" name="Transition1" source="_lHuksJbKEeauy-NchTJFcw" target="_lHukrZbKEeauy-NchTJFcw" guard="_lHukupbKEeauy-NchTJFcw">
+            <ownedRule xmi:id="_lHukupbKEeauy-NchTJFcw" name="wt3_level &lt;= 1" constrainedElement="_lHukuZbKEeauy-NchTJFcw">
+              <specification xmi:type="uml:LiteralString" xmi:id="_lHuku5bKEeauy-NchTJFcw" value="wt3_level &lt;= 1"/>
+            </ownedRule>
+            <effect xmi:type="uml:OpaqueBehavior" xmi:id="_lHukvJbKEeauy-NchTJFcw">
+              <body>wt3_valve = 1;</body>
+            </effect>
+          </transition>
+          <transition xmi:id="_lHukvZbKEeauy-NchTJFcw" name="Transition2" source="_lHuksJbKEeauy-NchTJFcw" target="_lHukrZbKEeauy-NchTJFcw" guard="_lHukvpbKEeauy-NchTJFcw">
+            <ownedRule xmi:id="_lHukvpbKEeauy-NchTJFcw" name="wt3_level > 1 &amp;&amp; wt3_level &lt; 2" constrainedElement="_lHukvZbKEeauy-NchTJFcw">
+              <specification xmi:type="uml:LiteralString" xmi:id="_lHukv5bKEeauy-NchTJFcw" value="wt3_level > 1 &amp;&amp; wt3_level &lt; 2"/>
+            </ownedRule>
+          </transition>
+        </region>
+      </ownedBehavior>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_lHukwJbKEeauy-NchTJFcw" name="Stimuli" isAbstract="true">
+      <ownedAttribute xmi:id="_lHukwZbKEeauy-NchTJFcw" name="wt3_level" visibility="public" type="_lHukd5bKEeauy-NchTJFcw" isUnique="false">
+        <ownedComment xmi:id="_lHukwpbKEeauy-NchTJFcw">
+          <body></body>
+        </ownedComment>
+        <defaultValue xmi:type="uml:Expression" xmi:id="_lHukw5bKEeauy-NchTJFcw" symbol="0"/>
+      </ownedAttribute>
+    </packagedElement>
+    <profileApplication xmi:id="_lI63QJbKEeauy-NchTJFcw">
+      <eAnnotations xmi:id="_lI63QZbKEeauy-NchTJFcw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="RTTMBTProfile.profile.xmi#_lIBfaJbKEeauy-NchTJFcw"/>
+      </eAnnotations>
+      <appliedProfile href="RTTMBTProfile.profile.xmi#_lIBfYZbKEeauy-NchTJFcw"/>
+    </profileApplication>
+    <profileApplication xmi:id="_lI63QpbKEeauy-NchTJFcw">
+      <eAnnotations xmi:id="_lI63Q5bKEeauy-NchTJFcw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="INTOCPS.profile.xmi#_lIVBZ5bKEeauy-NchTJFcw"/>
+      </eAnnotations>
+      <appliedProfile href="INTOCPS.profile.xmi#_lIVBYJbKEeauy-NchTJFcw"/>
+    </profileApplication>
+    <profileApplication xmi:id="_lI63RJbKEeauy-NchTJFcw">
+      <eAnnotations xmi:id="_lI63RZbKEeauy-NchTJFcw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="sysml.profile.xmi#_lIn8V5bKEeauy-NchTJFcw"/>
+      </eAnnotations>
+      <appliedProfile href="sysml.profile.xmi#_lIn8UJbKEeauy-NchTJFcw"/>
+    </profileApplication>
+  </uml:Model>
+  <RTTMBTProfile:DATATYPES xmi:id="_lI63RpbKEeauy-NchTJFcw" base_Package="_lHukdJbKEeauy-NchTJFcw"/>
+  <RTTMBTProfile:Literal_Value xmi:id="_lI63R5bKEeauy-NchTJFcw" base_EnumerationLiteral="_lHukgJbKEeauy-NchTJFcw" Value="0"/>
+  <RTTMBTProfile:Literal_Value xmi:id="_lI63SJbKEeauy-NchTJFcw" base_EnumerationLiteral="_lHukgZbKEeauy-NchTJFcw" Value="1"/>
+  <RTTMBTProfile:Literal_Value xmi:id="_lI63SZbKEeauy-NchTJFcw" base_EnumerationLiteral="_lHukgpbKEeauy-NchTJFcw" Value="2"/>
+  <sysml:Block xmi:id="_lI63SpbKEeauy-NchTJFcw" base_Class="_lHukg5bKEeauy-NchTJFcw"/>
+  <RTTMBTProfile:SYSTEM xmi:id="_lI63S5bKEeauy-NchTJFcw" base_Class="_lHukg5bKEeauy-NchTJFcw"/>
+  <INTOCPS:BlockInstance xmi:id="_lI63TJbKEeauy-NchTJFcw" base_Property="_lHukhJbKEeauy-NchTJFcw"/>
+  <INTOCPS:FlowPort xmi:id="_lI63TZbKEeauy-NchTJFcw" base_Port="_lHukm5bKEeauy-NchTJFcw"/>
+  <INTOCPS:FlowPort xmi:id="_lI63TpbKEeauy-NchTJFcw" base_Port="_lHuknJbKEeauy-NchTJFcw"/>
+  <INTOCPS:BlockInstance xmi:id="_lI63T5bKEeauy-NchTJFcw" base_Property="_lHukhpbKEeauy-NchTJFcw"/>
+  <INTOCPS:FlowPort xmi:id="_lI63UJbKEeauy-NchTJFcw" base_Port="_lHukoZbKEeauy-NchTJFcw"/>
+  <INTOCPS:FlowPort xmi:id="_lI63UZbKEeauy-NchTJFcw" base_Port="_lHukopbKEeauy-NchTJFcw"/>
+  <sysml:Block xmi:id="_lI63UpbKEeauy-NchTJFcw" base_Class="_lHukmpbKEeauy-NchTJFcw"/>
+  <RTTMBTProfile:SUT xmi:id="_lI63U5bKEeauy-NchTJFcw" base_Class="_lHukmpbKEeauy-NchTJFcw"/>
+  <sysml:Block xmi:id="_lI63VJbKEeauy-NchTJFcw" base_Class="_lHukoJbKEeauy-NchTJFcw"/>
+  <RTTMBTProfile:TE xmi:id="_lI63VZbKEeauy-NchTJFcw" base_Class="_lHukoJbKEeauy-NchTJFcw"/>
+  <INTOCPS:StrtType xmi:id="_lI63VpbKEeauy-NchTJFcw" base_Interface="_lHuko5bKEeauy-NchTJFcw"/>
+  <RTTMBTProfile:SUT2TE xmi:id="_lI63V5bKEeauy-NchTJFcw" base_Interface="_lHuko5bKEeauy-NchTJFcw"/>
+  <RTTMBTProfile:RESTRICTED xmi:id="_lI63WJbKEeauy-NchTJFcw" base_Property="_lHukpJbKEeauy-NchTJFcw" MinimumValue="0" MaximumValue="1"/>
+  <INTOCPS:Variable xmi:id="_lI63WZbKEeauy-NchTJFcw" base_Property="_lHukpJbKEeauy-NchTJFcw"/>
+  <sysml:Block xmi:id="_lI63WpbKEeauy-NchTJFcw" base_Class="_lHukp5bKEeauy-NchTJFcw"/>
+  <RTTMBTProfile:RESTRICTED xmi:id="_lI63W5bKEeauy-NchTJFcw" base_Property="_lHukqJbKEeauy-NchTJFcw" MinimumValue="0.0" MaximumValue="20.0"/>
+  <INTOCPS:Variable xmi:id="_lI63XJbKEeauy-NchTJFcw" base_Property="_lHukqJbKEeauy-NchTJFcw"/>
+  <RTTMBTProfile:TE2SUT xmi:id="_lI63XZbKEeauy-NchTJFcw" base_Interface="_lHukwJbKEeauy-NchTJFcw"/>
+  <INTOCPS:Variable xmi:id="_lI63XpbKEeauy-NchTJFcw" base_Property="_lHukwZbKEeauy-NchTJFcw"/>
+  <RTTMBTProfile:RESTRICTED xmi:id="_lI63X5bKEeauy-NchTJFcw" base_Property="_lHukwZbKEeauy-NchTJFcw" MinimumValue="0" MaximumValue="20"/>
+</xmi:XMI>
