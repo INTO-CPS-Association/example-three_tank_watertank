@@ -1,1 +1,1 @@
-{"startTime":0,"endTime":30,"multimodel_path":"Multi-models\\3D\\3D.mm.json","livestream":{"{tank1}.tank1":["Tank1WaterLevel","Tank2WaterLevel"],"{tank2}.tank2":["level"]},"algorithm":{"type":"fixed-step","size":0.05}}
+{"startTime":0,"endTime":30,"multimodel_path":"Multi-models\\3D\\3D.mm.json","livestream":{"{tank1}.tank1":["Tank1WaterLevel"],"{tank2}.tank2":["level"],"{controller}.controller":["wt3_valve"]},"algorithm":{"type":"fixed-step","size":0.05}}
