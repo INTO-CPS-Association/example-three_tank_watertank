@@ -1,0 +1,25 @@
+{
+	"fmus": {
+		"{WaterTank1}": "WaterTank1.fmu",
+		"{WaterTank2}": "WaterTank2.fmu",
+		"{WaterTank3}": "threewatertank2.fmu",
+		"{WaterTank3Controller}": "WaterTankController.fmu",
+		"{3DAnimation}": "3DAnimationFMU.fmu"
+	},
+	"connections": {
+    "{WaterTank1}.wt1.level": ["{WaterTank2}.wt2.tank1Mass", "{3DAnimation}.animation.animation.tank1.waterlevel"],
+    "{WaterTank1}.wt1.e": ["{WaterTank2}.wt2.e"],
+    "{WaterTank1}.wt1.inflow": ["{3DAnimation}.animation.animation.tank1.inflow"],
+    "{WaterTank2}.wt2.level": ["{3DAnimation}.animation.animation.tank2.waterlevel"],
+    "{WaterTank2}.wt2.f": ["{WaterTank1}.wt1.f"],
+    "{WaterTank2}.wt2.flow": ["{WaterTank3}.wt3.inFlow", "{3DAnimation}.animation.animation.tank2.outflow"],
+    "{WaterTank3}.wt3.level": ["{WaterTank3Controller}.wt3c.wt3_level", "{3DAnimation}.animation.animation.tank3.waterlevel"],
+    "{WaterTank3}.wt3.Tank3OutFlow": ["{3DAnimation}.animation.animation.tank3.outflow"],
+    "{WaterTank3}.wt3.puddle": ["{3DAnimation}.animation.animation.drain.puddle"],
+    "{WaterTank3Controller}.wt3c.wt3_valve": ["{WaterTank3}.wt3.valveControl", "{3DAnimation}.animation.animation.tank3.valve.control"]
+  },
+  "parameters" : {
+		"{WaterTank3Controller}.wt3c.wt3_max" : 1.7,
+		"{WaterTank3Controller}.wt3c.wt3_min" : 1.3
+  }
+}

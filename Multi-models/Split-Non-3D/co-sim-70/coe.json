@@ -1,0 +1,1 @@
+{"startTime":0,"endTime":1,"multimodel_path":"Multi-models\\Split-Non-3D\\mm.json","livestream":{"{WaterTank3Controller}.wt3c":["wt3_valve"],"{WaterTank1}.wt1":["level"],"{WaterTank2}.wt2":["level"]},"visible":false,"loggingOn":false,"overrideLogLevel":null,"enableAllLogCategoriesPerInstance":false,"algorithm":{"type":"fixed-step","size":0.0001}}
