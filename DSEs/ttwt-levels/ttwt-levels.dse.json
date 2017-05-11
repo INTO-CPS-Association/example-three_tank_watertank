@@ -1,6 +1,6 @@
 {
     "algorithm": {},
-    "objectiveConstraints": {},
+    "objectiveConstraints": [],
     "objectiveDefinitions": {
         "externalScripts": {
             "cumulativeDeviation": {
@@ -54,6 +54,7 @@
             "vCount": "-"
         }
     },
+    "scenarios":[],
     "simulation": {
         "endTime": "100",
         "startTime": "0"
