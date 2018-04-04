@@ -1,2 +1,7 @@
 **/R_*
 **/generated/
+
+# Modelio local configuration folders #
+#######################################
+**/.runtime
+**/.config
