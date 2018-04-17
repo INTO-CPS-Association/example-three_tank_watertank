@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT version="4" object="RESTRICTED">
+  <OBJECT>
+    <ID uid="a3ddc420-5247-40a5-82ed-a31b65455595" mc="Infrastructure.Stereotype" name="RESTRICTED"></ID>
+    <PID uid="3745d6b6-7184-4c0d-ac0d-91e27748da99" mc="Infrastructure.Profile" name="RTTMBTProfile"></PID>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey">RESTRICTED</ATT>
+      <ATT name="BaseClassName">Standard.Attribute</ATT>
+      <ATT name="Name">RESTRICTED</ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID uid="8c8fb9bd-4047-40da-94c8-b79c5ac8d072" mc="Infrastructure.TagType" name="MinimumValue"></ID>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber">1</ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey">Minimum Value</ATT>
+            <ATT name="Name">MinimumValue</ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID uid="11621e89-536e-4eda-b139-341b6c7f128c" mc="Infrastructure.TagType" name="MaximumValue"></ID>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber">1</ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey">Maximum Value</ATT>
+            <ATT name="Name">MaximumValue</ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

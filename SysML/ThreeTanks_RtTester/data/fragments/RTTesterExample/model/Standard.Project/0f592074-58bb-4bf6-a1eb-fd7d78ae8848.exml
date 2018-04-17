@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT version="4" object="RTTesterExample">
+  <OBJECT>
+    <ID uid="0f592074-58bb-4bf6-a1eb-fd7d78ae8848" mc="Standard.Project" name="RTTesterExample"></ID>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name">RTTesterExample</ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID uid="64536edf-b5f8-47c3-9b04-3ba9c95784b2" mc="Standard.Package" name="rttesterexample"></COMPID>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID uid="d0f8aa8c-b46e-4dca-8fff-90da3801d276" mc="Infrastructure.DiagramSet" name="RTTesterExample"></COMPID>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

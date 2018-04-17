@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT version="4" object="EVENTS">
+  <OBJECT>
+    <ID uid="d13d1cf3-f279-4bdb-9676-ef88928fecf7" mc="Infrastructure.Stereotype" name="EVENTS"></ID>
+    <PID uid="3745d6b6-7184-4c0d-ac0d-91e27748da99" mc="Infrastructure.Profile" name="RTTMBTProfile"></PID>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey">EVENTS</ATT>
+      <ATT name="BaseClassName">Standard.Package</ATT>
+      <ATT name="Name">EVENTS</ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

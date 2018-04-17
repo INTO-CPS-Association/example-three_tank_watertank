@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT version="4" object="Structure">
+  <OBJECT>
+    <ID uid="3bee5f8e-24b3-4486-8aeb-85a87cfda3a4" mc="Standard.Package" name="Structure"></ID>
+    <PID uid="6c3da2a1-949a-4918-9aee-3c324df60f44" mc="Standard.Package" name="ThreeTank"></PID>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name">Structure</ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID uid="f0197dde-1d9f-4e7a-a5ef-ecb0b0f9cede" mc="Standard.Class" name="Water Tank System"></COMPID>
+        <COMPID uid="71502a6a-7153-40a1-a8ba-aa45ca56c529" mc="Standard.Class" name="WaterTanks1"></COMPID>
+        <COMPID uid="5c0550fa-747f-43f9-af3f-c5a9c8faa752" mc="Standard.Class" name="WaterTanks2"></COMPID>
+        <COMPID uid="4de5619d-46c5-4911-b3dc-5c9416c81d22" mc="Standard.Class" name="Controller"></COMPID>
+        <COMPID uid="f2c0ce07-94bd-497c-9ae1-b88938f79c0c" mc="Standard.Class" name="Inflow"></COMPID>
+        <COMPID uid="815ee4d6-23f5-4f81-bc5a-b567bb22ba2f" mc="Standard.Class" name="Pipe"></COMPID>
+        <COMPID uid="f75431cb-d83c-4b9e-9163-2ae0d6644235" mc="Standard.Class" name="Tank2"></COMPID>
+        <COMPID uid="8fb3d62a-21e7-48d9-8010-7063d6bc4182" mc="Standard.Class" name="Tank1"></COMPID>
+        <COMPID uid="115d235b-b975-4f6a-8300-0b3c91604dc8" mc="Standard.Class" name="Tank3"></COMPID>
+        <COMPID uid="95270f59-6718-4725-b385-48c3c7bfb0c6" mc="Standard.Class" name="Drain"></COMPID>
+        <COMPID uid="2ffc3bd3-cb7f-440c-a8be-bb82bba9ec82" mc="Standard.Class" name="3DAnimation"></COMPID>
+        <COMPID uid="c15aac39-65f0-4d48-96b1-f6760652612a" mc="Standard.DataType" name="FlowRate"></COMPID>
+        <COMPID uid="9831058c-e0b0-4822-8ce4-8822f513a72f" mc="Standard.DataType" name="WaterLevel"></COMPID>
+        <OBJECT>
+          <ID uid="2b12c78f-ea61-4835-bb01-8489ed0dfde8" mc="Standard.Enumeration" name="ValveState"></ID>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name">ValveState</ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Value">
+              <OBJECT>
+                <ID uid="fb718b24-46c3-48f4-abe2-7e0e22040ecc" mc="Standard.EnumerationLiteral" name="Open"></ID>
+                <ATTRIBUTES>
+                  <ATT name="Name">Open</ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID uid="56ba73eb-d672-4866-8052-ba1383fe3c6f" mc="Standard.EnumerationLiteral" name="Closed"></ID>
+                <ATTRIBUTES>
+                  <ATT name="Name">Closed</ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID uid="c8f93c13-3855-4d2c-aacc-60e9e85271a1" mc="Standard.ClassDiagram" name="architecture diagram"></COMPID>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

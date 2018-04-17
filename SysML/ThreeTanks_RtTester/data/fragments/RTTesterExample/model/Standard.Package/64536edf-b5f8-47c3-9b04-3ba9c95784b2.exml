@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT version="4" object="rttesterexample">
+  <OBJECT>
+    <ID uid="64536edf-b5f8-47c3-9b04-3ba9c95784b2" mc="Standard.Package" name="rttesterexample"></ID>
+    <PID uid="0f592074-58bb-4bf6-a1eb-fd7d78ae8848" mc="Standard.Project" name="RTTesterExample"></PID>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name">rttesterexample</ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID uid="c8ad00d6-3162-4382-8429-bbb07a4b89f0" mc="Standard.Package" name="Datatypes"></COMPID>
+        <COMPID uid="d0d1b172-f518-461a-b61f-33c5fff25e50" mc="Standard.Class" name="System"></COMPID>
+        <COMPID uid="90e0f28d-4b8a-485a-975f-741e1db5aedf" mc="Standard.Class" name="SystemUnderTest"></COMPID>
+        <COMPID uid="aa6e0cd6-dcf1-4011-b726-5f78e27e3c44" mc="Standard.Class" name="TestEnvironment"></COMPID>
+        <COMPID uid="54bf9d84-1c0c-438b-a88a-eb4a032269ff" mc="Standard.Interface" name="Observables"></COMPID>
+        <COMPID uid="fa26ea11-fbf3-43d4-82a1-06b22e5ab062" mc="Standard.Class" name="TankCTRL"></COMPID>
+        <COMPID uid="e613c6ee-2f84-48cd-81ff-06f14db523ba" mc="Standard.Interface" name="Stimuli"></COMPID>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

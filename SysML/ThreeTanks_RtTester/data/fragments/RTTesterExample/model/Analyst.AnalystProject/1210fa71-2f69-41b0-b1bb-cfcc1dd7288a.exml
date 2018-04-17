@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT version="4" object="RTTesterExample">
+  <OBJECT>
+    <ID uid="1210fa71-2f69-41b0-b1bb-cfcc1dd7288a" mc="Analyst.AnalystProject" name="RTTesterExample"></ID>
+    <ATTRIBUTES>
+      <ATT name="Name">RTTesterExample</ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="RequirementRoot">
+        <COMPID uid="06c006b2-2327-4de7-96bb-8ee72e4c3254" mc="Analyst.RequirementContainer" name="Requirements"></COMPID>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

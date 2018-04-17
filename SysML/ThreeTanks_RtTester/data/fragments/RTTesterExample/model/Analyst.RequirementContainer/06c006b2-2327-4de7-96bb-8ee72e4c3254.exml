@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT version="4" object="Requirements">
+  <OBJECT>
+    <ID uid="06c006b2-2327-4de7-96bb-8ee72e4c3254" mc="Analyst.RequirementContainer" name="Requirements"></ID>
+    <PID uid="1210fa71-2f69-41b0-b1bb-cfcc1dd7288a" mc="Analyst.AnalystProject" name="RTTesterExample"></PID>
+    <ATTRIBUTES>
+      <ATT name="Definition"></ATT>
+      <ATT name="Name">Requirements</ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedRequirement">
+        <COMPID uid="ee0699aa-3974-4a13-a817-4492127ec057" mc="Analyst.Requirement" name="REQ-001"></COMPID>
+        <COMPID uid="3fa5874f-c73b-4427-b18c-76d69f97e9ca" mc="Analyst.Requirement" name="REQ-002"></COMPID>
+        <COMPID uid="7e6a353f-c3e9-49ce-a04d-8ec04bcfc2bc" mc="Analyst.Requirement" name="REQ-003"></COMPID>
+        <COMPID uid="fc50764a-c9fb-4359-9482-c3eb9aacf332" mc="Analyst.Requirement" name="REQ-004"></COMPID>
+        <COMPID uid="823b7681-1a66-4617-9d51-ec6f7e6508cd" mc="Analyst.Requirement" name="REQ-005"></COMPID>
+        <COMPID uid="996cd185-7e7b-4f5a-96b7-a61cac2787fe" mc="Analyst.Requirement" name="REQ-006"></COMPID>
+        <COMPID uid="d7ddfef1-0444-4238-9034-daef92f0ad53" mc="Analyst.Requirement" name="REQ-007"></COMPID>
+        <COMPID uid="c4e5b8c2-865f-4d75-93dc-d4262dc06e19" mc="Analyst.Requirement" name="REQ-008"></COMPID>
+        <COMPID uid="3d756112-0ed2-4123-afb5-81612bed637d" mc="Analyst.Requirement" name="REQ-009"></COMPID>
+      </COMP>
+      <COMP relation="AnalystProperties">
+        <OBJECT>
+          <ID uid="2930e19c-1cb0-48af-848c-71c0cf500913" mc="Analyst.AnalystPropertyTable" name=""></ID>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="Content">#Thu Feb 12 14:36:05 CET 2015
+</ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID uid="7649b5c8-8733-4a02-959c-a269422402b8" mc="Infrastructure.PropertyTableDefinition" name="No Properties"></FOREIGNID>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <LINK relation="Extension">
+        <ID uid="dbaabf04-b277-4c66-b59a-66c739827e90" mc="Infrastructure.Stereotype" name="REQUIREMENTS"></ID>
+      </LINK>
+      <COMP relation="Properties">
+        <OBJECT>
+          <ID uid="f08524ae-2804-44e7-856c-b098c9b912a9" mc="Infrastructure.PropertyTable" name="Scope.Editor.SavedState"></ID>
+          <ATTRIBUTES>
+            <ATT name="Name">Scope.Editor.SavedState</ATT>
+            <ATT name="Content"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

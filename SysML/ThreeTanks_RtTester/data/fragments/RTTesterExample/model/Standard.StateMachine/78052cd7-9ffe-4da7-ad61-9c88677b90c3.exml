@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?><!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT version="4" object="TankCTRL">
+  <OBJECT>
+    <ID uid="78052cd7-9ffe-4da7-ad61-9c88677b90c3" mc="Standard.StateMachine" name="TankCTRL"></ID>
+    <PID uid="fa26ea11-fbf3-43d4-82a1-06b22e5ab062" mc="Standard.Class" name="TankCTRL"></PID>
+    <ATTRIBUTES>
+      <ATT name="Kind">Dynamic</ATT>
+      <ATT name="IsReentrant">false</ATT>
+      <ATT name="Name">TankCTRL</ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Top">
+        <OBJECT>
+          <ID uid="7e5f82a2-2561-48c6-a9ed-b34dca44c6be" mc="Standard.Region" name=""></ID>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Sub">
+              <OBJECT>
+                <ID uid="8bb52173-0097-48a5-8a38-26919169ebb6" mc="Standard.State" name="Waiting"></ID>
+                <ATTRIBUTES>
+                  <ATT name="Name">Waiting</ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Internal">
+                    <OBJECT>
+                      <ID uid="bd6b63a4-835a-44cd-9d8d-3cf6928265c2" mc="Standard.InternalTransition" name="Do"></ID>
+                      <ATTRIBUTES>
+                        <ATT name="Effect">t.reset();</ATT>
+                        <ATT name="ReceivedEvents">Entry</ATT>
+                        <ATT name="SentEvents"></ATT>
+                        <ATT name="Guard"></ATT>
+                        <ATT name="PostCondition"></ATT>
+                        <ATT name="Name">Do</ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <COMP relation="OutGoing">
+                    <OBJECT>
+                      <ID uid="f396b25d-4398-409c-8f80-2a04c8595ae5" mc="Standard.Transition" name="Transition"></ID>
+                      <ATTRIBUTES>
+                        <ATT name="Effect"></ATT>
+                        <ATT name="ReceivedEvents"></ATT>
+                        <ATT name="SentEvents"></ATT>
+                        <ATT name="Guard">t.elapsed(1000)</ATT>
+                        <ATT name="PostCondition"></ATT>
+                        <ATT name="Name">Transition</ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID uid="843ff743-0ac4-4fb6-84b5-eda550ad022d" mc="Standard.State" name="Responding"></ID>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID uid="651e5d2e-72d9-4014-a00a-a11155c65dcd" mc="Standard.InitialPseudoState" name="Initial"></ID>
+                <ATTRIBUTES>
+                  <ATT name="Name">Initial</ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="OutGoing">
+                    <OBJECT>
+                      <ID uid="6d1cd24e-fdb4-490a-a607-d8ec3ef669d8" mc="Standard.Transition" name="Transition"></ID>
+                      <ATTRIBUTES>
+                        <ATT name="Effect"></ATT>
+                        <ATT name="ReceivedEvents"></ATT>
+                        <ATT name="SentEvents"></ATT>
+                        <ATT name="Guard"></ATT>
+                        <ATT name="PostCondition"></ATT>
+                        <ATT name="Name">Transition</ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID uid="8bb52173-0097-48a5-8a38-26919169ebb6" mc="Standard.State" name="Waiting"></ID>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID uid="843ff743-0ac4-4fb6-84b5-eda550ad022d" mc="Standard.State" name="Responding"></ID>
+                <ATTRIBUTES>
+                  <ATT name="Name">Responding</ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="OutGoing">
+                    <OBJECT>
+                      <ID uid="0569de84-59b5-4d70-aa5e-3a500d920489" mc="Standard.Transition" name="Transition"></ID>
+                      <ATTRIBUTES>
+                        <ATT name="Effect">wt3_valve = 0;</ATT>
+                        <ATT name="ReceivedEvents"></ATT>
+                        <ATT name="SentEvents"></ATT>
+                        <ATT name="Guard">wt3_level &gt;= 2</ATT>
+                        <ATT name="PostCondition"></ATT>
+                        <ATT name="Name">Transition</ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID uid="8bb52173-0097-48a5-8a38-26919169ebb6" mc="Standard.State" name="Waiting"></ID>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID uid="9ac2798e-df69-488c-ab29-0d8a65b06153" mc="Standard.Transition" name="Transition1"></ID>
+                      <ATTRIBUTES>
+                        <ATT name="Effect">wt3_valve = 1;</ATT>
+                        <ATT name="ReceivedEvents"></ATT>
+                        <ATT name="SentEvents"></ATT>
+                        <ATT name="Guard">wt3_level &lt;= 1</ATT>
+                        <ATT name="PostCondition"></ATT>
+                        <ATT name="Name">Transition1</ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID uid="8bb52173-0097-48a5-8a38-26919169ebb6" mc="Standard.State" name="Waiting"></ID>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID uid="b9c0411e-88b9-4636-8da0-cdbbcc6ff8c1" mc="Standard.Transition" name="Transition2"></ID>
+                      <ATTRIBUTES>
+                        <ATT name="Effect"></ATT>
+                        <ATT name="ReceivedEvents"></ATT>
+                        <ATT name="SentEvents"></ATT>
+                        <ATT name="Guard">wt3_level &gt; 1 &amp;&amp; wt3_level &lt; 2</ATT>
+                        <ATT name="PostCondition"></ATT>
+                        <ATT name="Name">Transition2</ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID uid="8bb52173-0097-48a5-8a38-26919169ebb6" mc="Standard.State" name="Waiting"></ID>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID uid="bf6f8ee0-55a4-4662-aad5-68bd519784c0" mc="Standard.StateMachineDiagram" name="State Machine diagram"></COMPID>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

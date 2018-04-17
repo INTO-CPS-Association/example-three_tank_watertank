@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT version="4" object="REQ-002">
+  <OBJECT>
+    <ID uid="3fa5874f-c73b-4427-b18c-76d69f97e9ca" mc="Analyst.Requirement" name="REQ-002"></ID>
+    <PID uid="06c006b2-2327-4de7-96bb-8ee72e4c3254" mc="Analyst.RequirementContainer" name="Requirements"></PID>
+    <ATTRIBUTES>
+      <ATT name="Version">0</ATT>
+      <ATT name="Definition">If any lights are flashing, this is done synchronously with a 340ms ON - 320ms OFF period.</ATT>
+      <ATT name="Name">REQ-002</ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="AnalystProperties">
+        <OBJECT>
+          <ID uid="6acff224-315c-4254-868b-5a1d749efa06" mc="Analyst.AnalystPropertyTable" name=""></ID>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="Content">#Thu Feb 12 14:43:55 CET 2015
+</ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID uid="7649b5c8-8733-4a02-959c-a269422402b8" mc="Infrastructure.PropertyTableDefinition" name="No Properties"></FOREIGNID>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

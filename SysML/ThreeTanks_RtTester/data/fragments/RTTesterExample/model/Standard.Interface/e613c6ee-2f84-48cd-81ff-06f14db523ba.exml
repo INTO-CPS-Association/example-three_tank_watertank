@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT version="4" object="Stimuli">
+  <OBJECT>
+    <ID uid="e613c6ee-2f84-48cd-81ff-06f14db523ba" mc="Standard.Interface" name="Stimuli"></ID>
+    <PID uid="64536edf-b5f8-47c3-9b04-3ba9c95784b2" mc="Standard.Package" name="rttesterexample"></PID>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">true</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name">Stimuli</ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedAttribute">
+        <OBJECT>
+          <ID uid="d9ddfe8f-b89b-47f2-82ef-49c17d5c801a" mc="Standard.Attribute" name="wt3_level"></ID>
+          <ATTRIBUTES>
+            <ATT name="TypeConstraint"></ATT>
+            <ATT name="Value">0</ATT>
+            <ATT name="TargetIsClass">false</ATT>
+            <ATT name="Changeable">ReadWrite</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin">1</ATT>
+            <ATT name="MultiplicityMax">1</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name">wt3_level</ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <ID uid="3baf899e-c32c-4fea-87df-710d24c992cf" mc="Standard.DataType" name="float"></ID>
+            </LINK>
+            <LINK relation="Extension">
+              <FOREIGNID uid="9370cbd9-c177-4594-b614-2e9ed4c3a439" mc="Infrastructure.Stereotype" name="Variable"></FOREIGNID>
+              <ID uid="a3ddc420-5247-40a5-82ed-a31b65455595" mc="Infrastructure.Stereotype" name="RESTRICTED"></ID>
+            </LINK>
+            <COMP relation="Tag">
+              <OBJECT>
+                <ID uid="02d8b69b-846c-401b-b1fd-ec8a61c9ceab" mc="Infrastructure.TaggedValue" name=""></ID>
+                <ATTRIBUTES>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Actual">
+                    <OBJECT>
+                      <ID uid="2cef0f0e-7578-40ae-96df-cd98714dcc02" mc="Infrastructure.TagParameter" name=""></ID>
+                      <ATTRIBUTES>
+                        <ATT name="Value">0</ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="Definition">
+                    <REFOBJ>
+                      <ID uid="8c8fb9bd-4047-40da-94c8-b79c5ac8d072" mc="Infrastructure.TagType" name="MinimumValue"></ID>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID uid="75ee2699-2288-489e-ae42-60f614a647d6" mc="Infrastructure.TaggedValue" name=""></ID>
+                <ATTRIBUTES>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Actual">
+                    <OBJECT>
+                      <ID uid="e10b9178-bb17-4fce-aac0-32d1749cd9e3" mc="Infrastructure.TagParameter" name=""></ID>
+                      <ATTRIBUTES>
+                        <ATT name="Value">20</ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="Definition">
+                    <REFOBJ>
+                      <ID uid="11621e89-536e-4eda-b139-341b6c7f128c" mc="Infrastructure.TagType" name="MaximumValue"></ID>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID uid="49fccbfb-e6a8-48fd-9f59-9319f8975476" mc="Infrastructure.Note" name=""></ID>
+                <ATTRIBUTES>
+                  <ATT name="Content"></ATT>
+                  <ATT name="MimeType"></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID uid="00000000-0000-3e81-0000-000000000000" mc="Infrastructure.NoteType" name="description"></FOREIGNID>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <LINK relation="Extension">
+        <ID uid="5d065207-4860-492d-bcf9-e700c7a0d9d4" mc="Infrastructure.Stereotype" name="TE2SUT"></ID>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

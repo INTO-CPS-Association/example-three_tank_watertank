@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT version="4" object="REQ-007">
+  <OBJECT>
+    <ID uid="d7ddfef1-0444-4238-9034-daef92f0ad53" mc="Analyst.Requirement" name="REQ-007"></ID>
+    <PID uid="06c006b2-2327-4de7-96bb-8ee72e4c3254" mc="Analyst.RequirementContainer" name="Requirements"></PID>
+    <ATTRIBUTES>
+      <ATT name="Version">0</ATT>
+      <ATT name="Definition">If turn indication left or right is switched off and emergency flashing is still active, emergency flashing is continued or resumed, respectively.</ATT>
+      <ATT name="Name">REQ-007</ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="AnalystProperties">
+        <OBJECT>
+          <ID uid="fb598980-78a2-4242-90b2-6521aba8069b" mc="Analyst.AnalystPropertyTable" name=""></ID>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="Content">#Thu Feb 12 14:43:55 CET 2015
+</ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID uid="7649b5c8-8733-4a02-959c-a269422402b8" mc="Infrastructure.PropertyTableDefinition" name="No Properties"></FOREIGNID>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

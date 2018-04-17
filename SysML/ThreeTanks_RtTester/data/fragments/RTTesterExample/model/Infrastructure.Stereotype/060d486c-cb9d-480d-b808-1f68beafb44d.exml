@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT version="4" object="SYSTEM">
+  <OBJECT>
+    <ID uid="060d486c-cb9d-480d-b808-1f68beafb44d" mc="Infrastructure.Stereotype" name="SYSTEM"></ID>
+    <PID uid="3745d6b6-7184-4c0d-ac0d-91e27748da99" mc="Infrastructure.Profile" name="RTTMBTProfile"></PID>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey">SYSTEM</ATT>
+      <ATT name="BaseClassName">Standard.Class</ATT>
+      <ATT name="Name">SYSTEM</ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Parent">
+        <FOREIGNID uid="00bc42a4-0000-19c9-0000-000000000000" mc="Infrastructure.Stereotype" name="Block"></FOREIGNID>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

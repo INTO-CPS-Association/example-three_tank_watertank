@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT version="4" object="ThreeTank">
+  <OBJECT>
+    <ID uid="6c3da2a1-949a-4918-9aee-3c324df60f44" mc="Standard.Package" name="ThreeTank"></ID>
+    <PID uid="feff70cb-eacc-4215-a5b8-451078d75e67" mc="Standard.Package" name="ttwt"></PID>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name">ThreeTank</ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID uid="b7b7bb8d-0706-4fa8-99e2-5472dbf634d4" mc="Standard.Package" name="Connections"></COMPID>
+        <COMPID uid="3bee5f8e-24b3-4486-8aeb-85a87cfda3a4" mc="Standard.Package" name="Structure"></COMPID>
+      </COMP>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID uid="9209728d-30be-4aad-8ce4-00d932df8171" mc="Infrastructure.Note" name=""></ID>
+          <ATTRIBUTES>
+            <ATT name="Content"></ATT>
+            <ATT name="MimeType"></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID uid="00000000-0000-3e81-0000-000000000000" mc="Infrastructure.NoteType" name="description"></FOREIGNID>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,3073 @@
+<?xml version="1.0" encoding="UTF-8"?><!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT version="4" object="Connections">
+  <OBJECT>
+    <ID uid="b7b7bb8d-0706-4fa8-99e2-5472dbf634d4" mc="Standard.Package" name="Connections"></ID>
+    <PID uid="6c3da2a1-949a-4918-9aee-3c324df60f44" mc="Standard.Package" name="ThreeTank"></PID>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name">Connections</ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedInformationFlow">
+        <OBJECT>
+          <ID uid="699060d7-f4eb-4dfe-a7de-e80352b2edbf" mc="Standard.InformationFlow" name=""></ID>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID uid="65a0ba9d-a73a-4193-9d94-0c7ba3e75f9e" mc="Standard.Port" name="port"></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID uid="6a3f380d-189d-4551-903e-f16ed0c2db83" mc="Standard.Port" name="port"></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="RealizingLink">
+              <REFOBJ>
+                <ID uid="bcbb4a2d-8fce-4a91-8867-48a0dd8f876b" mc="Standard.ConnectorEnd" name=""></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Conveyed">
+              <ID uid="c15aac39-65f0-4d48-96b1-f6760652612a" mc="Standard.DataType" name="FlowRate"></ID>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID uid="d38eb712-6876-411a-b3a9-895d2088c392" mc="Standard.InformationFlow" name=""></ID>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID uid="ff9823b9-f63d-4eeb-ab3b-0041838f4b0a" mc="Standard.Port" name="port1"></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID uid="9e4f9c20-e32a-4a19-9a87-c0b03bc76181" mc="Standard.Port" name="port"></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="RealizingLink">
+              <REFOBJ>
+                <ID uid="7b6993ea-9f3b-4e4b-b9fa-725566adfff7" mc="Standard.ConnectorEnd" name=""></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Conveyed">
+              <ID uid="c15aac39-65f0-4d48-96b1-f6760652612a" mc="Standard.DataType" name="FlowRate"></ID>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID uid="f110dde0-6c01-4711-96a1-158649ca2f04" mc="Standard.InformationFlow" name=""></ID>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID uid="671fa0a0-b92d-4e09-aed9-a51bf4816a63" mc="Standard.Port" name="port1"></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID uid="b6eb1197-07b8-4518-8516-e2802f94531a" mc="Standard.Port" name="port"></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="RealizingLink">
+              <REFOBJ>
+                <ID uid="acc73372-d8cc-4416-8a2c-8c1052f4f91a" mc="Standard.ConnectorEnd" name=""></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Conveyed">
+              <ID uid="c15aac39-65f0-4d48-96b1-f6760652612a" mc="Standard.DataType" name="FlowRate"></ID>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID uid="30370aa6-46ef-4259-9b97-7a61ab827d65" mc="Standard.InformationFlow" name=""></ID>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID uid="833fd4c5-4ea3-4cfd-9e0e-bc9084afb434" mc="Standard.Port" name="port1"></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID uid="f0c17522-03d2-4595-b1b5-51c67dc9a1cc" mc="Standard.Port" name="Tank2OutFlow"></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="RealizingLink">
+              <REFOBJ>
+                <ID uid="33d7d2bc-9576-47cb-b8a7-663e358dc5ef" mc="Standard.ConnectorEnd" name=""></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Conveyed">
+              <ID uid="c15aac39-65f0-4d48-96b1-f6760652612a" mc="Standard.DataType" name="FlowRate"></ID>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID uid="3bed7719-563f-41d9-95c0-97c5d3ef04b1" mc="Standard.InformationFlow" name=""></ID>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID uid="f0c17522-03d2-4595-b1b5-51c67dc9a1cc" mc="Standard.Port" name="Tank2OutFlow"></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID uid="d6400b02-8b70-4f47-9653-23a84386a876" mc="Standard.Port" name="inFlow"></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="RealizingLink">
+              <REFOBJ>
+                <ID uid="dbe3a9ae-403b-47d9-a83d-08dfa22cda6b" mc="Standard.ConnectorEnd" name=""></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Conveyed">
+              <ID uid="c15aac39-65f0-4d48-96b1-f6760652612a" mc="Standard.DataType" name="FlowRate"></ID>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID uid="2e32b76f-8fa5-4338-bef9-da6d94fc2b85" mc="Standard.InformationFlow" name=""></ID>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID uid="d6400b02-8b70-4f47-9653-23a84386a876" mc="Standard.Port" name="inFlow"></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID uid="87f7f36a-66c5-4a78-b659-b078ef07c717" mc="Standard.Port" name="port3"></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="RealizingLink">
+              <REFOBJ>
+                <ID uid="6bf61856-7efc-4e36-b7a0-c86dfc1c0f0f" mc="Standard.ConnectorEnd" name=""></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Conveyed">
+              <ID uid="c15aac39-65f0-4d48-96b1-f6760652612a" mc="Standard.DataType" name="FlowRate"></ID>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID uid="d6cc8fd6-f772-45bc-9088-4d77527f74ee" mc="Standard.InformationFlow" name=""></ID>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID uid="583e82ce-981b-4147-8ff3-da42d2e71857" mc="Standard.Port" name="port2"></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID uid="06b22794-ed04-4d60-9121-7cdc0c833a78" mc="Standard.Port" name="level"></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="RealizingLink">
+              <REFOBJ>
+                <ID uid="dfb187a4-abba-41dc-8420-b0f11dc9f6cf" mc="Standard.ConnectorEnd" name=""></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Conveyed">
+              <ID uid="c15aac39-65f0-4d48-96b1-f6760652612a" mc="Standard.DataType" name="FlowRate"></ID>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID uid="62b623d8-2b45-4bc0-9a2f-cac8ece30292" mc="Standard.InformationFlow" name=""></ID>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID uid="b490dd3c-ee0b-4632-9907-6d093c2f06aa" mc="Standard.Port" name="valveControl"></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID uid="f2168bdf-8280-48d9-8d9b-12e3b382a30a" mc="Standard.Port" name="port1"></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="RealizingLink">
+              <REFOBJ>
+                <ID uid="7ba3c976-5fe3-4a03-8f80-41b502a77001" mc="Standard.ConnectorEnd" name=""></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Conveyed">
+              <ID uid="c15aac39-65f0-4d48-96b1-f6760652612a" mc="Standard.DataType" name="FlowRate"></ID>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID uid="8c259a73-a5dd-42a0-83ea-e3ece140b0a2" mc="Standard.InformationFlow" name=""></ID>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID uid="008a25ae-ae1e-43b5-b292-26b3a0219ada" mc="Standard.Port" name="port"></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID uid="9e2b6b8a-dafa-4379-aa46-f5a629a6c2f9" mc="Standard.Port" name="port"></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="RealizingLink">
+              <REFOBJ>
+                <ID uid="4e6884cd-bfa8-48a0-8f46-33bfef1241f7" mc="Standard.ConnectorEnd" name=""></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Conveyed">
+              <ID uid="c15aac39-65f0-4d48-96b1-f6760652612a" mc="Standard.DataType" name="FlowRate"></ID>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID uid="4a88b116-bdc2-4e86-b600-7fd011a14e34" mc="Standard.InformationFlow" name=""></ID>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID uid="31052868-3f28-42ca-ba91-84919219a713" mc="Standard.Port" name="wt3_valve"></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID uid="b490dd3c-ee0b-4632-9907-6d093c2f06aa" mc="Standard.Port" name="valveControl"></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="RealizingLink">
+              <REFOBJ>
+                <ID uid="04f20d8b-4c7f-4647-8533-7a3f4a829ac5" mc="Standard.ConnectorEnd" name=""></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Conveyed">
+              <REFOBJ>
+                <ID uid="2b12c78f-ea61-4835-bb01-8489ed0dfde8" mc="Standard.Enumeration" name="ValveState"></ID>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID uid="099f1996-6cc2-4272-ba71-a8449848a120" mc="Standard.InformationFlow" name=""></ID>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID uid="06b22794-ed04-4d60-9121-7cdc0c833a78" mc="Standard.Port" name="level"></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID uid="4074c874-794b-481a-a3e4-c7b930d15873" mc="Standard.Port" name="wt3_level"></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="RealizingLink">
+              <REFOBJ>
+                <ID uid="6527cf46-061f-406f-a36c-932195b275cb" mc="Standard.ConnectorEnd" name=""></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Conveyed">
+              <ID uid="9831058c-e0b0-4822-8ce4-8822f513a72f" mc="Standard.DataType" name="WaterLevel"></ID>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID uid="ac04b1a0-3f2f-4e51-bb52-c8cd0afa7594" mc="Standard.InformationFlow" name=""></ID>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID uid="d9aa79dd-dffa-4cce-abca-8d54880cc173" mc="Standard.Port" name="Tank1InFlow"></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID uid="b1eda103-b278-4230-9b39-8df085286fbf" mc="Standard.Port" name="animation.tank1.inflow"></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="RealizingLink">
+              <REFOBJ>
+                <ID uid="0eef4524-5b43-4c9f-8f0f-507548826d32" mc="Standard.ConnectorEnd" name=""></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Conveyed">
+              <ID uid="c15aac39-65f0-4d48-96b1-f6760652612a" mc="Standard.DataType" name="FlowRate"></ID>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID uid="2dd5ddfe-0b01-42b0-bd3c-040e7845d0ff" mc="Standard.InformationFlow" name=""></ID>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID uid="fcd2ed70-7156-4f27-a1ea-80c4d9d7b96c" mc="Standard.Port" name="Tank1WaterLevel"></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID uid="76e8b9ff-635a-452c-9f31-91b9ecfdb110" mc="Standard.Port" name="animation.tank1.waterlevel"></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="RealizingLink">
+              <REFOBJ>
+                <ID uid="97f3cccf-f637-47c4-83d3-2b133a68849d" mc="Standard.ConnectorEnd" name=""></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Conveyed">
+              <ID uid="9831058c-e0b0-4822-8ce4-8822f513a72f" mc="Standard.DataType" name="WaterLevel"></ID>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID uid="3ddca5b8-6cf7-44c3-841a-709413ad50a0" mc="Standard.InformationFlow" name=""></ID>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID uid="19863e04-6485-4ec0-b9d6-077f1a1d645d" mc="Standard.Port" name="Tank2WaterLevel"></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID uid="15ea296e-77a5-4efc-8477-053772529d6a" mc="Standard.Port" name="animation.tank2.waterlevel"></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="RealizingLink">
+              <REFOBJ>
+                <ID uid="32e6dfbf-fb3f-4943-9cb9-e666ed07c768" mc="Standard.ConnectorEnd" name=""></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Conveyed">
+              <ID uid="9831058c-e0b0-4822-8ce4-8822f513a72f" mc="Standard.DataType" name="WaterLevel"></ID>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID uid="c5a13ac0-2aaf-4a8e-8476-deec382d7994" mc="Standard.InformationFlow" name=""></ID>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID uid="f0c17522-03d2-4595-b1b5-51c67dc9a1cc" mc="Standard.Port" name="Tank2OutFlow"></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID uid="1ee7d13b-17e6-4310-93da-e84fbd9949ff" mc="Standard.Port" name="animation.tank2.outflow"></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="RealizingLink">
+              <REFOBJ>
+                <ID uid="ec55db14-264d-4dc8-9002-6b05c7e910bb" mc="Standard.ConnectorEnd" name=""></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Conveyed">
+              <ID uid="c15aac39-65f0-4d48-96b1-f6760652612a" mc="Standard.DataType" name="FlowRate"></ID>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID uid="ac1310f0-a0b3-4944-a721-9c482db126dc" mc="Standard.InformationFlow" name=""></ID>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID uid="dba48284-3d37-4dd8-bad6-3a3864949f45" mc="Standard.Port" name="Tank3OutFlow"></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID uid="c06e7380-1bbb-4d44-9e2c-7a032367e59a" mc="Standard.Port" name="animation.tank3.outflow"></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="RealizingLink">
+              <REFOBJ>
+                <ID uid="334c5722-eef2-438e-a6e5-16f87000931b" mc="Standard.ConnectorEnd" name=""></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Conveyed">
+              <ID uid="c15aac39-65f0-4d48-96b1-f6760652612a" mc="Standard.DataType" name="FlowRate"></ID>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID uid="31a5be96-7008-4eb0-aacd-96d1e86784ab" mc="Standard.InformationFlow" name=""></ID>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID uid="4796f1a6-62ad-437f-a361-593ce0214b97" mc="Standard.Port" name="puddle"></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID uid="900926f8-0243-4710-a63c-750e5053aeda" mc="Standard.Port" name="animation.drain.puddle"></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="RealizingLink">
+              <REFOBJ>
+                <ID uid="b04a98de-c42a-4a47-806a-4abd698600ba" mc="Standard.ConnectorEnd" name=""></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Conveyed">
+              <ID uid="9831058c-e0b0-4822-8ce4-8822f513a72f" mc="Standard.DataType" name="WaterLevel"></ID>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID uid="4f405471-c38b-493a-b0cf-bec126f8a99a" mc="Standard.InformationFlow" name=""></ID>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID uid="06b22794-ed04-4d60-9121-7cdc0c833a78" mc="Standard.Port" name="level"></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID uid="4bf7c99b-f44c-45c0-ba18-876ef2441497" mc="Standard.Port" name="animation.tank3.waterlevel"></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="RealizingLink">
+              <REFOBJ>
+                <ID uid="f6ca3bc0-14dc-4065-8d6e-b9a2e32e5f71" mc="Standard.ConnectorEnd" name=""></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Conveyed">
+              <ID uid="9831058c-e0b0-4822-8ce4-8822f513a72f" mc="Standard.DataType" name="WaterLevel"></ID>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID uid="fd13ade9-df7f-4c76-aa1a-863276866a10" mc="Standard.InformationFlow" name=""></ID>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID uid="31052868-3f28-42ca-ba91-84919219a713" mc="Standard.Port" name="wt3_valve"></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID uid="3af343d3-e7db-464f-8408-f8e216f9b003" mc="Standard.Port" name="animation.tank3.valve.control"></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="RealizingLink">
+              <REFOBJ>
+                <ID uid="aa4f6daf-c3ae-4ee3-8832-34cad3b0957c" mc="Standard.ConnectorEnd" name=""></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Conveyed">
+              <REFOBJ>
+                <ID uid="2b12c78f-ea61-4835-bb01-8489ed0dfde8" mc="Standard.Enumeration" name="ValveState"></ID>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID uid="5384f4a7-3c2f-4d77-aeb8-4ff5bb8fa606" mc="Standard.InformationFlow" name=""></ID>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID uid="19863e04-6485-4ec0-b9d6-077f1a1d645d" mc="Standard.Port" name="Tank2WaterLevel"></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID uid="1ee7d13b-17e6-4310-93da-e84fbd9949ff" mc="Standard.Port" name="animation.tank2.outflow"></ID>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID uid="7cce0de2-0aeb-4265-906b-3159a15f8ed7" mc="Standard.InformationFlow" name=""></ID>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID uid="db165977-e695-46d8-b3d9-ea02cbb90f13" mc="Standard.Port" name="Tank2OutFlow"></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID uid="70ac58e3-6ccd-4507-bf1f-86d81541d203" mc="Standard.Port" name="inFlow"></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="RealizingLink">
+              <REFOBJ>
+                <ID uid="ba360be3-0d0a-4c04-91e2-8d1f0b22a814" mc="Standard.ConnectorEnd" name=""></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Conveyed">
+              <ID uid="c15aac39-65f0-4d48-96b1-f6760652612a" mc="Standard.DataType" name="FlowRate"></ID>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID uid="ad2b6cdc-3aa6-49c2-97ec-c7418ab2d666" mc="Standard.InformationFlow" name=""></ID>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID uid="3fdba2fd-425d-45d9-9291-ddedda85574b" mc="Standard.Port" name="wt3_valve"></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID uid="dbec6840-0453-42bb-b46a-b7f2274d9b52" mc="Standard.Port" name="valveControl"></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="RealizingLink">
+              <REFOBJ>
+                <ID uid="ba342ec6-dcd4-4977-9ac0-82132ec76622" mc="Standard.ConnectorEnd" name=""></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Conveyed">
+              <REFOBJ>
+                <ID uid="2b12c78f-ea61-4835-bb01-8489ed0dfde8" mc="Standard.Enumeration" name="ValveState"></ID>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID uid="6584d9e7-d246-488b-a432-2e9df1131211" mc="Standard.InformationFlow" name=""></ID>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID uid="96db057d-3e40-468c-8c1e-85a34dd375cc" mc="Standard.Port" name="level"></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID uid="b6d77319-f93e-476d-8d24-f7f47da7465a" mc="Standard.Port" name="wt3_level"></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="RealizingLink">
+              <REFOBJ>
+                <ID uid="83dca9d7-2808-4de0-96ce-10f96fe76688" mc="Standard.ConnectorEnd" name=""></ID>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Conveyed">
+              <ID uid="9831058c-e0b0-4822-8ce4-8822f513a72f" mc="Standard.DataType" name="WaterLevel"></ID>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Declared">
+        <OBJECT>
+          <ID uid="7fb052c1-3df5-4c96-a4e9-a854c0b39d6a" mc="Standard.Instance" name="3D"></ID>
+          <ATTRIBUTES>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin">1</ATT>
+            <ATT name="MultiplicityMax">1</ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name">3D</ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Base">
+              <ID uid="f0197dde-1d9f-4e7a-a5ef-ecb0b0f9cede" mc="Standard.Class" name="Water Tank System"></ID>
+            </LINK>
+            <COMP relation="Part">
+              <OBJECT>
+                <ID uid="d61f7d88-41a9-48dc-803b-55e7bcb3ac79" mc="Standard.BindableInstance" name="tank1and2"></ID>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin">1</ATT>
+                  <ATT name="MultiplicityMax">1</ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name">tank1and2</ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <ID uid="71502a6a-7153-40a1-a8ba-aa45ca56c529" mc="Standard.Class" name="WaterTanks1"></ID>
+                  </LINK>
+                  <COMP relation="Part">
+                    <OBJECT>
+                      <ID uid="c2f7870e-8d79-4fde-bc9a-208a259e62fc" mc="Standard.BindableInstance" name="i"></ID>
+                      <ATTRIBUTES>
+                        <ATT name="IsConstant">false</ATT>
+                        <ATT name="MultiplicityMin">1</ATT>
+                        <ATT name="MultiplicityMax">1</ATT>
+                        <ATT name="Value"></ATT>
+                        <ATT name="Name">i</ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Base">
+                          <ID uid="f2c0ce07-94bd-497c-9ae1-b88938f79c0c" mc="Standard.Class" name="Inflow"></ID>
+                        </LINK>
+                        <COMP relation="Part">
+                          <OBJECT>
+                            <ID uid="65a0ba9d-a73a-4193-9d94-0c7ba3e75f9e" mc="Standard.Port" name="port"></ID>
+                            <ATTRIBUTES>
+                              <ATT name="IsBehavior">false</ATT>
+                              <ATT name="IsService">true</ATT>
+                              <ATT name="IsConjugated">false</ATT>
+                              <ATT name="Direction">Out</ATT>
+                              <ATT name="IsConstant">false</ATT>
+                              <ATT name="MultiplicityMin">1</ATT>
+                              <ATT name="MultiplicityMax">1</ATT>
+                              <ATT name="Value"></ATT>
+                              <ATT name="Name">port</ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <LINK relation="RepresentedFeature">
+                                <REFOBJ>
+                                  <ID uid="7f60b1ef-4dd0-4a2b-a2c4-ce47072a9feb" mc="Standard.Port" name="out"></ID>
+                                </REFOBJ>
+                              </LINK>
+                              <COMP relation="OwnedEnd">
+                                <OBJECT>
+                                  <ID uid="bcbb4a2d-8fce-4a91-8867-48a0dd8f876b" mc="Standard.ConnectorEnd" name=""></ID>
+                                  <ATTRIBUTES>
+                                    <ATT name="IsOrdered">false</ATT>
+                                    <ATT name="IsUnique">false</ATT>
+                                    <ATT name="MultiplicityMax">1</ATT>
+                                    <ATT name="MultiplicityMin">0</ATT>
+                                    <ATT name="Name"></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES>
+                                    <COMP relation="Link">
+                                      <OBJECT>
+                                        <ID uid="fd4288b4-94c6-4af1-b727-cbf68fe2f2c8" mc="Standard.Connector" name=""></ID>
+                                        <ATTRIBUTES>
+                                          <ATT name="Name"></ATT>
+                                          <ATT name="status">1970354901745664</ATT>
+                                        </ATTRIBUTES>
+                                        <DEPENDENCIES></DEPENDENCIES>
+                                      </OBJECT>
+                                    </COMP>
+                                    <LINK relation="Target">
+                                      <REFOBJ>
+                                        <ID uid="6a3f380d-189d-4551-903e-f16ed0c2db83" mc="Standard.Port" name="port"></ID>
+                                      </REFOBJ>
+                                    </LINK>
+                                    <COMP relation="Opposite">
+                                      <OBJECT>
+                                        <ID uid="12ebe8a3-0012-46ca-ae70-3167ecc70ffe" mc="Standard.ConnectorEnd" name=""></ID>
+                                        <ATTRIBUTES>
+                                          <ATT name="IsOrdered">false</ATT>
+                                          <ATT name="IsUnique">false</ATT>
+                                          <ATT name="MultiplicityMax">1</ATT>
+                                          <ATT name="MultiplicityMin">0</ATT>
+                                          <ATT name="Name"></ATT>
+                                          <ATT name="status">1970354901745664</ATT>
+                                        </ATTRIBUTES>
+                                        <DEPENDENCIES>
+                                          <COMP relation="Link">
+                                            <COMPID uid="fd4288b4-94c6-4af1-b727-cbf68fe2f2c8" mc="Standard.Connector" name=""></COMPID>
+                                          </COMP>
+                                          <COMP relation="Opposite">
+                                            <COMPID uid="bcbb4a2d-8fce-4a91-8867-48a0dd8f876b" mc="Standard.ConnectorEnd" name=""></COMPID>
+                                          </COMP>
+                                        </DEPENDENCIES>
+                                      </OBJECT>
+                                    </COMP>
+                                  </DEPENDENCIES>
+                                </OBJECT>
+                              </COMP>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                        <LINK relation="Extension">
+                          <FOREIGNID uid="281c6cee-4f91-476d-bbed-ac66449f0897" mc="Infrastructure.Stereotype" name="BlockInstance"></FOREIGNID>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID uid="7ca62474-57c5-49cc-971d-acfb9a7c9a69" mc="Standard.BindableInstance" name="t1"></ID>
+                      <ATTRIBUTES>
+                        <ATT name="IsConstant">false</ATT>
+                        <ATT name="MultiplicityMin">1</ATT>
+                        <ATT name="MultiplicityMax">1</ATT>
+                        <ATT name="Value"></ATT>
+                        <ATT name="Name">t1</ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Base">
+                          <ID uid="8fb3d62a-21e7-48d9-8010-7063d6bc4182" mc="Standard.Class" name="Tank1"></ID>
+                        </LINK>
+                        <COMP relation="Part">
+                          <OBJECT>
+                            <ID uid="6a3f380d-189d-4551-903e-f16ed0c2db83" mc="Standard.Port" name="port"></ID>
+                            <ATTRIBUTES>
+                              <ATT name="IsBehavior">false</ATT>
+                              <ATT name="IsService">true</ATT>
+                              <ATT name="IsConjugated">false</ATT>
+                              <ATT name="Direction">In</ATT>
+                              <ATT name="IsConstant">false</ATT>
+                              <ATT name="MultiplicityMin">1</ATT>
+                              <ATT name="MultiplicityMax">1</ATT>
+                              <ATT name="Value"></ATT>
+                              <ATT name="Name">port</ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <LINK relation="RepresentedFeature">
+                                <REFOBJ>
+                                  <ID uid="3af93e17-1c0d-4aed-b39a-5055f9684edb" mc="Standard.Port" name="in"></ID>
+                                </REFOBJ>
+                              </LINK>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                          <OBJECT>
+                            <ID uid="ff9823b9-f63d-4eeb-ab3b-0041838f4b0a" mc="Standard.Port" name="port1"></ID>
+                            <ATTRIBUTES>
+                              <ATT name="IsBehavior">false</ATT>
+                              <ATT name="IsService">true</ATT>
+                              <ATT name="IsConjugated">false</ATT>
+                              <ATT name="Direction">Inout</ATT>
+                              <ATT name="IsConstant">false</ATT>
+                              <ATT name="MultiplicityMin">1</ATT>
+                              <ATT name="MultiplicityMax">1</ATT>
+                              <ATT name="Value"></ATT>
+                              <ATT name="Name">port1</ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <LINK relation="RepresentedFeature">
+                                <REFOBJ>
+                                  <ID uid="a4174e70-9357-4fa8-8dad-ad8fdc5927f1" mc="Standard.Port" name="pipe"></ID>
+                                </REFOBJ>
+                              </LINK>
+                              <COMP relation="OwnedEnd">
+                                <OBJECT>
+                                  <ID uid="7b6993ea-9f3b-4e4b-b9fa-725566adfff7" mc="Standard.ConnectorEnd" name=""></ID>
+                                  <ATTRIBUTES>
+                                    <ATT name="IsOrdered">false</ATT>
+                                    <ATT name="IsUnique">false</ATT>
+                                    <ATT name="MultiplicityMax">1</ATT>
+                                    <ATT name="MultiplicityMin">0</ATT>
+                                    <ATT name="Name"></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES>
+                                    <COMP relation="Link">
+                                      <OBJECT>
+                                        <ID uid="d8f5230f-4246-4875-b510-b84483ba1e26" mc="Standard.Connector" name=""></ID>
+                                        <ATTRIBUTES>
+                                          <ATT name="Name"></ATT>
+                                          <ATT name="status">1970354901745664</ATT>
+                                        </ATTRIBUTES>
+                                        <DEPENDENCIES></DEPENDENCIES>
+                                      </OBJECT>
+                                    </COMP>
+                                    <LINK relation="Target">
+                                      <REFOBJ>
+                                        <ID uid="9e4f9c20-e32a-4a19-9a87-c0b03bc76181" mc="Standard.Port" name="port"></ID>
+                                      </REFOBJ>
+                                    </LINK>
+                                    <COMP relation="Opposite">
+                                      <OBJECT>
+                                        <ID uid="14cc8bd9-592e-4569-a1e2-d5c83b4fb86e" mc="Standard.ConnectorEnd" name=""></ID>
+                                        <ATTRIBUTES>
+                                          <ATT name="IsOrdered">false</ATT>
+                                          <ATT name="IsUnique">false</ATT>
+                                          <ATT name="MultiplicityMax">1</ATT>
+                                          <ATT name="MultiplicityMin">0</ATT>
+                                          <ATT name="Name"></ATT>
+                                          <ATT name="status">1970354901745664</ATT>
+                                        </ATTRIBUTES>
+                                        <DEPENDENCIES>
+                                          <COMP relation="Link">
+                                            <COMPID uid="d8f5230f-4246-4875-b510-b84483ba1e26" mc="Standard.Connector" name=""></COMPID>
+                                          </COMP>
+                                          <COMP relation="Opposite">
+                                            <COMPID uid="7b6993ea-9f3b-4e4b-b9fa-725566adfff7" mc="Standard.ConnectorEnd" name=""></COMPID>
+                                          </COMP>
+                                        </DEPENDENCIES>
+                                      </OBJECT>
+                                    </COMP>
+                                  </DEPENDENCIES>
+                                </OBJECT>
+                              </COMP>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                        <LINK relation="Extension">
+                          <FOREIGNID uid="281c6cee-4f91-476d-bbed-ac66449f0897" mc="Infrastructure.Stereotype" name="BlockInstance"></FOREIGNID>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID uid="3d803d07-52a2-480a-9cfe-8c4bd4a6a1bb" mc="Standard.BindableInstance" name="p"></ID>
+                      <ATTRIBUTES>
+                        <ATT name="IsConstant">false</ATT>
+                        <ATT name="MultiplicityMin">1</ATT>
+                        <ATT name="MultiplicityMax">1</ATT>
+                        <ATT name="Value"></ATT>
+                        <ATT name="Name">p</ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Base">
+                          <ID uid="815ee4d6-23f5-4f81-bc5a-b567bb22ba2f" mc="Standard.Class" name="Pipe"></ID>
+                        </LINK>
+                        <COMP relation="Part">
+                          <OBJECT>
+                            <ID uid="9e4f9c20-e32a-4a19-9a87-c0b03bc76181" mc="Standard.Port" name="port"></ID>
+                            <ATTRIBUTES>
+                              <ATT name="IsBehavior">false</ATT>
+                              <ATT name="IsService">true</ATT>
+                              <ATT name="IsConjugated">false</ATT>
+                              <ATT name="Direction">Inout</ATT>
+                              <ATT name="IsConstant">false</ATT>
+                              <ATT name="MultiplicityMin">1</ATT>
+                              <ATT name="MultiplicityMax">1</ATT>
+                              <ATT name="Value"></ATT>
+                              <ATT name="Name">port</ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <LINK relation="RepresentedFeature">
+                                <REFOBJ>
+                                  <ID uid="8cbe0d4b-f6a1-4f01-95ce-b5240c5101c9" mc="Standard.Port" name="t1"></ID>
+                                </REFOBJ>
+                              </LINK>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                          <OBJECT>
+                            <ID uid="671fa0a0-b92d-4e09-aed9-a51bf4816a63" mc="Standard.Port" name="port1"></ID>
+                            <ATTRIBUTES>
+                              <ATT name="IsBehavior">false</ATT>
+                              <ATT name="IsService">true</ATT>
+                              <ATT name="IsConjugated">false</ATT>
+                              <ATT name="Direction">Inout</ATT>
+                              <ATT name="IsConstant">false</ATT>
+                              <ATT name="MultiplicityMin">1</ATT>
+                              <ATT name="MultiplicityMax">1</ATT>
+                              <ATT name="Value"></ATT>
+                              <ATT name="Name">port1</ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <LINK relation="RepresentedFeature">
+                                <REFOBJ>
+                                  <ID uid="10e14efd-5779-424a-bedc-c635eb166fa1" mc="Standard.Port" name="t2"></ID>
+                                </REFOBJ>
+                              </LINK>
+                              <COMP relation="OwnedEnd">
+                                <OBJECT>
+                                  <ID uid="acc73372-d8cc-4416-8a2c-8c1052f4f91a" mc="Standard.ConnectorEnd" name=""></ID>
+                                  <ATTRIBUTES>
+                                    <ATT name="IsOrdered">false</ATT>
+                                    <ATT name="IsUnique">false</ATT>
+                                    <ATT name="MultiplicityMax">1</ATT>
+                                    <ATT name="MultiplicityMin">0</ATT>
+                                    <ATT name="Name"></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES>
+                                    <COMP relation="Link">
+                                      <OBJECT>
+                                        <ID uid="5c45adf4-86e6-413a-ab0a-cc022859065e" mc="Standard.Connector" name=""></ID>
+                                        <ATTRIBUTES>
+                                          <ATT name="Name"></ATT>
+                                          <ATT name="status">1970354901745664</ATT>
+                                        </ATTRIBUTES>
+                                        <DEPENDENCIES></DEPENDENCIES>
+                                      </OBJECT>
+                                    </COMP>
+                                    <LINK relation="Target">
+                                      <REFOBJ>
+                                        <ID uid="b6eb1197-07b8-4518-8516-e2802f94531a" mc="Standard.Port" name="port"></ID>
+                                      </REFOBJ>
+                                    </LINK>
+                                    <COMP relation="Opposite">
+                                      <OBJECT>
+                                        <ID uid="0b9d68ef-d51b-47d7-b765-f7685bdaeedc" mc="Standard.ConnectorEnd" name=""></ID>
+                                        <ATTRIBUTES>
+                                          <ATT name="IsOrdered">false</ATT>
+                                          <ATT name="IsUnique">false</ATT>
+                                          <ATT name="MultiplicityMax">1</ATT>
+                                          <ATT name="MultiplicityMin">0</ATT>
+                                          <ATT name="Name"></ATT>
+                                          <ATT name="status">1970354901745664</ATT>
+                                        </ATTRIBUTES>
+                                        <DEPENDENCIES>
+                                          <COMP relation="Link">
+                                            <COMPID uid="5c45adf4-86e6-413a-ab0a-cc022859065e" mc="Standard.Connector" name=""></COMPID>
+                                          </COMP>
+                                          <COMP relation="Opposite">
+                                            <COMPID uid="acc73372-d8cc-4416-8a2c-8c1052f4f91a" mc="Standard.ConnectorEnd" name=""></COMPID>
+                                          </COMP>
+                                        </DEPENDENCIES>
+                                      </OBJECT>
+                                    </COMP>
+                                  </DEPENDENCIES>
+                                </OBJECT>
+                              </COMP>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                        <LINK relation="Extension">
+                          <FOREIGNID uid="281c6cee-4f91-476d-bbed-ac66449f0897" mc="Infrastructure.Stereotype" name="BlockInstance"></FOREIGNID>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID uid="d3ad2c80-8261-4b89-938b-df90f358e52e" mc="Standard.BindableInstance" name="t2"></ID>
+                      <ATTRIBUTES>
+                        <ATT name="IsConstant">false</ATT>
+                        <ATT name="MultiplicityMin">1</ATT>
+                        <ATT name="MultiplicityMax">1</ATT>
+                        <ATT name="Value"></ATT>
+                        <ATT name="Name">t2</ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Base">
+                          <ID uid="f75431cb-d83c-4b9e-9163-2ae0d6644235" mc="Standard.Class" name="Tank2"></ID>
+                        </LINK>
+                        <COMP relation="Part">
+                          <OBJECT>
+                            <ID uid="b6eb1197-07b8-4518-8516-e2802f94531a" mc="Standard.Port" name="port"></ID>
+                            <ATTRIBUTES>
+                              <ATT name="IsBehavior">false</ATT>
+                              <ATT name="IsService">true</ATT>
+                              <ATT name="IsConjugated">false</ATT>
+                              <ATT name="Direction">Inout</ATT>
+                              <ATT name="IsConstant">false</ATT>
+                              <ATT name="MultiplicityMin">1</ATT>
+                              <ATT name="MultiplicityMax">1</ATT>
+                              <ATT name="Value"></ATT>
+                              <ATT name="Name">port</ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <LINK relation="RepresentedFeature">
+                                <REFOBJ>
+                                  <ID uid="ec46d4fe-6d4b-4e29-be76-018edaf78c75" mc="Standard.Port" name="pipe"></ID>
+                                </REFOBJ>
+                              </LINK>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                          <OBJECT>
+                            <ID uid="833fd4c5-4ea3-4cfd-9e0e-bc9084afb434" mc="Standard.Port" name="port1"></ID>
+                            <ATTRIBUTES>
+                              <ATT name="IsBehavior">false</ATT>
+                              <ATT name="IsService">true</ATT>
+                              <ATT name="IsConjugated">false</ATT>
+                              <ATT name="Direction">Out</ATT>
+                              <ATT name="IsConstant">false</ATT>
+                              <ATT name="MultiplicityMin">1</ATT>
+                              <ATT name="MultiplicityMax">1</ATT>
+                              <ATT name="Value"></ATT>
+                              <ATT name="Name">port1</ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <LINK relation="RepresentedFeature">
+                                <REFOBJ>
+                                  <ID uid="bf750b80-ba7d-4acb-87b5-0aa98d2d0933" mc="Standard.Port" name="out"></ID>
+                                </REFOBJ>
+                              </LINK>
+                              <COMP relation="OwnedEnd">
+                                <OBJECT>
+                                  <ID uid="33d7d2bc-9576-47cb-b8a7-663e358dc5ef" mc="Standard.ConnectorEnd" name=""></ID>
+                                  <ATTRIBUTES>
+                                    <ATT name="IsOrdered">false</ATT>
+                                    <ATT name="IsUnique">false</ATT>
+                                    <ATT name="MultiplicityMax">1</ATT>
+                                    <ATT name="MultiplicityMin">0</ATT>
+                                    <ATT name="Name"></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES>
+                                    <COMP relation="Link">
+                                      <OBJECT>
+                                        <ID uid="fbfec2f1-3b86-4575-9d75-e067d56f9bda" mc="Standard.Connector" name=""></ID>
+                                        <ATTRIBUTES>
+                                          <ATT name="Name"></ATT>
+                                          <ATT name="status">1970354901745664</ATT>
+                                        </ATTRIBUTES>
+                                        <DEPENDENCIES></DEPENDENCIES>
+                                      </OBJECT>
+                                    </COMP>
+                                    <LINK relation="Target">
+                                      <REFOBJ>
+                                        <ID uid="f0c17522-03d2-4595-b1b5-51c67dc9a1cc" mc="Standard.Port" name="Tank2OutFlow"></ID>
+                                      </REFOBJ>
+                                    </LINK>
+                                    <COMP relation="Opposite">
+                                      <OBJECT>
+                                        <ID uid="d1c3379d-cb80-4a1d-b826-1c4a0ff81ecf" mc="Standard.ConnectorEnd" name=""></ID>
+                                        <ATTRIBUTES>
+                                          <ATT name="IsOrdered">false</ATT>
+                                          <ATT name="IsUnique">false</ATT>
+                                          <ATT name="MultiplicityMax">1</ATT>
+                                          <ATT name="MultiplicityMin">0</ATT>
+                                          <ATT name="Name"></ATT>
+                                          <ATT name="status">1970354901745664</ATT>
+                                        </ATTRIBUTES>
+                                        <DEPENDENCIES>
+                                          <COMP relation="Link">
+                                            <COMPID uid="fbfec2f1-3b86-4575-9d75-e067d56f9bda" mc="Standard.Connector" name=""></COMPID>
+                                          </COMP>
+                                          <COMP relation="Opposite">
+                                            <COMPID uid="33d7d2bc-9576-47cb-b8a7-663e358dc5ef" mc="Standard.ConnectorEnd" name=""></COMPID>
+                                          </COMP>
+                                        </DEPENDENCIES>
+                                      </OBJECT>
+                                    </COMP>
+                                  </DEPENDENCIES>
+                                </OBJECT>
+                              </COMP>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                        <LINK relation="Extension">
+                          <FOREIGNID uid="281c6cee-4f91-476d-bbed-ac66449f0897" mc="Infrastructure.Stereotype" name="BlockInstance"></FOREIGNID>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID uid="f0c17522-03d2-4595-b1b5-51c67dc9a1cc" mc="Standard.Port" name="Tank2OutFlow"></ID>
+                      <ATTRIBUTES>
+                        <ATT name="IsBehavior">false</ATT>
+                        <ATT name="IsService">true</ATT>
+                        <ATT name="IsConjugated">false</ATT>
+                        <ATT name="Direction">Out</ATT>
+                        <ATT name="IsConstant">false</ATT>
+                        <ATT name="MultiplicityMin">1</ATT>
+                        <ATT name="MultiplicityMax">1</ATT>
+                        <ATT name="Value"></ATT>
+                        <ATT name="Name">Tank2OutFlow</ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="RepresentedFeature">
+                          <REFOBJ>
+                            <ID uid="a3ec575c-b9e9-4b61-856c-6ab58a383248" mc="Standard.Port" name="Tank2OutFlow"></ID>
+                          </REFOBJ>
+                        </LINK>
+                        <COMP relation="OwnedEnd">
+                          <OBJECT>
+                            <ID uid="dbe3a9ae-403b-47d9-a83d-08dfa22cda6b" mc="Standard.ConnectorEnd" name=""></ID>
+                            <ATTRIBUTES>
+                              <ATT name="IsOrdered">false</ATT>
+                              <ATT name="IsUnique">false</ATT>
+                              <ATT name="MultiplicityMax">1</ATT>
+                              <ATT name="MultiplicityMin">0</ATT>
+                              <ATT name="Name"></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <COMP relation="Link">
+                                <OBJECT>
+                                  <ID uid="4419be2a-a81e-4065-9139-449e5d03e67e" mc="Standard.Connector" name=""></ID>
+                                  <ATTRIBUTES>
+                                    <ATT name="Name"></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES></DEPENDENCIES>
+                                </OBJECT>
+                              </COMP>
+                              <LINK relation="Target">
+                                <REFOBJ>
+                                  <ID uid="d6400b02-8b70-4f47-9653-23a84386a876" mc="Standard.Port" name="inFlow"></ID>
+                                </REFOBJ>
+                              </LINK>
+                              <COMP relation="Opposite">
+                                <OBJECT>
+                                  <ID uid="f39d0b82-d759-4c12-be24-f4ec734fed14" mc="Standard.ConnectorEnd" name=""></ID>
+                                  <ATTRIBUTES>
+                                    <ATT name="IsOrdered">false</ATT>
+                                    <ATT name="IsUnique">false</ATT>
+                                    <ATT name="MultiplicityMax">1</ATT>
+                                    <ATT name="MultiplicityMin">0</ATT>
+                                    <ATT name="Name"></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES>
+                                    <COMP relation="Link">
+                                      <COMPID uid="4419be2a-a81e-4065-9139-449e5d03e67e" mc="Standard.Connector" name=""></COMPID>
+                                    </COMP>
+                                    <COMP relation="Opposite">
+                                      <COMPID uid="dbe3a9ae-403b-47d9-a83d-08dfa22cda6b" mc="Standard.ConnectorEnd" name=""></COMPID>
+                                    </COMP>
+                                  </DEPENDENCIES>
+                                </OBJECT>
+                              </COMP>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                          <OBJECT>
+                            <ID uid="ec55db14-264d-4dc8-9002-6b05c7e910bb" mc="Standard.ConnectorEnd" name=""></ID>
+                            <ATTRIBUTES>
+                              <ATT name="IsOrdered">false</ATT>
+                              <ATT name="IsUnique">false</ATT>
+                              <ATT name="MultiplicityMax">1</ATT>
+                              <ATT name="MultiplicityMin">0</ATT>
+                              <ATT name="Name"></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <COMP relation="Link">
+                                <OBJECT>
+                                  <ID uid="c8b6aff9-7983-4735-a1b5-8681c6990df7" mc="Standard.Connector" name=""></ID>
+                                  <ATTRIBUTES>
+                                    <ATT name="Name"></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES></DEPENDENCIES>
+                                </OBJECT>
+                              </COMP>
+                              <LINK relation="Target">
+                                <REFOBJ>
+                                  <ID uid="1ee7d13b-17e6-4310-93da-e84fbd9949ff" mc="Standard.Port" name="animation.tank2.outflow"></ID>
+                                </REFOBJ>
+                              </LINK>
+                              <COMP relation="Opposite">
+                                <OBJECT>
+                                  <ID uid="5cfefdb7-0a02-4126-94ed-bf4b0464ba9f" mc="Standard.ConnectorEnd" name=""></ID>
+                                  <ATTRIBUTES>
+                                    <ATT name="IsOrdered">false</ATT>
+                                    <ATT name="IsUnique">false</ATT>
+                                    <ATT name="MultiplicityMax">1</ATT>
+                                    <ATT name="MultiplicityMin">0</ATT>
+                                    <ATT name="Name"></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES>
+                                    <COMP relation="Link">
+                                      <COMPID uid="c8b6aff9-7983-4735-a1b5-8681c6990df7" mc="Standard.Connector" name=""></COMPID>
+                                    </COMP>
+                                    <COMP relation="Opposite">
+                                      <COMPID uid="ec55db14-264d-4dc8-9002-6b05c7e910bb" mc="Standard.ConnectorEnd" name=""></COMPID>
+                                    </COMP>
+                                  </DEPENDENCIES>
+                                </OBJECT>
+                              </COMP>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID uid="d9aa79dd-dffa-4cce-abca-8d54880cc173" mc="Standard.Port" name="Tank1InFlow"></ID>
+                      <ATTRIBUTES>
+                        <ATT name="IsBehavior">false</ATT>
+                        <ATT name="IsService">true</ATT>
+                        <ATT name="IsConjugated">false</ATT>
+                        <ATT name="Direction">Out</ATT>
+                        <ATT name="IsConstant">false</ATT>
+                        <ATT name="MultiplicityMin">1</ATT>
+                        <ATT name="MultiplicityMax">1</ATT>
+                        <ATT name="Value"></ATT>
+                        <ATT name="Name">Tank1InFlow</ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="RepresentedFeature">
+                          <REFOBJ>
+                            <ID uid="879f1068-914e-40ad-a6b9-f0edfcfbd1f5" mc="Standard.Port" name="Tank1InFlow"></ID>
+                          </REFOBJ>
+                        </LINK>
+                        <COMP relation="OwnedEnd">
+                          <OBJECT>
+                            <ID uid="0eef4524-5b43-4c9f-8f0f-507548826d32" mc="Standard.ConnectorEnd" name=""></ID>
+                            <ATTRIBUTES>
+                              <ATT name="IsOrdered">false</ATT>
+                              <ATT name="IsUnique">false</ATT>
+                              <ATT name="MultiplicityMax">1</ATT>
+                              <ATT name="MultiplicityMin">0</ATT>
+                              <ATT name="Name"></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <COMP relation="Link">
+                                <OBJECT>
+                                  <ID uid="cbd4b233-96ee-4dda-8645-1281ad865c19" mc="Standard.Connector" name=""></ID>
+                                  <ATTRIBUTES>
+                                    <ATT name="Name"></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES></DEPENDENCIES>
+                                </OBJECT>
+                              </COMP>
+                              <LINK relation="Target">
+                                <REFOBJ>
+                                  <ID uid="b1eda103-b278-4230-9b39-8df085286fbf" mc="Standard.Port" name="animation.tank1.inflow"></ID>
+                                </REFOBJ>
+                              </LINK>
+                              <COMP relation="Opposite">
+                                <OBJECT>
+                                  <ID uid="9471a520-80d5-4a84-80e2-6d381ff85f51" mc="Standard.ConnectorEnd" name=""></ID>
+                                  <ATTRIBUTES>
+                                    <ATT name="IsOrdered">false</ATT>
+                                    <ATT name="IsUnique">false</ATT>
+                                    <ATT name="MultiplicityMax">1</ATT>
+                                    <ATT name="MultiplicityMin">0</ATT>
+                                    <ATT name="Name"></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES>
+                                    <COMP relation="Link">
+                                      <COMPID uid="cbd4b233-96ee-4dda-8645-1281ad865c19" mc="Standard.Connector" name=""></COMPID>
+                                    </COMP>
+                                    <COMP relation="Opposite">
+                                      <COMPID uid="0eef4524-5b43-4c9f-8f0f-507548826d32" mc="Standard.ConnectorEnd" name=""></COMPID>
+                                    </COMP>
+                                  </DEPENDENCIES>
+                                </OBJECT>
+                              </COMP>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID uid="fcd2ed70-7156-4f27-a1ea-80c4d9d7b96c" mc="Standard.Port" name="Tank1WaterLevel"></ID>
+                      <ATTRIBUTES>
+                        <ATT name="IsBehavior">false</ATT>
+                        <ATT name="IsService">true</ATT>
+                        <ATT name="IsConjugated">false</ATT>
+                        <ATT name="Direction">Out</ATT>
+                        <ATT name="IsConstant">false</ATT>
+                        <ATT name="MultiplicityMin">1</ATT>
+                        <ATT name="MultiplicityMax">1</ATT>
+                        <ATT name="Value"></ATT>
+                        <ATT name="Name">Tank1WaterLevel</ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="RepresentedFeature">
+                          <REFOBJ>
+                            <ID uid="d8230fce-09f1-4062-9c02-4baf5a1208db" mc="Standard.Port" name="Tank1WaterLevel"></ID>
+                          </REFOBJ>
+                        </LINK>
+                        <COMP relation="OwnedEnd">
+                          <OBJECT>
+                            <ID uid="97f3cccf-f637-47c4-83d3-2b133a68849d" mc="Standard.ConnectorEnd" name=""></ID>
+                            <ATTRIBUTES>
+                              <ATT name="IsOrdered">false</ATT>
+                              <ATT name="IsUnique">false</ATT>
+                              <ATT name="MultiplicityMax">1</ATT>
+                              <ATT name="MultiplicityMin">0</ATT>
+                              <ATT name="Name"></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <COMP relation="Link">
+                                <OBJECT>
+                                  <ID uid="3fa92e10-a9fe-4534-8105-cf80f55e32ce" mc="Standard.Connector" name=""></ID>
+                                  <ATTRIBUTES>
+                                    <ATT name="Name"></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES></DEPENDENCIES>
+                                </OBJECT>
+                              </COMP>
+                              <LINK relation="Target">
+                                <REFOBJ>
+                                  <ID uid="76e8b9ff-635a-452c-9f31-91b9ecfdb110" mc="Standard.Port" name="animation.tank1.waterlevel"></ID>
+                                </REFOBJ>
+                              </LINK>
+                              <COMP relation="Opposite">
+                                <OBJECT>
+                                  <ID uid="f1de5c58-7efd-41e0-915d-b6e57afdf226" mc="Standard.ConnectorEnd" name=""></ID>
+                                  <ATTRIBUTES>
+                                    <ATT name="IsOrdered">false</ATT>
+                                    <ATT name="IsUnique">false</ATT>
+                                    <ATT name="MultiplicityMax">1</ATT>
+                                    <ATT name="MultiplicityMin">0</ATT>
+                                    <ATT name="Name"></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES>
+                                    <COMP relation="Link">
+                                      <COMPID uid="3fa92e10-a9fe-4534-8105-cf80f55e32ce" mc="Standard.Connector" name=""></COMPID>
+                                    </COMP>
+                                    <COMP relation="Opposite">
+                                      <COMPID uid="97f3cccf-f637-47c4-83d3-2b133a68849d" mc="Standard.ConnectorEnd" name=""></COMPID>
+                                    </COMP>
+                                  </DEPENDENCIES>
+                                </OBJECT>
+                              </COMP>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID uid="19863e04-6485-4ec0-b9d6-077f1a1d645d" mc="Standard.Port" name="Tank2WaterLevel"></ID>
+                      <ATTRIBUTES>
+                        <ATT name="IsBehavior">false</ATT>
+                        <ATT name="IsService">true</ATT>
+                        <ATT name="IsConjugated">false</ATT>
+                        <ATT name="Direction">Out</ATT>
+                        <ATT name="IsConstant">false</ATT>
+                        <ATT name="MultiplicityMin">1</ATT>
+                        <ATT name="MultiplicityMax">1</ATT>
+                        <ATT name="Value"></ATT>
+                        <ATT name="Name">Tank2WaterLevel</ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="RepresentedFeature">
+                          <REFOBJ>
+                            <ID uid="82d635c9-9755-4df2-8202-9768ed74238c" mc="Standard.Port" name="Tank2WaterLevel"></ID>
+                          </REFOBJ>
+                        </LINK>
+                        <COMP relation="OwnedEnd">
+                          <OBJECT>
+                            <ID uid="32e6dfbf-fb3f-4943-9cb9-e666ed07c768" mc="Standard.ConnectorEnd" name=""></ID>
+                            <ATTRIBUTES>
+                              <ATT name="IsOrdered">false</ATT>
+                              <ATT name="IsUnique">false</ATT>
+                              <ATT name="MultiplicityMax">1</ATT>
+                              <ATT name="MultiplicityMin">0</ATT>
+                              <ATT name="Name"></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <COMP relation="Link">
+                                <OBJECT>
+                                  <ID uid="8a02ce95-1a4f-4840-8844-2acbcbc28d2f" mc="Standard.Connector" name=""></ID>
+                                  <ATTRIBUTES>
+                                    <ATT name="Name"></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES></DEPENDENCIES>
+                                </OBJECT>
+                              </COMP>
+                              <LINK relation="Target">
+                                <REFOBJ>
+                                  <ID uid="15ea296e-77a5-4efc-8477-053772529d6a" mc="Standard.Port" name="animation.tank2.waterlevel"></ID>
+                                </REFOBJ>
+                              </LINK>
+                              <COMP relation="Opposite">
+                                <OBJECT>
+                                  <ID uid="f1e2cff8-3c03-417f-b94f-e66f0f486acf" mc="Standard.ConnectorEnd" name=""></ID>
+                                  <ATTRIBUTES>
+                                    <ATT name="IsOrdered">false</ATT>
+                                    <ATT name="IsUnique">false</ATT>
+                                    <ATT name="MultiplicityMax">1</ATT>
+                                    <ATT name="MultiplicityMin">0</ATT>
+                                    <ATT name="Name"></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES>
+                                    <COMP relation="Link">
+                                      <COMPID uid="8a02ce95-1a4f-4840-8844-2acbcbc28d2f" mc="Standard.Connector" name=""></COMPID>
+                                    </COMP>
+                                    <COMP relation="Opposite">
+                                      <COMPID uid="32e6dfbf-fb3f-4943-9cb9-e666ed07c768" mc="Standard.ConnectorEnd" name=""></COMPID>
+                                    </COMP>
+                                  </DEPENDENCIES>
+                                </OBJECT>
+                              </COMP>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="Extension">
+                    <FOREIGNID uid="281c6cee-4f91-476d-bbed-ac66449f0897" mc="Infrastructure.Stereotype" name="BlockInstance"></FOREIGNID>
+                  </LINK>
+                  <COMP relation="Tag">
+                    <OBJECT>
+                      <ID uid="54d2ca1d-b8b6-4f71-886a-333671db0e5e" mc="Infrastructure.TaggedValue" name=""></ID>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <COMP relation="Actual">
+                          <OBJECT>
+                            <ID uid="fb12c31c-f72b-4aeb-96ba-49ad6240d10f" mc="Infrastructure.TagParameter" name=""></ID>
+                            <ATTRIBUTES>
+                              <ATT name="Value">WaterTanks1.fmu</ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES></DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                        <LINK relation="Definition">
+                          <FOREIGNID uid="9196ed71-8e2c-42c3-9b56-5278114d0561" mc="Infrastructure.TagType" name="BlockInstance_path"></FOREIGNID>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID uid="c000aeef-333d-4b1b-8227-77f7e52e6efa" mc="Infrastructure.TaggedValue" name=""></ID>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <COMP relation="Actual">
+                          <OBJECT>
+                            <ID uid="27dc1c53-438d-4040-b3fe-fcad171350ac" mc="Infrastructure.TagParameter" name=""></ID>
+                            <ATTRIBUTES>
+                              <ATT name="Value">{dcd729ec-423a-4a0d-8030-4c42a840abba}</ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES></DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                        <LINK relation="Definition">
+                          <FOREIGNID uid="b954d803-7d16-4b01-9963-98fa15bf8de0" mc="Infrastructure.TagType" name="BlockInstance_guid"></FOREIGNID>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID uid="121dccaf-1b24-454e-8a6d-d4e9b95124c3" mc="Standard.BindableInstance" name="tank3"></ID>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin">1</ATT>
+                  <ATT name="MultiplicityMax">1</ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name">tank3</ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <ID uid="5c0550fa-747f-43f9-af3f-c5a9c8faa752" mc="Standard.Class" name="WaterTanks2"></ID>
+                  </LINK>
+                  <COMP relation="Part">
+                    <OBJECT>
+                      <ID uid="67066830-32ec-4927-a763-21305dc785bd" mc="Standard.BindableInstance" name="d"></ID>
+                      <ATTRIBUTES>
+                        <ATT name="IsConstant">false</ATT>
+                        <ATT name="MultiplicityMin">1</ATT>
+                        <ATT name="MultiplicityMax">1</ATT>
+                        <ATT name="Value"></ATT>
+                        <ATT name="Name">d</ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Base">
+                          <ID uid="95270f59-6718-4725-b385-48c3c7bfb0c6" mc="Standard.Class" name="Drain"></ID>
+                        </LINK>
+                        <COMP relation="Part">
+                          <OBJECT>
+                            <ID uid="9e2b6b8a-dafa-4379-aa46-f5a629a6c2f9" mc="Standard.Port" name="port"></ID>
+                            <ATTRIBUTES>
+                              <ATT name="IsBehavior">false</ATT>
+                              <ATT name="IsService">true</ATT>
+                              <ATT name="IsConjugated">false</ATT>
+                              <ATT name="Direction">In</ATT>
+                              <ATT name="IsConstant">false</ATT>
+                              <ATT name="MultiplicityMin">1</ATT>
+                              <ATT name="MultiplicityMax">1</ATT>
+                              <ATT name="Value"></ATT>
+                              <ATT name="Name">port</ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <LINK relation="RepresentedFeature">
+                                <REFOBJ>
+                                  <ID uid="0cae2d4f-8096-4172-8277-b459d77536bb" mc="Standard.Port" name="in"></ID>
+                                </REFOBJ>
+                              </LINK>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                        <LINK relation="Extension">
+                          <FOREIGNID uid="281c6cee-4f91-476d-bbed-ac66449f0897" mc="Infrastructure.Stereotype" name="BlockInstance"></FOREIGNID>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID uid="008b1eb5-364a-4bff-bf2a-1d73f66740d5" mc="Standard.BindableInstance" name="t3"></ID>
+                      <ATTRIBUTES>
+                        <ATT name="IsConstant">false</ATT>
+                        <ATT name="MultiplicityMin">1</ATT>
+                        <ATT name="MultiplicityMax">1</ATT>
+                        <ATT name="Value"></ATT>
+                        <ATT name="Name">t3</ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Base">
+                          <ID uid="115d235b-b975-4f6a-8300-0b3c91604dc8" mc="Standard.Class" name="Tank3"></ID>
+                        </LINK>
+                        <COMP relation="Part">
+                          <OBJECT>
+                            <ID uid="008a25ae-ae1e-43b5-b292-26b3a0219ada" mc="Standard.Port" name="port"></ID>
+                            <ATTRIBUTES>
+                              <ATT name="IsBehavior">false</ATT>
+                              <ATT name="IsService">true</ATT>
+                              <ATT name="IsConjugated">false</ATT>
+                              <ATT name="Direction">Out</ATT>
+                              <ATT name="IsConstant">false</ATT>
+                              <ATT name="MultiplicityMin">1</ATT>
+                              <ATT name="MultiplicityMax">1</ATT>
+                              <ATT name="Value"></ATT>
+                              <ATT name="Name">port</ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <LINK relation="RepresentedFeature">
+                                <REFOBJ>
+                                  <ID uid="5aff7815-c9c3-4bf7-9bfb-3e3444a9a9be" mc="Standard.Port" name="wout"></ID>
+                                </REFOBJ>
+                              </LINK>
+                              <COMP relation="OwnedEnd">
+                                <OBJECT>
+                                  <ID uid="4e6884cd-bfa8-48a0-8f46-33bfef1241f7" mc="Standard.ConnectorEnd" name=""></ID>
+                                  <ATTRIBUTES>
+                                    <ATT name="IsOrdered">false</ATT>
+                                    <ATT name="IsUnique">false</ATT>
+                                    <ATT name="MultiplicityMax">1</ATT>
+                                    <ATT name="MultiplicityMin">0</ATT>
+                                    <ATT name="Name"></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES>
+                                    <COMP relation="Link">
+                                      <OBJECT>
+                                        <ID uid="674bfdd9-9be1-4cc6-a5ed-fe1168ee84ae" mc="Standard.Connector" name=""></ID>
+                                        <ATTRIBUTES>
+                                          <ATT name="Name"></ATT>
+                                          <ATT name="status">1970354901745664</ATT>
+                                        </ATTRIBUTES>
+                                        <DEPENDENCIES></DEPENDENCIES>
+                                      </OBJECT>
+                                    </COMP>
+                                    <LINK relation="Target">
+                                      <REFOBJ>
+                                        <ID uid="9e2b6b8a-dafa-4379-aa46-f5a629a6c2f9" mc="Standard.Port" name="port"></ID>
+                                      </REFOBJ>
+                                    </LINK>
+                                    <COMP relation="Opposite">
+                                      <OBJECT>
+                                        <ID uid="36127063-9ed4-4f0d-adcd-f93172f7271f" mc="Standard.ConnectorEnd" name=""></ID>
+                                        <ATTRIBUTES>
+                                          <ATT name="IsOrdered">false</ATT>
+                                          <ATT name="IsUnique">false</ATT>
+                                          <ATT name="MultiplicityMax">1</ATT>
+                                          <ATT name="MultiplicityMin">0</ATT>
+                                          <ATT name="Name"></ATT>
+                                          <ATT name="status">1970354901745664</ATT>
+                                        </ATTRIBUTES>
+                                        <DEPENDENCIES>
+                                          <COMP relation="Link">
+                                            <COMPID uid="674bfdd9-9be1-4cc6-a5ed-fe1168ee84ae" mc="Standard.Connector" name=""></COMPID>
+                                          </COMP>
+                                          <COMP relation="Opposite">
+                                            <COMPID uid="4e6884cd-bfa8-48a0-8f46-33bfef1241f7" mc="Standard.ConnectorEnd" name=""></COMPID>
+                                          </COMP>
+                                        </DEPENDENCIES>
+                                      </OBJECT>
+                                    </COMP>
+                                  </DEPENDENCIES>
+                                </OBJECT>
+                              </COMP>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                          <OBJECT>
+                            <ID uid="f2168bdf-8280-48d9-8d9b-12e3b382a30a" mc="Standard.Port" name="port1"></ID>
+                            <ATTRIBUTES>
+                              <ATT name="IsBehavior">false</ATT>
+                              <ATT name="IsService">true</ATT>
+                              <ATT name="IsConjugated">false</ATT>
+                              <ATT name="Direction">In</ATT>
+                              <ATT name="IsConstant">false</ATT>
+                              <ATT name="MultiplicityMin">1</ATT>
+                              <ATT name="MultiplicityMax">1</ATT>
+                              <ATT name="Value"></ATT>
+                              <ATT name="Name">port1</ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <LINK relation="RepresentedFeature">
+                                <REFOBJ>
+                                  <ID uid="61a52a7c-630c-4be6-b89b-42d327926340" mc="Standard.Port" name="cin"></ID>
+                                </REFOBJ>
+                              </LINK>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                          <OBJECT>
+                            <ID uid="583e82ce-981b-4147-8ff3-da42d2e71857" mc="Standard.Port" name="port2"></ID>
+                            <ATTRIBUTES>
+                              <ATT name="IsBehavior">false</ATT>
+                              <ATT name="IsService">true</ATT>
+                              <ATT name="IsConjugated">false</ATT>
+                              <ATT name="Direction">Out</ATT>
+                              <ATT name="IsConstant">false</ATT>
+                              <ATT name="MultiplicityMin">1</ATT>
+                              <ATT name="MultiplicityMax">1</ATT>
+                              <ATT name="Value"></ATT>
+                              <ATT name="Name">port2</ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <LINK relation="RepresentedFeature">
+                                <REFOBJ>
+                                  <ID uid="a57e24e3-d56f-405c-8d0b-12e2486b7a81" mc="Standard.Port" name="cout"></ID>
+                                </REFOBJ>
+                              </LINK>
+                              <COMP relation="OwnedEnd">
+                                <OBJECT>
+                                  <ID uid="dfb187a4-abba-41dc-8420-b0f11dc9f6cf" mc="Standard.ConnectorEnd" name=""></ID>
+                                  <ATTRIBUTES>
+                                    <ATT name="IsOrdered">false</ATT>
+                                    <ATT name="IsUnique">false</ATT>
+                                    <ATT name="MultiplicityMax">1</ATT>
+                                    <ATT name="MultiplicityMin">0</ATT>
+                                    <ATT name="Name"></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES>
+                                    <COMP relation="Link">
+                                      <OBJECT>
+                                        <ID uid="5f4ef8fd-c879-4ea6-a007-9830e8c19379" mc="Standard.Connector" name=""></ID>
+                                        <ATTRIBUTES>
+                                          <ATT name="Name"></ATT>
+                                          <ATT name="status">1970354901745664</ATT>
+                                        </ATTRIBUTES>
+                                        <DEPENDENCIES></DEPENDENCIES>
+                                      </OBJECT>
+                                    </COMP>
+                                    <LINK relation="Target">
+                                      <REFOBJ>
+                                        <ID uid="06b22794-ed04-4d60-9121-7cdc0c833a78" mc="Standard.Port" name="level"></ID>
+                                      </REFOBJ>
+                                    </LINK>
+                                    <COMP relation="Opposite">
+                                      <OBJECT>
+                                        <ID uid="3fd74003-1056-48fd-b45a-0013a811f2da" mc="Standard.ConnectorEnd" name=""></ID>
+                                        <ATTRIBUTES>
+                                          <ATT name="IsOrdered">false</ATT>
+                                          <ATT name="IsUnique">false</ATT>
+                                          <ATT name="MultiplicityMax">1</ATT>
+                                          <ATT name="MultiplicityMin">0</ATT>
+                                          <ATT name="Name"></ATT>
+                                          <ATT name="status">1970354901745664</ATT>
+                                        </ATTRIBUTES>
+                                        <DEPENDENCIES>
+                                          <COMP relation="Link">
+                                            <COMPID uid="5f4ef8fd-c879-4ea6-a007-9830e8c19379" mc="Standard.Connector" name=""></COMPID>
+                                          </COMP>
+                                          <COMP relation="Opposite">
+                                            <COMPID uid="dfb187a4-abba-41dc-8420-b0f11dc9f6cf" mc="Standard.ConnectorEnd" name=""></COMPID>
+                                          </COMP>
+                                        </DEPENDENCIES>
+                                      </OBJECT>
+                                    </COMP>
+                                  </DEPENDENCIES>
+                                </OBJECT>
+                              </COMP>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                          <OBJECT>
+                            <ID uid="87f7f36a-66c5-4a78-b659-b078ef07c717" mc="Standard.Port" name="port3"></ID>
+                            <ATTRIBUTES>
+                              <ATT name="IsBehavior">false</ATT>
+                              <ATT name="IsService">true</ATT>
+                              <ATT name="IsConjugated">false</ATT>
+                              <ATT name="Direction">In</ATT>
+                              <ATT name="IsConstant">false</ATT>
+                              <ATT name="MultiplicityMin">1</ATT>
+                              <ATT name="MultiplicityMax">1</ATT>
+                              <ATT name="Value"></ATT>
+                              <ATT name="Name">port3</ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <LINK relation="RepresentedFeature">
+                                <REFOBJ>
+                                  <ID uid="bcce7d68-50dc-45eb-9047-c9cd9df47633" mc="Standard.Port" name="win"></ID>
+                                </REFOBJ>
+                              </LINK>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                        <LINK relation="Extension">
+                          <FOREIGNID uid="281c6cee-4f91-476d-bbed-ac66449f0897" mc="Infrastructure.Stereotype" name="BlockInstance"></FOREIGNID>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID uid="06b22794-ed04-4d60-9121-7cdc0c833a78" mc="Standard.Port" name="level"></ID>
+                      <ATTRIBUTES>
+                        <ATT name="IsBehavior">false</ATT>
+                        <ATT name="IsService">true</ATT>
+                        <ATT name="IsConjugated">false</ATT>
+                        <ATT name="Direction">Out</ATT>
+                        <ATT name="IsConstant">false</ATT>
+                        <ATT name="MultiplicityMin">1</ATT>
+                        <ATT name="MultiplicityMax">1</ATT>
+                        <ATT name="Value"></ATT>
+                        <ATT name="Name">level</ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="RepresentedFeature">
+                          <REFOBJ>
+                            <ID uid="970d73d5-2010-470f-abed-3de8cd1afd96" mc="Standard.Port" name="level"></ID>
+                          </REFOBJ>
+                        </LINK>
+                        <COMP relation="OwnedEnd">
+                          <OBJECT>
+                            <ID uid="6527cf46-061f-406f-a36c-932195b275cb" mc="Standard.ConnectorEnd" name=""></ID>
+                            <ATTRIBUTES>
+                              <ATT name="IsOrdered">false</ATT>
+                              <ATT name="IsUnique">false</ATT>
+                              <ATT name="MultiplicityMax">1</ATT>
+                              <ATT name="MultiplicityMin">0</ATT>
+                              <ATT name="Name"></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <COMP relation="Link">
+                                <OBJECT>
+                                  <ID uid="6c1e7b00-1f66-461e-b71e-57f75c45f6f4" mc="Standard.Connector" name=""></ID>
+                                  <ATTRIBUTES>
+                                    <ATT name="Name"></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES></DEPENDENCIES>
+                                </OBJECT>
+                              </COMP>
+                              <LINK relation="Target">
+                                <REFOBJ>
+                                  <ID uid="4074c874-794b-481a-a3e4-c7b930d15873" mc="Standard.Port" name="wt3_level"></ID>
+                                </REFOBJ>
+                              </LINK>
+                              <COMP relation="Opposite">
+                                <OBJECT>
+                                  <ID uid="3c3fc105-376f-4d83-a971-6832d52a406f" mc="Standard.ConnectorEnd" name=""></ID>
+                                  <ATTRIBUTES>
+                                    <ATT name="IsOrdered">false</ATT>
+                                    <ATT name="IsUnique">false</ATT>
+                                    <ATT name="MultiplicityMax">1</ATT>
+                                    <ATT name="MultiplicityMin">0</ATT>
+                                    <ATT name="Name"></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES>
+                                    <COMP relation="Link">
+                                      <COMPID uid="6c1e7b00-1f66-461e-b71e-57f75c45f6f4" mc="Standard.Connector" name=""></COMPID>
+                                    </COMP>
+                                    <COMP relation="Opposite">
+                                      <COMPID uid="6527cf46-061f-406f-a36c-932195b275cb" mc="Standard.ConnectorEnd" name=""></COMPID>
+                                    </COMP>
+                                  </DEPENDENCIES>
+                                </OBJECT>
+                              </COMP>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                          <OBJECT>
+                            <ID uid="f6ca3bc0-14dc-4065-8d6e-b9a2e32e5f71" mc="Standard.ConnectorEnd" name=""></ID>
+                            <ATTRIBUTES>
+                              <ATT name="IsOrdered">false</ATT>
+                              <ATT name="IsUnique">false</ATT>
+                              <ATT name="MultiplicityMax">1</ATT>
+                              <ATT name="MultiplicityMin">0</ATT>
+                              <ATT name="Name"></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <COMP relation="Link">
+                                <OBJECT>
+                                  <ID uid="99ef7b01-804e-44c8-adbc-e448e5267b15" mc="Standard.Connector" name=""></ID>
+                                  <ATTRIBUTES>
+                                    <ATT name="Name"></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES></DEPENDENCIES>
+                                </OBJECT>
+                              </COMP>
+                              <LINK relation="Target">
+                                <REFOBJ>
+                                  <ID uid="4bf7c99b-f44c-45c0-ba18-876ef2441497" mc="Standard.Port" name="animation.tank3.waterlevel"></ID>
+                                </REFOBJ>
+                              </LINK>
+                              <COMP relation="Opposite">
+                                <OBJECT>
+                                  <ID uid="7f4c2f96-b89f-4f10-aff2-855f696ed708" mc="Standard.ConnectorEnd" name=""></ID>
+                                  <ATTRIBUTES>
+                                    <ATT name="IsOrdered">false</ATT>
+                                    <ATT name="IsUnique">false</ATT>
+                                    <ATT name="MultiplicityMax">1</ATT>
+                                    <ATT name="MultiplicityMin">0</ATT>
+                                    <ATT name="Name"></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES>
+                                    <COMP relation="Link">
+                                      <COMPID uid="99ef7b01-804e-44c8-adbc-e448e5267b15" mc="Standard.Connector" name=""></COMPID>
+                                    </COMP>
+                                    <COMP relation="Opposite">
+                                      <COMPID uid="f6ca3bc0-14dc-4065-8d6e-b9a2e32e5f71" mc="Standard.ConnectorEnd" name=""></COMPID>
+                                    </COMP>
+                                  </DEPENDENCIES>
+                                </OBJECT>
+                              </COMP>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID uid="d6400b02-8b70-4f47-9653-23a84386a876" mc="Standard.Port" name="inFlow"></ID>
+                      <ATTRIBUTES>
+                        <ATT name="IsBehavior">false</ATT>
+                        <ATT name="IsService">true</ATT>
+                        <ATT name="IsConjugated">false</ATT>
+                        <ATT name="Direction">In</ATT>
+                        <ATT name="IsConstant">false</ATT>
+                        <ATT name="MultiplicityMin">1</ATT>
+                        <ATT name="MultiplicityMax">1</ATT>
+                        <ATT name="Value"></ATT>
+                        <ATT name="Name">inFlow</ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="RepresentedFeature">
+                          <REFOBJ>
+                            <ID uid="2774c998-3350-475f-9ebf-831d32f481bf" mc="Standard.Port" name="inFlow"></ID>
+                          </REFOBJ>
+                        </LINK>
+                        <COMP relation="OwnedEnd">
+                          <OBJECT>
+                            <ID uid="6bf61856-7efc-4e36-b7a0-c86dfc1c0f0f" mc="Standard.ConnectorEnd" name=""></ID>
+                            <ATTRIBUTES>
+                              <ATT name="IsOrdered">false</ATT>
+                              <ATT name="IsUnique">false</ATT>
+                              <ATT name="MultiplicityMax">1</ATT>
+                              <ATT name="MultiplicityMin">0</ATT>
+                              <ATT name="Name"></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <COMP relation="Link">
+                                <OBJECT>
+                                  <ID uid="c4c54fc6-0f86-4eb8-96f9-a45abb79caf9" mc="Standard.Connector" name=""></ID>
+                                  <ATTRIBUTES>
+                                    <ATT name="Name"></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES></DEPENDENCIES>
+                                </OBJECT>
+                              </COMP>
+                              <LINK relation="Target">
+                                <REFOBJ>
+                                  <ID uid="87f7f36a-66c5-4a78-b659-b078ef07c717" mc="Standard.Port" name="port3"></ID>
+                                </REFOBJ>
+                              </LINK>
+                              <COMP relation="Opposite">
+                                <OBJECT>
+                                  <ID uid="a9cbaf5e-6b15-42e4-ac8d-e9f2770fa964" mc="Standard.ConnectorEnd" name=""></ID>
+                                  <ATTRIBUTES>
+                                    <ATT name="IsOrdered">false</ATT>
+                                    <ATT name="IsUnique">false</ATT>
+                                    <ATT name="MultiplicityMax">1</ATT>
+                                    <ATT name="MultiplicityMin">0</ATT>
+                                    <ATT name="Name"></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES>
+                                    <COMP relation="Link">
+                                      <COMPID uid="c4c54fc6-0f86-4eb8-96f9-a45abb79caf9" mc="Standard.Connector" name=""></COMPID>
+                                    </COMP>
+                                    <COMP relation="Opposite">
+                                      <COMPID uid="6bf61856-7efc-4e36-b7a0-c86dfc1c0f0f" mc="Standard.ConnectorEnd" name=""></COMPID>
+                                    </COMP>
+                                  </DEPENDENCIES>
+                                </OBJECT>
+                              </COMP>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID uid="b490dd3c-ee0b-4632-9907-6d093c2f06aa" mc="Standard.Port" name="valveControl"></ID>
+                      <ATTRIBUTES>
+                        <ATT name="IsBehavior">false</ATT>
+                        <ATT name="IsService">true</ATT>
+                        <ATT name="IsConjugated">false</ATT>
+                        <ATT name="Direction">In</ATT>
+                        <ATT name="IsConstant">false</ATT>
+                        <ATT name="MultiplicityMin">1</ATT>
+                        <ATT name="MultiplicityMax">1</ATT>
+                        <ATT name="Value"></ATT>
+                        <ATT name="Name">valveControl</ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="RepresentedFeature">
+                          <REFOBJ>
+                            <ID uid="f2982b90-81f5-4d5d-81e3-aff6b94fcb98" mc="Standard.Port" name="valveControl"></ID>
+                          </REFOBJ>
+                        </LINK>
+                        <COMP relation="OwnedEnd">
+                          <OBJECT>
+                            <ID uid="7ba3c976-5fe3-4a03-8f80-41b502a77001" mc="Standard.ConnectorEnd" name=""></ID>
+                            <ATTRIBUTES>
+                              <ATT name="IsOrdered">false</ATT>
+                              <ATT name="IsUnique">false</ATT>
+                              <ATT name="MultiplicityMax">1</ATT>
+                              <ATT name="MultiplicityMin">0</ATT>
+                              <ATT name="Name"></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <COMP relation="Link">
+                                <OBJECT>
+                                  <ID uid="ad538ff7-1fa7-42dc-9482-92bb66f76b82" mc="Standard.Connector" name=""></ID>
+                                  <ATTRIBUTES>
+                                    <ATT name="Name"></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES></DEPENDENCIES>
+                                </OBJECT>
+                              </COMP>
+                              <LINK relation="Target">
+                                <REFOBJ>
+                                  <ID uid="f2168bdf-8280-48d9-8d9b-12e3b382a30a" mc="Standard.Port" name="port1"></ID>
+                                </REFOBJ>
+                              </LINK>
+                              <COMP relation="Opposite">
+                                <OBJECT>
+                                  <ID uid="7103936d-ee8b-40f0-afc0-a555c69bc82a" mc="Standard.ConnectorEnd" name=""></ID>
+                                  <ATTRIBUTES>
+                                    <ATT name="IsOrdered">false</ATT>
+                                    <ATT name="IsUnique">false</ATT>
+                                    <ATT name="MultiplicityMax">1</ATT>
+                                    <ATT name="MultiplicityMin">0</ATT>
+                                    <ATT name="Name"></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES>
+                                    <COMP relation="Link">
+                                      <COMPID uid="ad538ff7-1fa7-42dc-9482-92bb66f76b82" mc="Standard.Connector" name=""></COMPID>
+                                    </COMP>
+                                    <COMP relation="Opposite">
+                                      <COMPID uid="7ba3c976-5fe3-4a03-8f80-41b502a77001" mc="Standard.ConnectorEnd" name=""></COMPID>
+                                    </COMP>
+                                  </DEPENDENCIES>
+                                </OBJECT>
+                              </COMP>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID uid="dba48284-3d37-4dd8-bad6-3a3864949f45" mc="Standard.Port" name="Tank3OutFlow"></ID>
+                      <ATTRIBUTES>
+                        <ATT name="IsBehavior">false</ATT>
+                        <ATT name="IsService">true</ATT>
+                        <ATT name="IsConjugated">false</ATT>
+                        <ATT name="Direction">Out</ATT>
+                        <ATT name="IsConstant">false</ATT>
+                        <ATT name="MultiplicityMin">1</ATT>
+                        <ATT name="MultiplicityMax">1</ATT>
+                        <ATT name="Value"></ATT>
+                        <ATT name="Name">Tank3OutFlow</ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="RepresentedFeature">
+                          <REFOBJ>
+                            <ID uid="51808b56-969d-494f-9c7c-e2552147688b" mc="Standard.Port" name="Tank3OutFlow"></ID>
+                          </REFOBJ>
+                        </LINK>
+                        <COMP relation="OwnedEnd">
+                          <OBJECT>
+                            <ID uid="334c5722-eef2-438e-a6e5-16f87000931b" mc="Standard.ConnectorEnd" name=""></ID>
+                            <ATTRIBUTES>
+                              <ATT name="IsOrdered">false</ATT>
+                              <ATT name="IsUnique">false</ATT>
+                              <ATT name="MultiplicityMax">1</ATT>
+                              <ATT name="MultiplicityMin">0</ATT>
+                              <ATT name="Name"></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <COMP relation="Link">
+                                <OBJECT>
+                                  <ID uid="c885c26b-66ba-4f3a-aea2-54d9be426f76" mc="Standard.Connector" name=""></ID>
+                                  <ATTRIBUTES>
+                                    <ATT name="Name"></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES></DEPENDENCIES>
+                                </OBJECT>
+                              </COMP>
+                              <LINK relation="Target">
+                                <REFOBJ>
+                                  <ID uid="c06e7380-1bbb-4d44-9e2c-7a032367e59a" mc="Standard.Port" name="animation.tank3.outflow"></ID>
+                                </REFOBJ>
+                              </LINK>
+                              <COMP relation="Opposite">
+                                <OBJECT>
+                                  <ID uid="34184410-fb1d-413b-8b57-3945a172d15c" mc="Standard.ConnectorEnd" name=""></ID>
+                                  <ATTRIBUTES>
+                                    <ATT name="IsOrdered">false</ATT>
+                                    <ATT name="IsUnique">false</ATT>
+                                    <ATT name="MultiplicityMax">1</ATT>
+                                    <ATT name="MultiplicityMin">0</ATT>
+                                    <ATT name="Name"></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES>
+                                    <COMP relation="Link">
+                                      <COMPID uid="c885c26b-66ba-4f3a-aea2-54d9be426f76" mc="Standard.Connector" name=""></COMPID>
+                                    </COMP>
+                                    <COMP relation="Opposite">
+                                      <COMPID uid="334c5722-eef2-438e-a6e5-16f87000931b" mc="Standard.ConnectorEnd" name=""></COMPID>
+                                    </COMP>
+                                  </DEPENDENCIES>
+                                </OBJECT>
+                              </COMP>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID uid="4796f1a6-62ad-437f-a361-593ce0214b97" mc="Standard.Port" name="puddle"></ID>
+                      <ATTRIBUTES>
+                        <ATT name="IsBehavior">false</ATT>
+                        <ATT name="IsService">true</ATT>
+                        <ATT name="IsConjugated">false</ATT>
+                        <ATT name="Direction">Out</ATT>
+                        <ATT name="IsConstant">false</ATT>
+                        <ATT name="MultiplicityMin">1</ATT>
+                        <ATT name="MultiplicityMax">1</ATT>
+                        <ATT name="Value"></ATT>
+                        <ATT name="Name">puddle</ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="RepresentedFeature">
+                          <REFOBJ>
+                            <ID uid="8c0f69d1-bd14-4c36-87a5-909fc49647b2" mc="Standard.Port" name="Puddle"></ID>
+                          </REFOBJ>
+                        </LINK>
+                        <COMP relation="OwnedEnd">
+                          <OBJECT>
+                            <ID uid="b04a98de-c42a-4a47-806a-4abd698600ba" mc="Standard.ConnectorEnd" name=""></ID>
+                            <ATTRIBUTES>
+                              <ATT name="IsOrdered">false</ATT>
+                              <ATT name="IsUnique">false</ATT>
+                              <ATT name="MultiplicityMax">1</ATT>
+                              <ATT name="MultiplicityMin">0</ATT>
+                              <ATT name="Name"></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <COMP relation="Link">
+                                <OBJECT>
+                                  <ID uid="d562d398-94b0-4817-bc94-b85397bc5282" mc="Standard.Connector" name=""></ID>
+                                  <ATTRIBUTES>
+                                    <ATT name="Name"></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES></DEPENDENCIES>
+                                </OBJECT>
+                              </COMP>
+                              <LINK relation="Target">
+                                <REFOBJ>
+                                  <ID uid="900926f8-0243-4710-a63c-750e5053aeda" mc="Standard.Port" name="animation.drain.puddle"></ID>
+                                </REFOBJ>
+                              </LINK>
+                              <COMP relation="Opposite">
+                                <OBJECT>
+                                  <ID uid="fcf907be-9d2a-47dd-b9fa-235f99e8ccc8" mc="Standard.ConnectorEnd" name=""></ID>
+                                  <ATTRIBUTES>
+                                    <ATT name="IsOrdered">false</ATT>
+                                    <ATT name="IsUnique">false</ATT>
+                                    <ATT name="MultiplicityMax">1</ATT>
+                                    <ATT name="MultiplicityMin">0</ATT>
+                                    <ATT name="Name"></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES>
+                                    <COMP relation="Link">
+                                      <COMPID uid="d562d398-94b0-4817-bc94-b85397bc5282" mc="Standard.Connector" name=""></COMPID>
+                                    </COMP>
+                                    <COMP relation="Opposite">
+                                      <COMPID uid="b04a98de-c42a-4a47-806a-4abd698600ba" mc="Standard.ConnectorEnd" name=""></COMPID>
+                                    </COMP>
+                                  </DEPENDENCIES>
+                                </OBJECT>
+                              </COMP>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="Extension">
+                    <FOREIGNID uid="281c6cee-4f91-476d-bbed-ac66449f0897" mc="Infrastructure.Stereotype" name="BlockInstance"></FOREIGNID>
+                  </LINK>
+                  <COMP relation="Tag">
+                    <OBJECT>
+                      <ID uid="dcb36b71-30d2-4955-9507-ee720e40c4ab" mc="Infrastructure.TaggedValue" name=""></ID>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <COMP relation="Actual">
+                          <OBJECT>
+                            <ID uid="eb487ee6-6aae-4650-aa84-7688e7ad7dce" mc="Infrastructure.TagParameter" name=""></ID>
+                            <ATTRIBUTES>
+                              <ATT name="Value">WaterTanks2.fmu</ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES></DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                        <LINK relation="Definition">
+                          <FOREIGNID uid="9196ed71-8e2c-42c3-9b56-5278114d0561" mc="Infrastructure.TagType" name="BlockInstance_path"></FOREIGNID>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID uid="8101ab7c-5bd7-422a-923b-75cd22d87c56" mc="Infrastructure.TaggedValue" name=""></ID>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <COMP relation="Actual">
+                          <OBJECT>
+                            <ID uid="a064084a-aff3-4267-b6df-e8fac74a492c" mc="Infrastructure.TagParameter" name=""></ID>
+                            <ATTRIBUTES>
+                              <ATT name="Value">{25941611-1350-4ca2-8fe8-85d9193c14fd}</ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES></DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                        <LINK relation="Definition">
+                          <FOREIGNID uid="b954d803-7d16-4b01-9963-98fa15bf8de0" mc="Infrastructure.TagType" name="BlockInstance_guid"></FOREIGNID>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID uid="52e09e66-88f2-4d05-b94e-cec56a142e57" mc="Standard.BindableInstance" name="controller"></ID>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin">1</ATT>
+                  <ATT name="MultiplicityMax">1</ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name">controller</ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <ID uid="4de5619d-46c5-4911-b3dc-5c9416c81d22" mc="Standard.Class" name="Controller"></ID>
+                  </LINK>
+                  <COMP relation="Part">
+                    <OBJECT>
+                      <ID uid="31052868-3f28-42ca-ba91-84919219a713" mc="Standard.Port" name="wt3_valve"></ID>
+                      <ATTRIBUTES>
+                        <ATT name="IsBehavior">false</ATT>
+                        <ATT name="IsService">true</ATT>
+                        <ATT name="IsConjugated">false</ATT>
+                        <ATT name="Direction">Out</ATT>
+                        <ATT name="IsConstant">false</ATT>
+                        <ATT name="MultiplicityMin">1</ATT>
+                        <ATT name="MultiplicityMax">1</ATT>
+                        <ATT name="Value"></ATT>
+                        <ATT name="Name">wt3_valve</ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="RepresentedFeature">
+                          <REFOBJ>
+                            <ID uid="2fcc05bd-cce2-456b-8876-646c5e310460" mc="Standard.Port" name="wt3_valve"></ID>
+                          </REFOBJ>
+                        </LINK>
+                        <COMP relation="OwnedEnd">
+                          <OBJECT>
+                            <ID uid="04f20d8b-4c7f-4647-8533-7a3f4a829ac5" mc="Standard.ConnectorEnd" name=""></ID>
+                            <ATTRIBUTES>
+                              <ATT name="IsOrdered">false</ATT>
+                              <ATT name="IsUnique">false</ATT>
+                              <ATT name="MultiplicityMax">1</ATT>
+                              <ATT name="MultiplicityMin">0</ATT>
+                              <ATT name="Name"></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <COMP relation="Link">
+                                <OBJECT>
+                                  <ID uid="2f63de82-1429-412b-bda9-e67b0e32e672" mc="Standard.Connector" name=""></ID>
+                                  <ATTRIBUTES>
+                                    <ATT name="Name"></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES></DEPENDENCIES>
+                                </OBJECT>
+                              </COMP>
+                              <LINK relation="Target">
+                                <REFOBJ>
+                                  <ID uid="b490dd3c-ee0b-4632-9907-6d093c2f06aa" mc="Standard.Port" name="valveControl"></ID>
+                                </REFOBJ>
+                              </LINK>
+                              <COMP relation="Opposite">
+                                <OBJECT>
+                                  <ID uid="08364915-2d36-4749-8749-d57304c94f7a" mc="Standard.ConnectorEnd" name=""></ID>
+                                  <ATTRIBUTES>
+                                    <ATT name="IsOrdered">false</ATT>
+                                    <ATT name="IsUnique">false</ATT>
+                                    <ATT name="MultiplicityMax">1</ATT>
+                                    <ATT name="MultiplicityMin">0</ATT>
+                                    <ATT name="Name"></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES>
+                                    <COMP relation="Link">
+                                      <COMPID uid="2f63de82-1429-412b-bda9-e67b0e32e672" mc="Standard.Connector" name=""></COMPID>
+                                    </COMP>
+                                    <COMP relation="Opposite">
+                                      <COMPID uid="04f20d8b-4c7f-4647-8533-7a3f4a829ac5" mc="Standard.ConnectorEnd" name=""></COMPID>
+                                    </COMP>
+                                  </DEPENDENCIES>
+                                </OBJECT>
+                              </COMP>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                          <OBJECT>
+                            <ID uid="aa4f6daf-c3ae-4ee3-8832-34cad3b0957c" mc="Standard.ConnectorEnd" name=""></ID>
+                            <ATTRIBUTES>
+                              <ATT name="IsOrdered">false</ATT>
+                              <ATT name="IsUnique">false</ATT>
+                              <ATT name="MultiplicityMax">1</ATT>
+                              <ATT name="MultiplicityMin">0</ATT>
+                              <ATT name="Name"></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <COMP relation="Link">
+                                <OBJECT>
+                                  <ID uid="f163dbfd-cbe5-405a-be48-70acaa1eac47" mc="Standard.Connector" name=""></ID>
+                                  <ATTRIBUTES>
+                                    <ATT name="Name"></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES></DEPENDENCIES>
+                                </OBJECT>
+                              </COMP>
+                              <LINK relation="Target">
+                                <REFOBJ>
+                                  <ID uid="3af343d3-e7db-464f-8408-f8e216f9b003" mc="Standard.Port" name="animation.tank3.valve.control"></ID>
+                                </REFOBJ>
+                              </LINK>
+                              <COMP relation="Opposite">
+                                <OBJECT>
+                                  <ID uid="b0c286b2-4124-44af-b5e5-61b89f1087b2" mc="Standard.ConnectorEnd" name=""></ID>
+                                  <ATTRIBUTES>
+                                    <ATT name="IsOrdered">false</ATT>
+                                    <ATT name="IsUnique">false</ATT>
+                                    <ATT name="MultiplicityMax">1</ATT>
+                                    <ATT name="MultiplicityMin">0</ATT>
+                                    <ATT name="Name"></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES>
+                                    <COMP relation="Link">
+                                      <COMPID uid="f163dbfd-cbe5-405a-be48-70acaa1eac47" mc="Standard.Connector" name=""></COMPID>
+                                    </COMP>
+                                    <COMP relation="Opposite">
+                                      <COMPID uid="aa4f6daf-c3ae-4ee3-8832-34cad3b0957c" mc="Standard.ConnectorEnd" name=""></COMPID>
+                                    </COMP>
+                                  </DEPENDENCIES>
+                                </OBJECT>
+                              </COMP>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID uid="4074c874-794b-481a-a3e4-c7b930d15873" mc="Standard.Port" name="wt3_level"></ID>
+                      <ATTRIBUTES>
+                        <ATT name="IsBehavior">false</ATT>
+                        <ATT name="IsService">true</ATT>
+                        <ATT name="IsConjugated">false</ATT>
+                        <ATT name="Direction">In</ATT>
+                        <ATT name="IsConstant">false</ATT>
+                        <ATT name="MultiplicityMin">1</ATT>
+                        <ATT name="MultiplicityMax">1</ATT>
+                        <ATT name="Value"></ATT>
+                        <ATT name="Name">wt3_level</ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="RepresentedFeature">
+                          <REFOBJ>
+                            <ID uid="379fd392-0f79-4e8d-9995-192e257bcb0d" mc="Standard.Port" name="wt3_level"></ID>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="Extension">
+                    <FOREIGNID uid="281c6cee-4f91-476d-bbed-ac66449f0897" mc="Infrastructure.Stereotype" name="BlockInstance"></FOREIGNID>
+                  </LINK>
+                  <COMP relation="Tag">
+                    <OBJECT>
+                      <ID uid="00290318-e96b-4a6d-975d-133db2f08369" mc="Infrastructure.TaggedValue" name=""></ID>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <COMP relation="Actual">
+                          <OBJECT>
+                            <ID uid="78c10411-a506-400a-8298-d0202100f827" mc="Infrastructure.TagParameter" name=""></ID>
+                            <ATTRIBUTES>
+                              <ATT name="Value">WaterTankController.fmu</ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES></DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                        <LINK relation="Definition">
+                          <FOREIGNID uid="9196ed71-8e2c-42c3-9b56-5278114d0561" mc="Infrastructure.TagType" name="BlockInstance_path"></FOREIGNID>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID uid="ab6b9e55-a3a9-4dfd-9a44-4516136a9765" mc="Infrastructure.TaggedValue" name=""></ID>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <COMP relation="Actual">
+                          <OBJECT>
+                            <ID uid="23246046-e546-4312-8613-6158e7e4a4e8" mc="Infrastructure.TagParameter" name=""></ID>
+                            <ATTRIBUTES>
+                              <ATT name="Value">{8c4e810f-3df3-4a00-8276-176fa3c9f003}</ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES></DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                        <LINK relation="Definition">
+                          <FOREIGNID uid="b954d803-7d16-4b01-9963-98fa15bf8de0" mc="Infrastructure.TagType" name="BlockInstance_guid"></FOREIGNID>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID uid="12d4a7a8-fe51-4ad4-aa64-f2262e4e8777" mc="Standard.BindableInstance" name="3DAnimation"></ID>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin">1</ATT>
+                  <ATT name="MultiplicityMax">1</ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name">3DAnimation</ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <ID uid="2ffc3bd3-cb7f-440c-a8be-bb82bba9ec82" mc="Standard.Class" name="3DAnimation"></ID>
+                  </LINK>
+                  <COMP relation="Part">
+                    <OBJECT>
+                      <ID uid="b1eda103-b278-4230-9b39-8df085286fbf" mc="Standard.Port" name="animation.tank1.inflow"></ID>
+                      <ATTRIBUTES>
+                        <ATT name="IsBehavior">false</ATT>
+                        <ATT name="IsService">true</ATT>
+                        <ATT name="IsConjugated">false</ATT>
+                        <ATT name="Direction">In</ATT>
+                        <ATT name="IsConstant">false</ATT>
+                        <ATT name="MultiplicityMin">1</ATT>
+                        <ATT name="MultiplicityMax">1</ATT>
+                        <ATT name="Value"></ATT>
+                        <ATT name="Name">animation.tank1.inflow</ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="RepresentedFeature">
+                          <REFOBJ>
+                            <ID uid="316164cf-e61f-4dd8-87c2-7794ef4fa727" mc="Standard.Port" name="Tank1InFlow"></ID>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID uid="76e8b9ff-635a-452c-9f31-91b9ecfdb110" mc="Standard.Port" name="animation.tank1.waterlevel"></ID>
+                      <ATTRIBUTES>
+                        <ATT name="IsBehavior">false</ATT>
+                        <ATT name="IsService">true</ATT>
+                        <ATT name="IsConjugated">false</ATT>
+                        <ATT name="Direction">In</ATT>
+                        <ATT name="IsConstant">false</ATT>
+                        <ATT name="MultiplicityMin">1</ATT>
+                        <ATT name="MultiplicityMax">1</ATT>
+                        <ATT name="Value"></ATT>
+                        <ATT name="Name">animation.tank1.waterlevel</ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="RepresentedFeature">
+                          <REFOBJ>
+                            <ID uid="9ef1badc-056f-4082-9bc9-fe5db5fb83ce" mc="Standard.Port" name="Tank1WaterLevel"></ID>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID uid="15ea296e-77a5-4efc-8477-053772529d6a" mc="Standard.Port" name="animation.tank2.waterlevel"></ID>
+                      <ATTRIBUTES>
+                        <ATT name="IsBehavior">false</ATT>
+                        <ATT name="IsService">true</ATT>
+                        <ATT name="IsConjugated">false</ATT>
+                        <ATT name="Direction">In</ATT>
+                        <ATT name="IsConstant">false</ATT>
+                        <ATT name="MultiplicityMin">1</ATT>
+                        <ATT name="MultiplicityMax">1</ATT>
+                        <ATT name="Value"></ATT>
+                        <ATT name="Name">animation.tank2.waterlevel</ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="RepresentedFeature">
+                          <REFOBJ>
+                            <ID uid="e3b50e60-6d52-4ad2-bf1b-7c7601d6e8a5" mc="Standard.Port" name="Tank2WaterLevel"></ID>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID uid="1ee7d13b-17e6-4310-93da-e84fbd9949ff" mc="Standard.Port" name="animation.tank2.outflow"></ID>
+                      <ATTRIBUTES>
+                        <ATT name="IsBehavior">false</ATT>
+                        <ATT name="IsService">true</ATT>
+                        <ATT name="IsConjugated">false</ATT>
+                        <ATT name="Direction">In</ATT>
+                        <ATT name="IsConstant">false</ATT>
+                        <ATT name="MultiplicityMin">1</ATT>
+                        <ATT name="MultiplicityMax">1</ATT>
+                        <ATT name="Value"></ATT>
+                        <ATT name="Name">animation.tank2.outflow</ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="RepresentedFeature">
+                          <REFOBJ>
+                            <ID uid="62d2efcf-63d7-4023-a039-ebaa78b1257d" mc="Standard.Port" name="Tank2OutFlow"></ID>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID uid="c06e7380-1bbb-4d44-9e2c-7a032367e59a" mc="Standard.Port" name="animation.tank3.outflow"></ID>
+                      <ATTRIBUTES>
+                        <ATT name="IsBehavior">false</ATT>
+                        <ATT name="IsService">true</ATT>
+                        <ATT name="IsConjugated">false</ATT>
+                        <ATT name="Direction">In</ATT>
+                        <ATT name="IsConstant">false</ATT>
+                        <ATT name="MultiplicityMin">1</ATT>
+                        <ATT name="MultiplicityMax">1</ATT>
+                        <ATT name="Value"></ATT>
+                        <ATT name="Name">animation.tank3.outflow</ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="RepresentedFeature">
+                          <REFOBJ>
+                            <ID uid="44ba971a-a617-4cc2-88d1-136e2a6d75ce" mc="Standard.Port" name="Tank3OutFlow"></ID>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID uid="900926f8-0243-4710-a63c-750e5053aeda" mc="Standard.Port" name="animation.drain.puddle"></ID>
+                      <ATTRIBUTES>
+                        <ATT name="IsBehavior">false</ATT>
+                        <ATT name="IsService">true</ATT>
+                        <ATT name="IsConjugated">false</ATT>
+                        <ATT name="Direction">In</ATT>
+                        <ATT name="IsConstant">false</ATT>
+                        <ATT name="MultiplicityMin">1</ATT>
+                        <ATT name="MultiplicityMax">1</ATT>
+                        <ATT name="Value"></ATT>
+                        <ATT name="Name">animation.drain.puddle</ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="RepresentedFeature">
+                          <REFOBJ>
+                            <ID uid="1d2ba387-c320-47ce-9852-5705781e6e70" mc="Standard.Port" name="PuddleSize"></ID>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID uid="4bf7c99b-f44c-45c0-ba18-876ef2441497" mc="Standard.Port" name="animation.tank3.waterlevel"></ID>
+                      <ATTRIBUTES>
+                        <ATT name="IsBehavior">false</ATT>
+                        <ATT name="IsService">true</ATT>
+                        <ATT name="IsConjugated">false</ATT>
+                        <ATT name="Direction">In</ATT>
+                        <ATT name="IsConstant">false</ATT>
+                        <ATT name="MultiplicityMin">1</ATT>
+                        <ATT name="MultiplicityMax">1</ATT>
+                        <ATT name="Value"></ATT>
+                        <ATT name="Name">animation.tank3.waterlevel</ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="RepresentedFeature">
+                          <REFOBJ>
+                            <ID uid="ad1bb797-4162-416a-b071-678de70bf284" mc="Standard.Port" name="Tank3WaterLevel"></ID>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID uid="3af343d3-e7db-464f-8408-f8e216f9b003" mc="Standard.Port" name="animation.tank3.valve.control"></ID>
+                      <ATTRIBUTES>
+                        <ATT name="IsBehavior">false</ATT>
+                        <ATT name="IsService">true</ATT>
+                        <ATT name="IsConjugated">false</ATT>
+                        <ATT name="Direction">In</ATT>
+                        <ATT name="IsConstant">false</ATT>
+                        <ATT name="MultiplicityMin">1</ATT>
+                        <ATT name="MultiplicityMax">1</ATT>
+                        <ATT name="Value"></ATT>
+                        <ATT name="Name">animation.tank3.valve.control</ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="RepresentedFeature">
+                          <REFOBJ>
+                            <ID uid="f803adbf-b1cf-454d-9f95-79190695396e" mc="Standard.Port" name="Tank3Valve"></ID>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="Extension">
+                    <FOREIGNID uid="281c6cee-4f91-476d-bbed-ac66449f0897" mc="Infrastructure.Stereotype" name="BlockInstance"></FOREIGNID>
+                  </LINK>
+                  <COMP relation="Tag">
+                    <OBJECT>
+                      <ID uid="aafa859e-0f57-4797-a47f-6a1573cc1123" mc="Infrastructure.TaggedValue" name=""></ID>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <COMP relation="Actual">
+                          <OBJECT>
+                            <ID uid="b01f13b4-f9e2-4430-b0fa-f0a88fa3d8fd" mc="Infrastructure.TagParameter" name=""></ID>
+                            <ATTRIBUTES>
+                              <ATT name="Value">3DAnimationFMU.fmu</ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES></DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                        <LINK relation="Definition">
+                          <FOREIGNID uid="9196ed71-8e2c-42c3-9b56-5278114d0561" mc="Infrastructure.TagType" name="BlockInstance_path"></FOREIGNID>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID uid="b7cf5186-2b3a-494a-9a38-07d7beae37db" mc="Infrastructure.TaggedValue" name=""></ID>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <COMP relation="Actual">
+                          <OBJECT>
+                            <ID uid="caa85fae-40d8-4805-be7a-e866dbc91600" mc="Infrastructure.TagParameter" name=""></ID>
+                            <ATTRIBUTES>
+                              <ATT name="Value">{946f9503-6eb1-41de-8ad1-5e0b8fc5ee34}</ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES></DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                        <LINK relation="Definition">
+                          <FOREIGNID uid="b954d803-7d16-4b01-9963-98fa15bf8de0" mc="Infrastructure.TagType" name="BlockInstance_guid"></FOREIGNID>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Extension">
+              <FOREIGNID uid="281c6cee-4f91-476d-bbed-ac66449f0897" mc="Infrastructure.Stereotype" name="BlockInstance"></FOREIGNID>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID uid="4130508c-a402-4789-9e28-6a258a6eee20" mc="Standard.Instance" name="Non-3D"></ID>
+          <ATTRIBUTES>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin">1</ATT>
+            <ATT name="MultiplicityMax">1</ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name">Non-3D</ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Base">
+              <ID uid="f0197dde-1d9f-4e7a-a5ef-ecb0b0f9cede" mc="Standard.Class" name="Water Tank System"></ID>
+            </LINK>
+            <COMP relation="Part">
+              <OBJECT>
+                <ID uid="6e148f54-e050-4ba9-b56c-0912d0016b95" mc="Standard.BindableInstance" name="wts2"></ID>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin">1</ATT>
+                  <ATT name="MultiplicityMax">1</ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name">wts2</ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <ID uid="5c0550fa-747f-43f9-af3f-c5a9c8faa752" mc="Standard.Class" name="WaterTanks2"></ID>
+                  </LINK>
+                  <COMP relation="Part">
+                    <OBJECT>
+                      <ID uid="70ac58e3-6ccd-4507-bf1f-86d81541d203" mc="Standard.Port" name="inFlow"></ID>
+                      <ATTRIBUTES>
+                        <ATT name="IsBehavior">false</ATT>
+                        <ATT name="IsService">true</ATT>
+                        <ATT name="IsConjugated">false</ATT>
+                        <ATT name="Direction">In</ATT>
+                        <ATT name="IsConstant">false</ATT>
+                        <ATT name="MultiplicityMin">1</ATT>
+                        <ATT name="MultiplicityMax">1</ATT>
+                        <ATT name="Value"></ATT>
+                        <ATT name="Name">inFlow</ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="RepresentedFeature">
+                          <REFOBJ>
+                            <ID uid="2774c998-3350-475f-9ebf-831d32f481bf" mc="Standard.Port" name="inFlow"></ID>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID uid="dbec6840-0453-42bb-b46a-b7f2274d9b52" mc="Standard.Port" name="valveControl"></ID>
+                      <ATTRIBUTES>
+                        <ATT name="IsBehavior">false</ATT>
+                        <ATT name="IsService">true</ATT>
+                        <ATT name="IsConjugated">false</ATT>
+                        <ATT name="Direction">In</ATT>
+                        <ATT name="IsConstant">false</ATT>
+                        <ATT name="MultiplicityMin">1</ATT>
+                        <ATT name="MultiplicityMax">1</ATT>
+                        <ATT name="Value"></ATT>
+                        <ATT name="Name">valveControl</ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="RepresentedFeature">
+                          <REFOBJ>
+                            <ID uid="f2982b90-81f5-4d5d-81e3-aff6b94fcb98" mc="Standard.Port" name="valveControl"></ID>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID uid="96db057d-3e40-468c-8c1e-85a34dd375cc" mc="Standard.Port" name="level"></ID>
+                      <ATTRIBUTES>
+                        <ATT name="IsBehavior">false</ATT>
+                        <ATT name="IsService">true</ATT>
+                        <ATT name="IsConjugated">false</ATT>
+                        <ATT name="Direction">Out</ATT>
+                        <ATT name="IsConstant">false</ATT>
+                        <ATT name="MultiplicityMin">1</ATT>
+                        <ATT name="MultiplicityMax">1</ATT>
+                        <ATT name="Value"></ATT>
+                        <ATT name="Name">level</ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="RepresentedFeature">
+                          <REFOBJ>
+                            <ID uid="970d73d5-2010-470f-abed-3de8cd1afd96" mc="Standard.Port" name="level"></ID>
+                          </REFOBJ>
+                        </LINK>
+                        <COMP relation="OwnedEnd">
+                          <OBJECT>
+                            <ID uid="83dca9d7-2808-4de0-96ce-10f96fe76688" mc="Standard.ConnectorEnd" name=""></ID>
+                            <ATTRIBUTES>
+                              <ATT name="IsOrdered">false</ATT>
+                              <ATT name="IsUnique">false</ATT>
+                              <ATT name="MultiplicityMax">1</ATT>
+                              <ATT name="MultiplicityMin">0</ATT>
+                              <ATT name="Name"></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <COMP relation="Link">
+                                <OBJECT>
+                                  <ID uid="680d1b77-0ca0-47fe-bf59-922d914bb4ff" mc="Standard.Connector" name=""></ID>
+                                  <ATTRIBUTES>
+                                    <ATT name="Name"></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES></DEPENDENCIES>
+                                </OBJECT>
+                              </COMP>
+                              <LINK relation="Target">
+                                <REFOBJ>
+                                  <ID uid="b6d77319-f93e-476d-8d24-f7f47da7465a" mc="Standard.Port" name="wt3_level"></ID>
+                                </REFOBJ>
+                              </LINK>
+                              <COMP relation="Opposite">
+                                <OBJECT>
+                                  <ID uid="d30f9bd1-ce98-4828-8d46-707aaeb7241d" mc="Standard.ConnectorEnd" name=""></ID>
+                                  <ATTRIBUTES>
+                                    <ATT name="IsOrdered">false</ATT>
+                                    <ATT name="IsUnique">false</ATT>
+                                    <ATT name="MultiplicityMax">1</ATT>
+                                    <ATT name="MultiplicityMin">0</ATT>
+                                    <ATT name="Name"></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES>
+                                    <COMP relation="Link">
+                                      <COMPID uid="680d1b77-0ca0-47fe-bf59-922d914bb4ff" mc="Standard.Connector" name=""></COMPID>
+                                    </COMP>
+                                    <COMP relation="Opposite">
+                                      <COMPID uid="83dca9d7-2808-4de0-96ce-10f96fe76688" mc="Standard.ConnectorEnd" name=""></COMPID>
+                                    </COMP>
+                                  </DEPENDENCIES>
+                                </OBJECT>
+                              </COMP>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="Extension">
+                    <FOREIGNID uid="281c6cee-4f91-476d-bbed-ac66449f0897" mc="Infrastructure.Stereotype" name="BlockInstance"></FOREIGNID>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID uid="91bf88cc-0e76-4b5c-aba0-21d4a05d19c4" mc="Standard.BindableInstance" name="wts1"></ID>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin">1</ATT>
+                  <ATT name="MultiplicityMax">1</ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name">wts1</ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <ID uid="71502a6a-7153-40a1-a8ba-aa45ca56c529" mc="Standard.Class" name="WaterTanks1"></ID>
+                  </LINK>
+                  <COMP relation="Part">
+                    <OBJECT>
+                      <ID uid="db165977-e695-46d8-b3d9-ea02cbb90f13" mc="Standard.Port" name="Tank2OutFlow"></ID>
+                      <ATTRIBUTES>
+                        <ATT name="IsBehavior">false</ATT>
+                        <ATT name="IsService">true</ATT>
+                        <ATT name="IsConjugated">false</ATT>
+                        <ATT name="Direction">Out</ATT>
+                        <ATT name="IsConstant">false</ATT>
+                        <ATT name="MultiplicityMin">1</ATT>
+                        <ATT name="MultiplicityMax">1</ATT>
+                        <ATT name="Value"></ATT>
+                        <ATT name="Name">Tank2OutFlow</ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="RepresentedFeature">
+                          <REFOBJ>
+                            <ID uid="a3ec575c-b9e9-4b61-856c-6ab58a383248" mc="Standard.Port" name="Tank2OutFlow"></ID>
+                          </REFOBJ>
+                        </LINK>
+                        <COMP relation="OwnedEnd">
+                          <OBJECT>
+                            <ID uid="ba360be3-0d0a-4c04-91e2-8d1f0b22a814" mc="Standard.ConnectorEnd" name=""></ID>
+                            <ATTRIBUTES>
+                              <ATT name="IsOrdered">false</ATT>
+                              <ATT name="IsUnique">false</ATT>
+                              <ATT name="MultiplicityMax">1</ATT>
+                              <ATT name="MultiplicityMin">0</ATT>
+                              <ATT name="Name"></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <COMP relation="Link">
+                                <OBJECT>
+                                  <ID uid="c826d035-ece8-4d90-a6d9-685d6f726768" mc="Standard.Connector" name=""></ID>
+                                  <ATTRIBUTES>
+                                    <ATT name="Name"></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES></DEPENDENCIES>
+                                </OBJECT>
+                              </COMP>
+                              <LINK relation="Target">
+                                <REFOBJ>
+                                  <ID uid="70ac58e3-6ccd-4507-bf1f-86d81541d203" mc="Standard.Port" name="inFlow"></ID>
+                                </REFOBJ>
+                              </LINK>
+                              <COMP relation="Opposite">
+                                <OBJECT>
+                                  <ID uid="e2d6a633-95e5-44f5-a74c-c0394eb2116d" mc="Standard.ConnectorEnd" name=""></ID>
+                                  <ATTRIBUTES>
+                                    <ATT name="IsOrdered">false</ATT>
+                                    <ATT name="IsUnique">false</ATT>
+                                    <ATT name="MultiplicityMax">1</ATT>
+                                    <ATT name="MultiplicityMin">0</ATT>
+                                    <ATT name="Name"></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES>
+                                    <COMP relation="Link">
+                                      <COMPID uid="c826d035-ece8-4d90-a6d9-685d6f726768" mc="Standard.Connector" name=""></COMPID>
+                                    </COMP>
+                                    <COMP relation="Opposite">
+                                      <COMPID uid="ba360be3-0d0a-4c04-91e2-8d1f0b22a814" mc="Standard.ConnectorEnd" name=""></COMPID>
+                                    </COMP>
+                                  </DEPENDENCIES>
+                                </OBJECT>
+                              </COMP>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="Extension">
+                    <FOREIGNID uid="281c6cee-4f91-476d-bbed-ac66449f0897" mc="Infrastructure.Stereotype" name="BlockInstance"></FOREIGNID>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID uid="ad28ea38-7e3d-4324-8ac4-748cfe3b3a4e" mc="Standard.BindableInstance" name="c"></ID>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin">1</ATT>
+                  <ATT name="MultiplicityMax">1</ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name">c</ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <ID uid="4de5619d-46c5-4911-b3dc-5c9416c81d22" mc="Standard.Class" name="Controller"></ID>
+                  </LINK>
+                  <COMP relation="Part">
+                    <OBJECT>
+                      <ID uid="3fdba2fd-425d-45d9-9291-ddedda85574b" mc="Standard.Port" name="wt3_valve"></ID>
+                      <ATTRIBUTES>
+                        <ATT name="IsBehavior">false</ATT>
+                        <ATT name="IsService">true</ATT>
+                        <ATT name="IsConjugated">false</ATT>
+                        <ATT name="Direction">Out</ATT>
+                        <ATT name="IsConstant">false</ATT>
+                        <ATT name="MultiplicityMin">1</ATT>
+                        <ATT name="MultiplicityMax">1</ATT>
+                        <ATT name="Value"></ATT>
+                        <ATT name="Name">wt3_valve</ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="RepresentedFeature">
+                          <REFOBJ>
+                            <ID uid="2fcc05bd-cce2-456b-8876-646c5e310460" mc="Standard.Port" name="wt3_valve"></ID>
+                          </REFOBJ>
+                        </LINK>
+                        <COMP relation="OwnedEnd">
+                          <OBJECT>
+                            <ID uid="ba342ec6-dcd4-4977-9ac0-82132ec76622" mc="Standard.ConnectorEnd" name=""></ID>
+                            <ATTRIBUTES>
+                              <ATT name="IsOrdered">false</ATT>
+                              <ATT name="IsUnique">false</ATT>
+                              <ATT name="MultiplicityMax">1</ATT>
+                              <ATT name="MultiplicityMin">0</ATT>
+                              <ATT name="Name"></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <COMP relation="Link">
+                                <OBJECT>
+                                  <ID uid="1979fcd1-d8df-4344-a814-69a7ffa1666e" mc="Standard.Connector" name=""></ID>
+                                  <ATTRIBUTES>
+                                    <ATT name="Name"></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES></DEPENDENCIES>
+                                </OBJECT>
+                              </COMP>
+                              <LINK relation="Target">
+                                <REFOBJ>
+                                  <ID uid="dbec6840-0453-42bb-b46a-b7f2274d9b52" mc="Standard.Port" name="valveControl"></ID>
+                                </REFOBJ>
+                              </LINK>
+                              <COMP relation="Opposite">
+                                <OBJECT>
+                                  <ID uid="4fbb517c-b41d-477f-84fb-e533b1762588" mc="Standard.ConnectorEnd" name=""></ID>
+                                  <ATTRIBUTES>
+                                    <ATT name="IsOrdered">false</ATT>
+                                    <ATT name="IsUnique">false</ATT>
+                                    <ATT name="MultiplicityMax">1</ATT>
+                                    <ATT name="MultiplicityMin">0</ATT>
+                                    <ATT name="Name"></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES>
+                                    <COMP relation="Link">
+                                      <COMPID uid="1979fcd1-d8df-4344-a814-69a7ffa1666e" mc="Standard.Connector" name=""></COMPID>
+                                    </COMP>
+                                    <COMP relation="Opposite">
+                                      <COMPID uid="ba342ec6-dcd4-4977-9ac0-82132ec76622" mc="Standard.ConnectorEnd" name=""></COMPID>
+                                    </COMP>
+                                  </DEPENDENCIES>
+                                </OBJECT>
+                              </COMP>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID uid="b6d77319-f93e-476d-8d24-f7f47da7465a" mc="Standard.Port" name="wt3_level"></ID>
+                      <ATTRIBUTES>
+                        <ATT name="IsBehavior">false</ATT>
+                        <ATT name="IsService">true</ATT>
+                        <ATT name="IsConjugated">false</ATT>
+                        <ATT name="Direction">In</ATT>
+                        <ATT name="IsConstant">false</ATT>
+                        <ATT name="MultiplicityMin">1</ATT>
+                        <ATT name="MultiplicityMax">1</ATT>
+                        <ATT name="Value"></ATT>
+                        <ATT name="Name">wt3_level</ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="RepresentedFeature">
+                          <REFOBJ>
+                            <ID uid="379fd392-0f79-4e8d-9995-192e257bcb0d" mc="Standard.Port" name="wt3_level"></ID>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="Extension">
+                    <FOREIGNID uid="281c6cee-4f91-476d-bbed-ac66449f0897" mc="Infrastructure.Stereotype" name="BlockInstance"></FOREIGNID>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Extension">
+              <FOREIGNID uid="281c6cee-4f91-476d-bbed-ac66449f0897" mc="Infrastructure.Stereotype" name="BlockInstance"></FOREIGNID>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID uid="9317f994-d156-4cc7-b042-61e3756c599b" mc="Standard.ObjectDiagram" name="connections diagram"></COMPID>
+        <COMPID uid="f99c6c98-21c7-4b7b-a18d-dc33a6d7cd4a" mc="Standard.ObjectDiagram" name="Connections diagram"></COMPID>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

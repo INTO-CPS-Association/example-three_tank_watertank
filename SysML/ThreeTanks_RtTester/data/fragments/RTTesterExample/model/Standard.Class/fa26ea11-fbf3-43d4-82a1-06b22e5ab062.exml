@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT version="4" object="TankCTRL">
+  <OBJECT>
+    <ID uid="fa26ea11-fbf3-43d4-82a1-06b22e5ab062" mc="Standard.Class" name="TankCTRL"></ID>
+    <PID uid="64536edf-b5f8-47c3-9b04-3ba9c95784b2" mc="Standard.Package" name="rttesterexample"></PID>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name">TankCTRL</ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedAttribute">
+        <OBJECT>
+          <ID uid="8dfa2189-3c1c-46f6-83ab-46470f5640c6" mc="Standard.Attribute" name="t"></ID>
+          <ATTRIBUTES>
+            <ATT name="TypeConstraint"></ATT>
+            <ATT name="Value">0.0</ATT>
+            <ATT name="TargetIsClass">false</ATT>
+            <ATT name="Changeable">ReadWrite</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">true</ATT>
+            <ATT name="MultiplicityMin">1</ATT>
+            <ATT name="MultiplicityMax">1</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name">t</ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <ID uid="342f2186-ae91-4404-a593-353b39ddedae" mc="Standard.DataType" name="timer"></ID>
+            </LINK>
+            <LINK relation="Extension">
+              <ID uid="a3ddc420-5247-40a5-82ed-a31b65455595" mc="Infrastructure.Stereotype" name="RESTRICTED"></ID>
+              <FOREIGNID uid="9370cbd9-c177-4594-b614-2e9ed4c3a439" mc="Infrastructure.Stereotype" name="Variable"></FOREIGNID>
+            </LINK>
+            <COMP relation="Tag">
+              <OBJECT>
+                <ID uid="1c3bc02b-e420-4fb3-a6d8-e2f7efc03c07" mc="Infrastructure.TaggedValue" name=""></ID>
+                <ATTRIBUTES>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Actual">
+                    <OBJECT>
+                      <ID uid="32d835b2-26c0-445a-9e1b-8fa6efe693ed" mc="Infrastructure.TagParameter" name=""></ID>
+                      <ATTRIBUTES>
+                        <ATT name="Value">0.0</ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="Definition">
+                    <REFOBJ>
+                      <ID uid="8c8fb9bd-4047-40da-94c8-b79c5ac8d072" mc="Infrastructure.TagType" name="MinimumValue"></ID>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID uid="d3733808-5c17-449f-bef8-a74658b40c49" mc="Infrastructure.TaggedValue" name=""></ID>
+                <ATTRIBUTES>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Actual">
+                    <OBJECT>
+                      <ID uid="72d57819-08d4-4e82-82f3-cd090588d9fb" mc="Infrastructure.TagParameter" name=""></ID>
+                      <ATTRIBUTES>
+                        <ATT name="Value">20.0</ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="Definition">
+                    <REFOBJ>
+                      <ID uid="11621e89-536e-4eda-b139-341b6c7f128c" mc="Infrastructure.TagType" name="MaximumValue"></ID>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID uid="f91cffe1-6ab8-472b-b0a8-3f70e3c21078" mc="Infrastructure.Note" name=""></ID>
+                <ATTRIBUTES>
+                  <ATT name="Content"></ATT>
+                  <ATT name="MimeType"></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID uid="00000000-0000-3e81-0000-000000000000" mc="Infrastructure.NoteType" name="description"></FOREIGNID>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedBehavior">
+        <COMPID uid="78052cd7-9ffe-4da7-ad61-9c88677b90c3" mc="Standard.StateMachine" name="TankCTRL"></COMPID>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID uid="00bc42a4-0000-19c9-0000-000000000000" mc="Infrastructure.Stereotype" name="Block"></FOREIGNID>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
